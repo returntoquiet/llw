@@ -1,0 +1,1350 @@
+{
+  "schema_version": "1.0",
+  "status": "local_draft_not_uploaded",
+  "path_base": "directory_containing_this_json",
+  "accepted_target": 500,
+  "counts": {
+    "records": 39,
+    "unique_original_images": 39,
+    "unique_generated_images": 39,
+    "complete_pairs": 39,
+    "missing_file_records": 0,
+    "dispositions": {
+      "rejected_non_target_symbol_uncertainty": 1,
+      "rejected_implausible_mounting_height": 1,
+      "rejected": 28,
+      "rejected_non_target_symbol_change": 1,
+      "rejected_sign_content_drift": 1,
+      "uncertain": 6,
+      "excluded_duplicate": 1
+    }
+  },
+  "records": [
+    {
+      "candidate_id": "a2_004",
+      "source_group": "a2",
+      "disposition": "rejected_non_target_symbol_uncertainty",
+      "reason_zh": "目标限速牌虽被删除，但相邻蓝色牌的白色图案被重绘为清晰汽车形，原图图案模糊无法确认完全一致；按严格符号保持要求拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/8db546ffeadb9c07_1_frame_000067.jpg",
+        "sha256": "8db546ffeadb9c07563ac7111d6d99069772e681125b24d26281fcc777a0c130",
+        "bytes": 167340,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/5e2f53b0a61cc86f_a2_004_1_frame_000067_delete.png",
+        "sha256": "5e2f53b0a61cc86fe0c7ef2aeb2241cd3005c0dfbde1609d723a029503f9c3f7",
+        "bytes": 2038366,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除上方横杆上最左侧限速50标志。",
+      "evidence": {
+        "manifest_sha256": "03a225250ab3df0aa5c25173c19e87459b1240fc2b8fa6f00453c25f4049e525",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a3_002",
+      "source_group": "a3",
+      "disposition": "rejected_implausible_mounting_height",
+      "reason_zh": "生成牌下移过多，接近行人腰胸高度，存在通行净空与合理性疑虑；不入库。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/ea25d6d8d4c04ec1_2_frame_000069.jpg",
+        "sha256": "ea25d6d8d4c04ec108d20de800dcaab417894023c68a6b21a3a7f42be86da3de",
+        "bytes": 149174,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/15717c7f58f7d7cf_a3_002_2_frame_000069_modify.png",
+        "sha256": "15717c7f58f7d7cf7e67378d0c5e2710bb9b12ade732dc2ca784a6c62a3623ca",
+        "bytes": 2069865,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将右侧黄色三角行人警告牌沿杆下移。",
+      "evidence": {
+        "manifest_sha256": "41c2a7049adcb1d4e8025178f16c57d3e15fee8a8e0f2a579f928bf13f139212",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a3_005",
+      "source_group": "a3",
+      "disposition": "rejected",
+      "reason_zh": "目标近处左转/直行组合箭头已删除，但路口前中景原白色实线段被改成一串虚线，构成未记录的非目标标线变化。已另行裁切放大原图与生成图检查。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/bb92e2fac6a16cb8_3_frame_000044.jpg",
+        "sha256": "bb92e2fac6a16cb835b442e57ad6659929c9251701cb9f56590631999486121b",
+        "bytes": 151943,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/4100c6cfe303a1e6_a3_005_3_frame_000044_delete.png",
+        "sha256": "4100c6cfe303a1e6ef2ba8fcb108a76c817b9916339849cdf072bb8615ed8429",
+        "bytes": 2091686,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除近处中间车道的左转与直行组合箭头。",
+      "evidence": {
+        "manifest_sha256": "41c2a7049adcb1d4e8025178f16c57d3e15fee8a8e0f2a579f928bf13f139212",
+        "audit_sha256": "61541e1283623141ac6579571107278ed9dfca8662447ee349535a1b49f4120f"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a5_002",
+      "source_group": "a5",
+      "disposition": "rejected_non_target_symbol_change",
+      "reason_zh": "牌确已下移，但白色折线图案被重绘为方向混杂形状，不能作为单纯位置变化。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/687a3c8c0faa0abc_3_frame_000074.jpg",
+        "sha256": "687a3c8c0faa0abc78b3b3ccc6e9b16acc2721765c3503af3a5fddb11ed29fe7",
+        "bytes": 148080,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/e4dff859e5d29495_a5_002_3_frame_000074_modify.png",
+        "sha256": "e4dff859e5d294959f26dc9dc54ceb2df6db1bd97f989c3e4b5d01e55408f5ba",
+        "bytes": 1972805,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将右侧杆上蓝色线形诱导牌下移。",
+      "evidence": {
+        "manifest_sha256": "c9e73b64c2fab64e27abf01088db53318992c48b1eccd15b12cd9bcb21973cf8",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a7_004",
+      "source_group": "a7",
+      "disposition": "rejected_sign_content_drift",
+      "reason_zh": "位置上移完成，但原小字被重绘成不可靠字符，非纯位置变化，保留但不计合格。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/9ae9f3a8dc7c93c3_3_frame_000045.jpg",
+        "sha256": "9ae9f3a8dc7c93c3f6c39f5159a1fb65170e73b015d4de44d050e778113a0aa5",
+        "bytes": 151293,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/cff3c2a218b8dcf8_a7_004_3_frame_000045_modify.png",
+        "sha256": "cff3c2a218b8dcf8ee24d781ae9848a45a481a9223033a2ab13e6e717daba084",
+        "bytes": 2217334,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将右侧蓝色停车指示牌沿原杆上移。",
+      "evidence": {
+        "manifest_sha256": "caa074d3367759181fa3056afb360d6a5b6558636e6d4ae40b6780f574cc7c20",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a_002",
+      "source_group": "a",
+      "disposition": "rejected",
+      "reason_zh": "近处蓝色右向线形诱导牌已删除，但远处横杆原可辨认的40限速牌被改成非数字黑色图案，不能只标注删除诱导牌。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/834a7fa6ca3ba9dc_3_frame_000075.jpg",
+        "sha256": "834a7fa6ca3ba9dcf2cb7813163c65ba1c4b5e5e399023b1468c583c50a40084",
+        "bytes": 147314,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/29e38884339a653c_a_002_3_frame_000075_delete.png",
+        "sha256": "29e38884339a653ccfcb0ad31db79024023d7ffad73bdb799c04581a116bbcb1",
+        "bytes": 2171168,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除右侧近处杆体上、圆形标志下方的蓝底白色右向线形诱导牌，保留杆体及上方标志。",
+      "evidence": {
+        "manifest_sha256": "4eb9bf87323757dae03844603f85dc4740aa9eb84edb7ee092c8d7336a7c5823",
+        "audit_sha256": "139c927755e6248aaf0fe6fd82b2e6e05fdc86f47304df7cfb3dcf51e986f01a"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a_003",
+      "source_group": "a",
+      "disposition": "uncertain",
+      "reason_zh": "目标白色分道虚线改为实线，三枚近处导向箭头保留；远处三枚圆形交通标志内容发生明显字形/图形重绘，蓝牌白色图形变成环状，原图分辨率不足以可靠确定原符号，暂不计入合格。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/96410467dc266db8_4_frame_000172.jpg",
+        "sha256": "96410467dc266db84d653806a4fef0ac7b5153c46eec154ef798cfd9b1aeca4f",
+        "bytes": 160720,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/37d804f0588e1662_a_003_4_frame_000172_modify.png",
+        "sha256": "37d804f0588e16624a094c6940efa83427d1add62c05dbae183723766aff0d99",
+        "bytes": 2382406,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将近处左侧直行车道右边的白色虚线分道线改为连续白色实线，延伸至中景。",
+      "evidence": {
+        "manifest_sha256": "4eb9bf87323757dae03844603f85dc4740aa9eb84edb7ee092c8d7336a7c5823",
+        "audit_sha256": "139c927755e6248aaf0fe6fd82b2e6e05fdc86f47304df7cfb3dcf51e986f01a"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "a_004",
+      "source_group": "a",
+      "disposition": "uncertain",
+      "reason_zh": "本车道近处左直右组合箭头已删除，黄虚线及边线仍在；右侧路名牌生成后清晰显示类似“滨江路”的字样，而原图路名严重模糊，无法确定是否保留真实名称，暂不计入合格。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/9c80d989e6f64817_1_frame_000178.jpg",
+        "sha256": "9c80d989e6f64817130d075d7f650ce6ff711f10636843a9dc70be5f938d4569",
+        "bytes": 191693,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/793bf7e19d46c8cb_a_004_1_frame_000178_delete.png",
+        "sha256": "793bf7e19d46c8cbbe154295bf1bef9156d882b2bbc1e465e1090041d064df92",
+        "bytes": 2625207,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除画面近处本车道内的白色左转、直行、右转组合导向箭头。",
+      "evidence": {
+        "manifest_sha256": "4eb9bf87323757dae03844603f85dc4740aa9eb84edb7ee092c8d7336a7c5823",
+        "audit_sha256": "139c927755e6248aaf0fe6fd82b2e6e05fdc86f47304df7cfb3dcf51e986f01a"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b2_003",
+      "source_group": "b2",
+      "disposition": "uncertain",
+      "reason_zh": "中央及右侧直行箭头、红灯、右上40限速标志保持；但中右部杆上的蓝色上下组合小标志，顶部白色图形有明显重绘，不能确认原无障碍类图案语义是否保留。需放大复核或重新生成，暂不纳入通过数量。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/eba6d532f0c427f1_6_frame_000082.jpg",
+        "sha256": "eba6d532f0c427f1325226b656428ff747fabcd7f9ebeb892f28ebfb1952d904",
+        "bytes": 160170,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/e01aad2196fdfca9_b2_003_6_frame_000082_delete.png",
+        "sha256": "e01aad2196fdfca98b00f87985d221e28ad619476a7faad44509554b1613d4dd",
+        "bytes": 2269257,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除左车道直行兼左转组合箭头。",
+      "evidence": {
+        "manifest_sha256": "f0e9f48c19ec56b690b150541475713a46e35b30b43002331687205c9ef6af8e",
+        "audit_sha256": "26148a59fb216ec869357990c5fbc76beb60c5fdd8f79e7261cba49141f329a3"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b2_004",
+      "source_group": "b2",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：非目标蓝色无障碍标志图形出现明显重绘漂移，右侧轮椅图形变成类似站立人形，不能排除语义改变。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/bfdd49d02ae7f284_9_frame_000008.jpg",
+        "sha256": "bfdd49d02ae7f28422da971e3b01c867c4ed99bfe935d69503b491d03ff1fad6",
+        "bytes": 148456,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/09b2531121989a30_b2_004_9_frame_000008_delete.png",
+        "sha256": "09b2531121989a300dbede7ec58e46a5f2f58a99ca913f85af7612fb9d1b960a",
+        "bytes": 2189572,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除中央车道前景直行箭头。",
+      "evidence": {
+        "manifest_sha256": "f0e9f48c19ec56b690b150541475713a46e35b30b43002331687205c9ef6af8e",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b3_001",
+      "source_group": "b3",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：左侧蓝色路名牌中文字明显重绘为伪文字，非目标信息不可靠。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/92ee217248aadfa3_7_frame_000038.jpg",
+        "sha256": "92ee217248aadfa3132c32fbd8131d6430a95f085e5741d99b1d315e1c8cb2ec",
+        "bytes": 186776,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/ff787d71934918b5_b3_001_7_frame_000038_delete.png",
+        "sha256": "ff787d71934918b527de2642640b52702a2827ac8ecc4c3b31f22b2f2e6d2a33",
+        "bytes": 2339911,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除前景左转导向箭头。",
+      "evidence": {
+        "manifest_sha256": "a00783a2186c5044b90763a1547f70d5d2c85d0b95de3ad1d09eb12fa10945b2",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b4_004",
+      "source_group": "b4",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：右上角非目标限速标志原40变成类似60，不能保留。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/71a6bfc984685a4b_9_frame_000001.jpg",
+        "sha256": "71a6bfc984685a4b1c76e1a8386c03d4ea41e9b3e6037055500fde8d193746b0",
+        "bytes": 156942,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/7116e8da8299b243_b4_004_9_frame_000001_add.png",
+        "sha256": "7116e8da8299b243510305bad8baaf46315f7c7c424a5ffc319b3f9c88eb787c",
+        "bytes": 2283791,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "中央直行车道新增一枚重复直行箭头。",
+      "evidence": {
+        "manifest_sha256": "318268f71ff37d8ff5b37c59bf78d47b38f83b1eedb0f15b136c354d614210d4",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b5_002",
+      "source_group": "b5",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：牌文被明显改写成伪文字，不能作为仅位置变化样本。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/06ddd594b89d82da_7_frame_000007.jpg",
+        "sha256": "06ddd594b89d82da2a78c54e162f3453db3e59293a9f9e0cefb7b5cfdf123e16",
+        "bytes": 169557,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/177fb82582247829_b5_002_7_frame_000007_modify.png",
+        "sha256": "177fb825822478296b115d7bc7751eda3bc7f2c4c9f94b167deba864e1e0a22a",
+        "bytes": 2120613,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将蓝色车道指引牌沿支架下移。",
+      "evidence": {
+        "manifest_sha256": "65f07be65697bb3be40f5237e529f7b0e06317edd93cb129b4b477d806565c98",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b5_004",
+      "source_group": "b5",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：新增标志完成，但左侧非目标无障碍标志重绘成三角符号，出现语义漂移。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/66df4be60479a41d_9_frame_000002.jpg",
+        "sha256": "66df4be60479a41d55f263667bfc64f415812c27c54ea6674dcc05b56439678f",
+        "bytes": 157368,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/6a62c1e89d47934d_b5_004_9_frame_000002_add.png",
+        "sha256": "6a62c1e89d47934dfce4fc30f7d667009c57960899d04ac8d144a86a9e20de00",
+        "bytes": 1949966,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "在右侧人行横道旁新增指示标志。",
+      "evidence": {
+        "manifest_sha256": "65f07be65697bb3be40f5237e529f7b0e06317edd93cb129b4b477d806565c98",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b6_003",
+      "source_group": "b6",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：右侧原无障碍标志变为类似重复行人三角标志，非目标语义改变。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/a4d98240cf870599_7_frame_000017.jpg",
+        "sha256": "a4d98240cf870599222e418c6b8ac73ec026759e328829861e54380e298bbbc0",
+        "bytes": 174538,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/3940091b6d59760e_b6_003_7_frame_000017_modify.png",
+        "sha256": "3940091b6d59760e3e680efe6aedac624c4c7fb7c480a312412816e0ac25d1d0",
+        "bytes": 2492163,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "左侧掉头标志向上移动。",
+      "evidence": {
+        "manifest_sha256": "1bd4bb17a8a3a2e93e7b01064a99f5409b28e48692a9f0f2b7acb6edc1d7e543",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b7_001",
+      "source_group": "b7",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：远处非目标信号灯被重绘出明显绿色亮灯，原状态较暗，无法保持一致。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/88f44ebcbdd50edb_6_frame_000081.jpg",
+        "sha256": "88f44ebcbdd50edb9f0215694c2eb4f14caa4f8174ac8c68c6a346c6fa2eb812",
+        "bytes": 156808,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/3993a3f334e7b811_b7_001_6_frame_000081_add.png",
+        "sha256": "3993a3f334e7b811a55f83f861882397b0ad0afc1af059f8f8bd3ed1d0022ce9",
+        "bytes": 2133906,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "新增右侧人行横道标志。",
+      "evidence": {
+        "manifest_sha256": "b155ee7af7c582f4b9d17e00a6da12950e3afa17b5d04639a143de61df5ec3d2",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b7_002",
+      "source_group": "b7",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：右侧非目标无障碍标志被改成另一三角行人符号。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/f7b195e78d7ea1d6_7_frame_000018.jpg",
+        "sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+        "bytes": 167405,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/cbe48c861b6b62b1_b7_002_7_frame_000018_modify.png",
+        "sha256": "cbe48c861b6b62b1f506ac5f47ca188333d7774b5f85cdd4dd9e188cc4a6ce1e",
+        "bytes": 2305753,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "左侧掉头标志上移。",
+      "evidence": {
+        "manifest_sha256": "b155ee7af7c582f4b9d17e00a6da12950e3afa17b5d04639a143de61df5ec3d2",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b7_004",
+      "source_group": "b7",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：远处非目标限速50数字出现类似60的重绘，不能确认原交通语义保持。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/084cf7264794b7de_9_frame_000006.jpg",
+        "sha256": "084cf7264794b7de855df5744963a716770ae0c26e614c8a5affe97ae5723e92",
+        "bytes": 148163,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/d9578ace3a0c444c_b7_004_9_frame_000006_add.png",
+        "sha256": "d9578ace3a0c444c308034899016f6e055041d544de2e564746e73f5011069b4",
+        "bytes": 2260217,
+        "width": 1815,
+        "height": 867,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "右侧新增辅助机动车红灯。",
+      "evidence": {
+        "manifest_sha256": "b155ee7af7c582f4b9d17e00a6da12950e3afa17b5d04639a143de61df5ec3d2",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "b_002",
+      "source_group": "b",
+      "disposition": "rejected",
+      "reason_zh": "拒绝：非目标蓝色指引牌中文字被重写为明显伪文字，标牌信息不再可靠。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/d169e6bd0120d2db_7_frame_000005.jpg",
+        "sha256": "d169e6bd0120d2db30f85e2d51234c95bfae1a54917b560e2f8cac9febfab496",
+        "bytes": 162820,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/e47a6f1469b14f4f_b_002_7_frame_000005_modify.png",
+        "sha256": "e47a6f1469b14f4f6a28f52a49f8563dcd8f6fe223635dbbb9c4fac22b23670e",
+        "bytes": 2066405,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将中央直行车道右侧白色虚线局部改为白色实线。",
+      "evidence": {
+        "manifest_sha256": "667af6787c8724260b37e5208a25adf1a6f6bde455e26a2a8d4be6e453eb2eb3",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c2_002",
+      "source_group": "c2",
+      "disposition": "rejected",
+      "reason_zh": "目标删除成功，但右侧让行牌内文字重绘成不规范符号，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/dbbba95611065d90_11_frame_000134.jpg",
+        "sha256": "dbbba95611065d90fc50a20aa5bfa2bfde242f5ad23431289ad6bed2c7d22d33",
+        "bytes": 158945,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/3dae1dffda0998a9_c2_002_11_frame_000134_delete.png",
+        "sha256": "3dae1dffda0998a99cde27c91f113e467389c68fa693ebd9cf64b632b06e641e",
+        "bytes": 2449680,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除中间车道直行箭头。",
+      "evidence": {
+        "manifest_sha256": "dadc0ef1615ddbb2373a65ef8c201082cd3396762cd20ccaf5d733804e1d3e11",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c2_003",
+      "source_group": "c2",
+      "disposition": "rejected",
+      "reason_zh": "目标删除成功，但右侧无障碍标志图案疑似重绘变形，严格排除。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/24ff3badb825c241_13_frame_000105.jpg",
+        "sha256": "24ff3badb825c241a8ff62ae44dec6c8c4a9702b99635ba4bfadf444387d9bba",
+        "bytes": 110195,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/1a887ec82d00c60d_c2_003_13_frame_000105_delete.png",
+        "sha256": "1a887ec82d00c60d20555f98e7dcc9bc61101fa38182353551cec75278bd88b6",
+        "bytes": 1978869,
+        "width": 1815,
+        "height": 867,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除中间车道直行箭头。",
+      "evidence": {
+        "manifest_sha256": "dadc0ef1615ddbb2373a65ef8c201082cd3396762cd20ccaf5d733804e1d3e11",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c2_005",
+      "source_group": "c2",
+      "disposition": "uncertain",
+      "reason_zh": "远端信号灯原图最右灯状态较暗且难分辨，输出为明显橙红亮灯，不能排除非目标灯态改变；路边车辆外观被重绘。按严格标准不纳入通过。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/80af95d3a39d34de_12_frame_000163.jpg",
+        "sha256": "80af95d3a39d34debc8f865db57e43007dbfbea4653741c17df002ff243de035",
+        "bytes": 132605,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/32a31782ed9d46b6_c2_005_12_frame_000163_delete.png",
+        "sha256": "32a31782ed9d46b645d0bc48efc2b81ecc9bcf6a8bdbc7db9c11ea677eb11bcc",
+        "bytes": 2112008,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除前方右侧蓝色指路牌，保留支撑杆及横臂。",
+      "evidence": {
+        "manifest_sha256": "dadc0ef1615ddbb2373a65ef8c201082cd3396762cd20ccaf5d733804e1d3e11",
+        "audit_sha256": "f2a8973684a427dc21301e0d0069f685882ffcbaf46fef7d4616888083eb9dfa"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c3_001",
+      "source_group": "c3",
+      "disposition": "rejected",
+      "reason_zh": "路口具备右转条件且目标实现，但信号出现重复红色发光点，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/6e3cf7b3644fb6c9_12_frame_000095.jpg",
+        "sha256": "6e3cf7b3644fb6c9555d4b7e9204aa5daca5ab5b323150e9d80bb1b7eaf6ae80",
+        "bytes": 134160,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/9172f024ca6b25ff_c3_001_12_frame_000095_modify.png",
+        "sha256": "9172f024ca6b25ffca6a15ad5cb5f6953c08aff3e5e3066401b7bd3f5440aaf2",
+        "bytes": 2065738,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "最右侧直行兼右转箭头改为仅右转。",
+      "evidence": {
+        "manifest_sha256": "20f1326ac33746849e1b5e33670cac959fb0902d37526f6e91ec15814cce57dc",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c3_002",
+      "source_group": "c3",
+      "disposition": "rejected",
+      "reason_zh": "牌删除成功，但右侧原右转箭头被重绘为左转，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/1b3582226083d65b_11_frame_000164.jpg",
+        "sha256": "1b3582226083d65be82c9a9355a10f3d393d35f51cf3b39bd33ce8c2c3a98652",
+        "bytes": 173304,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/ce4b88acf3736130_c3_002_11_frame_000164_delete.png",
+        "sha256": "ce4b88acf3736130b6a12391c91de057844329ef70ff692d1b50e775c63fedef",
+        "bytes": 2840205,
+        "width": 1815,
+        "height": 867,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除上方蓝色车道指示牌。",
+      "evidence": {
+        "manifest_sha256": "20f1326ac33746849e1b5e33670cac959fb0902d37526f6e91ec15814cce57dc",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c3_003",
+      "source_group": "c3",
+      "disposition": "rejected",
+      "reason_zh": "目标删除成功，但远处信号附近出现原图不明确的红色发光点，严格排除。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/afba4706d2c6c6ab_11_frame_000076.jpg",
+        "sha256": "afba4706d2c6c6ab2f9a0859d406ccfcf0ffda74c325b01713fb29355adb27f1",
+        "bytes": 181260,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/d24515296ba27bbd_c3_003_11_frame_000076_delete.png",
+        "sha256": "d24515296ba27bbdb2c0dd8cf93af91c9af49392b6697ee8ddd9fb6714653606",
+        "bytes": 2546859,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除中间车道直行箭头。",
+      "evidence": {
+        "manifest_sha256": "20f1326ac33746849e1b5e33670cac959fb0902d37526f6e91ec15814cce57dc",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c3_005",
+      "source_group": "c3",
+      "disposition": "rejected",
+      "reason_zh": "目标删除成功，但远处横臂设备产生额外红绿小点，无法确认交通语义保持，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/dce42c734844a9b8_11_frame_000067.jpg",
+        "sha256": "dce42c734844a9b86b6af9e37ddb099c003d24ada50e68e1d9935bd7455eae4a",
+        "bytes": 164228,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/0c2b16d6ecf3602e_c3_005_11_frame_000067_delete.png",
+        "sha256": "0c2b16d6ecf3602ed94388f94d25306d8394116db6c3eff85ef965b53406faed",
+        "bytes": 2505073,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除前景中间车道直行导向箭头。",
+      "evidence": {
+        "manifest_sha256": "20f1326ac33746849e1b5e33670cac959fb0902d37526f6e91ec15814cce57dc",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c4_004",
+      "source_group": "c4",
+      "disposition": "rejected",
+      "reason_zh": "目标成功，但近处方向信号箭头被画为圆形红灯，非目标信号类型变化，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/27a4835e8e8c60d4_13_frame_000016.jpg",
+        "sha256": "27a4835e8e8c60d4518f2ac245726dd2cbdaabdcd157e57d31815a11aea801cd",
+        "bytes": 125518,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/c4332bd7fabafcf6_c4_004_13_frame_000016_delete.png",
+        "sha256": "c4332bd7fabafcf664395bce8448289a6871d26d13e6ad210615fede77c88b39",
+        "bytes": 2089935,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除中间车道直行箭头。",
+      "evidence": {
+        "manifest_sha256": "cb41ea81c2681f2e151364f892861dbbb24dd530d1f2a086d5be55eb0231cac2",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c5_005",
+      "source_group": "c5",
+      "disposition": "rejected",
+      "reason_zh": "位置变化完成但牌面新增距离文字及其他文字，超出仅位置变化要求，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/e9fda4dad4a2e597_11_frame_000124.jpg",
+        "sha256": "e9fda4dad4a2e5976b3c38ce50eaf98216c268ba11dc2e9252e9a1444b87b605",
+        "bytes": 175666,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/730c28e93650648b_c5_005_11_frame_000124_modify.png",
+        "sha256": "730c28e93650648bae7ab126f55107485732d661620f71e830f42f936c4e384b",
+        "bytes": 2500900,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将蓝色指路牌沿原支撑杆向上移动。",
+      "evidence": {
+        "manifest_sha256": "060b68e2ef49986684bad64465a86cc0ab4ac63a285841809088d5ef7c078b4a",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c6_002",
+      "source_group": "c6",
+      "disposition": "rejected",
+      "reason_zh": "下移过大，牌面遮挡信号且道路净空看起来不足，拒绝。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/285dc35efeaca8e8_13_frame_000005.jpg",
+        "sha256": "285dc35efeaca8e822926394f55079d39c8ca070b888a6898cd7325925bf3d00",
+        "bytes": 143279,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/41924cafe3883af5_c6_002_13_frame_000005_modify.png",
+        "sha256": "41924cafe3883af514aa59a9b0b0999409f0981cb0e6130be7bd1cc86490cecd",
+        "bytes": 2095974,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将指路牌沿原杆下移。",
+      "evidence": {
+        "manifest_sha256": "fad2501cc2afa451d024e4f78d9c092085a37798a5ff3cc6de91c48d0f935120",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c_001",
+      "source_group": "c",
+      "disposition": "excluded_duplicate",
+      "reason_zh": "目标变化实现，但父任务已收录同图同变化，排除重复。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/38967916e0985daa_13_frame_000029.jpg",
+        "sha256": "38967916e0985daa20a22b43fba292ad442acf597c5b8f81a64aba848079e69c",
+        "bytes": 136926,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/5524a9e2ed2d9094_c_001_13_frame_000029_modify.png",
+        "sha256": "5524a9e2ed2d9094fc0183d8db5b3cf740aeb477578cf7d2a88355eaad46894d",
+        "bytes": 1909201,
+        "width": 1816,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "前景最右车道直行兼右转导向箭头变更为仅右转箭头。",
+      "evidence": {
+        "manifest_sha256": "3a46868635b9478716822812f6d2da5442fc879280d365267feffe86bcef4b9c",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c_003",
+      "source_group": "c",
+      "disposition": "rejected",
+      "reason_zh": "非目标交通标牌被改写：远端原40限速数字变成杂乱黑色符号，蓝色圆牌出现伪符号；右侧近一些的圆牌图案也明显重绘。不能作为仅删除箭头的可靠图对。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/59704ffa57dd88a2_12_frame_000006.jpg",
+        "sha256": "59704ffa57dd88a239f9b4b347005174feab0fa7fcd56980373834a96aa55abb",
+        "bytes": 154657,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/c2b4ac82d37e5008_c_003_12_frame_000006_delete.png",
+        "sha256": "c2b4ac82d37e5008ad819b423644b8ecbd1e6647c3636d03a7c18704fa50f93f",
+        "bytes": 2242261,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除路口前最右车道的白色右转导向箭头。",
+      "evidence": {
+        "manifest_sha256": "3a46868635b9478716822812f6d2da5442fc879280d365267feffe86bcef4b9c",
+        "audit_sha256": "1ed3f1a865054d03217ca4de832eaee7dbe32a3e964859c183732d881c30cabf"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c_005",
+      "source_group": "c",
+      "disposition": "rejected",
+      "reason_zh": "线型变化实现，但非目标箭头形状重绘明显，部分方向含义可能改变，因此拒绝纳入。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/29e7cd8abc415bb0_11_frame_000021.jpg",
+        "sha256": "29e7cd8abc415bb08a5d34c607bc381f4d31496e7f7b54787742095fd27ef8b1",
+        "bytes": 127951,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/9565fe31aea77ab5_c_005_11_frame_000021_modify.png",
+        "sha256": "9565fe31aea77ab571f7c99d4baf133f7549a260ed94412aa25634386718427c",
+        "bytes": 1913237,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将最左车道右侧白色虚线分隔线改为白色实线。",
+      "evidence": {
+        "manifest_sha256": "3a46868635b9478716822812f6d2da5442fc879280d365267feffe86bcef4b9c",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "c_006",
+      "source_group": "c",
+      "disposition": "rejected",
+      "reason_zh": "远处横杆上原40限速牌被重绘成近似同心圆/杂乱图案，蓝色圆牌图标也变成白环。右上近处40仍保留，但不消除远端非目标语义破坏。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/015c95b924f8ad41_13_frame_000126.jpg",
+        "sha256": "015c95b924f8ad411734ef71978eefdc1d686a442c5e9cab2a3de06633c97b6e",
+        "bytes": 128932,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/e399dc33a3610bfb_c_006_13_frame_000126_delete.png",
+        "sha256": "e399dc33a3610bfb3fd062ddd9dd7daa7f1432b3dac69c86555cf017233fd872",
+        "bytes": 2026341,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "删除前景最左侧进口车道的白色左转导向箭头。",
+      "evidence": {
+        "manifest_sha256": "3a46868635b9478716822812f6d2da5442fc879280d365267feffe86bcef4b9c",
+        "audit_sha256": "1ed3f1a865054d03217ca4de832eaee7dbe32a3e964859c183732d881c30cabf"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d2_rejected_001",
+      "source_group": "d2",
+      "disposition": "rejected",
+      "reason_zh": "删除中间箭头成功，但背景黑墙中文出现明显重写，不作为合格候选。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/af960c2f6f6beb70_15_frame_000174.jpg",
+        "sha256": "af960c2f6f6beb70e42b23b6d9aa841b7e8d9718d1b14b2dd2330014787b40df",
+        "bytes": 143483,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/51881b202bb95c63_exec-5c4c2167-da30-40ec-b3d7-3f0c57352756.png",
+        "sha256": "51881b202bb95c63ee287359526de31ab34edce4ce2e6b9b298f7694f42b4204",
+        "bytes": 2438073,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": null,
+      "evidence": {
+        "manifest_sha256": "52de72635f5e493ce2557e1967ddfc0953c09ac7e4391058d91182f916631692",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d3_rejected_001",
+      "source_group": "d3",
+      "disposition": "rejected",
+      "reason_zh": "标志下移时图案重新绘制且放大，背景墙中文也重写。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/8efe6074f46ceca0_15_frame_000167.jpg",
+        "sha256": "8efe6074f46ceca0330c43113783df39f23952ef086b8e64807ea4981cff4fd3",
+        "bytes": 134437,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/80883c5b42aaccb5_exec-60fd66ca-6264-4f74-b4f8-8f32910ad67e.png",
+        "sha256": "80883c5b42aaccb5a4b3e397210446217f71127c971f3c943873f3b1d63abbf9",
+        "bytes": 2144442,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": null,
+      "evidence": {
+        "manifest_sha256": "8719cc3c5e9f0e19888a56a00f97bdf4513d7665bc66e7f8141f85665360adc6",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d3_rejected_002",
+      "source_group": "d3",
+      "disposition": "rejected",
+      "reason_zh": "虚线改实线时旧虚线残留，变成双重标记而非指定单实线。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/72ec08f966b77ee3_18_frame_000102.jpg",
+        "sha256": "72ec08f966b77ee36c2dc9c50219c56fcbbffa8d3104af8a1e36bbff8ba24757",
+        "bytes": 157591,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/4c18865c0ce5ccc7_exec-2b3dcecd-b6b1-4583-8e80-ddb8e8b8dcfe.png",
+        "sha256": "4c18865c0ce5ccc7385a635542bb992bed94692fc8922960f091aeea5b8c5cc1",
+        "bytes": 2427631,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": null,
+      "evidence": {
+        "manifest_sha256": "8719cc3c5e9f0e19888a56a00f97bdf4513d7665bc66e7f8141f85665360adc6",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d5_003",
+      "source_group": "d5",
+      "disposition": "rejected",
+      "reason_zh": "一次视觉对照：标志底座疑似落在车道沥青内，位置不够合理。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/ebf0ddd9f4c1f4bc_16_frame_000164.jpg",
+        "sha256": "ebf0ddd9f4c1f4bc853444f34bff50080dae6289b6dbb76d601b33594218ebd8",
+        "bytes": 162501,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/6ccbfb129c56af6b_d5_003__16_frame_000164__add_traffic_sign.png",
+        "sha256": "6ccbfb129c56af6bac54a3e86e4fccd62e7a33507b4412a4cb1d04d11108cdda",
+        "bytes": 2468164,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "新增30限速牌，但生成支杆位置疑似落到沥青边缘而非人行道，拒收。",
+      "evidence": {
+        "manifest_sha256": "a98104db7405b564eb8a25b8b428f2c321b0b1ac921dbb99364ed13dbdc3bb46",
+        "audit_sha256": null
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d_003",
+      "source_group": "d",
+      "disposition": "uncertain",
+      "reason_zh": "新增直行箭头间距偏近，按汇总复核要求暂缓，不纳入合格集。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/2bb87229a38bf7fc_18_frame_000080.jpg",
+        "sha256": "2bb87229a38bf7fcf0afdda524069daa287b08d4f242122e6f4a9edfae6221e6",
+        "bytes": 129610,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/93058167a686a912_d_003__18_frame_000080__add_ground_direction_arrow.png",
+        "sha256": "93058167a686a91273c9499f5eb0004b34506be02e3e005ee0a07eac72bbac72",
+        "bytes": 2046216,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "在中间直行车道前景新增一枚白色直行导向箭头，与前方原有直行方向一致。",
+      "evidence": {
+        "manifest_sha256": "eed6dbba1f833b6d899462ece754bca3dea0feeec1fa8a5dc27b4f0c65d21326",
+        "audit_sha256": "0fcc96dee14ed8230d86821dfdfd1944586f2c65b787a4cefe345a13f67d9191"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    },
+    {
+      "candidate_id": "d_004",
+      "source_group": "d",
+      "disposition": "uncertain",
+      "reason_zh": "邻近标志图案重绘，按汇总复核要求暂缓，不纳入合格集。",
+      "counted_toward_accepted_target": false,
+      "before": {
+        "path": "before/0e5ed892f717f892_18_frame_000116.jpg",
+        "sha256": "0e5ed892f717f892e899ac8bdacc284c44be95fa7260d413b48c00c5958efa87",
+        "bytes": 182534,
+        "width": 1920,
+        "height": 917,
+        "decode_status": "ok"
+      },
+      "after": {
+        "path": "after/ac7c84d863a1c3fb_d_004__18_frame_000116__modify_traffic_sign.png",
+        "sha256": "ac7c84d863a1c3fb15f70a92cdb3314dc6d6c35e56d1a5cbc54d2fba117c523c",
+        "bytes": 2398898,
+        "width": 1815,
+        "height": 866,
+        "decode_status": "ok"
+      },
+      "retention_status": "both_files_retained",
+      "missing_source": false,
+      "missing_output": false,
+      "intended_change_zh": "将右侧悬挂圆形限速标志的数值由40改为30，保持红圈白底及原安装位置。",
+      "evidence": {
+        "manifest_sha256": "eed6dbba1f833b6d899462ece754bca3dea0feeec1fa8a5dc27b4f0c65d21326",
+        "audit_sha256": "0fcc96dee14ed8230d86821dfdfd1944586f2c65b787a4cefe345a13f67d9191"
+      },
+      "limitations_zh": [
+        "AI合成且已被拒收、待核或去重排除，不是合格样本，不计入500张目标。"
+      ]
+    }
+  ]
+}
