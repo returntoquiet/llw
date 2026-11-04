@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 4,
+  "candidates": [
+    {
+      "candidate_id": "b17_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000019.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 169025,
+        "sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+        "git_blob_sha1": "05177d72872ba0f229a18ce803cf4ad98ffd1d92"
+      },
+      "after": {
+        "path": "after/b17_001_7_frame_000019_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2506701,
+        "sha256": "e386c646eb1285e48e7f86b9e391153601b12c1be033172a46fff9be58101026",
+        "git_blob_sha1": "f61aa5298967e6dae7b00094d5dae9c38e769c29"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "计划删除左侧蓝色掉头标志牌面并保留杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：目标删除，但右侧原轮椅标志被重绘为不同的三角形人物图案，存在非目标交通语义变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：目标删除，但右侧原轮椅标志被重绘为不同的三角形人物图案，存在非目标交通语义变化。",
+          "source_sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+          "generated_sha256": "e386c646eb1285e48e7f86b9e391153601b12c1be033172a46fff9be58101026",
+          "review_record_sha256": "535c837bb02eaf9c4f85dda9db8ab08b0e2cb6b11924736679d16f610b16f13d",
+          "source_group": "b17"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：目标删除，但右侧原轮椅标志被重绘为不同的三角形人物图案，存在非目标交通语义变化。"
+    },
+    {
+      "candidate_id": "d16_004",
+      "source_sequence": "18",
+      "synthetic": true,
+      "before": {
+        "path": "before/18_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 245433,
+        "sha256": "93e657aa3a60759e77abafb76c2ad841df0d39a30a1a62ee9f8f2970b3b3417a",
+        "git_blob_sha1": "fd255f1d5368f07ed670bc255a1b5ef91be2ece8"
+      },
+      "after": {
+        "path": "after/d16_004__18_frame_000166__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2561099,
+        "sha256": "471106fd36d08fc346fe1c73de789d19d8bf38b2a2902d5f917c727c681dba4a",
+        "git_blob_sha1": "8ae0797eb4270ff085b531d66d37f76a13027529"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "尝试在道路右侧绿化带新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：限速牌新增实现，但非目标警告牌附文被改成前方学校、减速慢行，引入无依据学校信息。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌位于同侧人行道；第5张既有警告牌边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：限速牌新增实现，但非目标警告牌附文被改成前方学校、减速慢行，引入无依据学校信息。",
+          "source_sha256": "93e657aa3a60759e77abafb76c2ad841df0d39a30a1a62ee9f8f2970b3b3417a",
+          "generated_sha256": "471106fd36d08fc346fe1c73de789d19d8bf38b2a2902d5f917c727c681dba4a",
+          "review_record_sha256": "44090270e08c6761cec4e493d7fb06139b3fcf1e01fa643c818c22fe1c59cdff",
+          "source_group": "d16"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：限速牌新增实现，但非目标警告牌附文被改成前方学校、减速慢行，引入无依据学校信息。"
+    },
+    {
+      "candidate_id": "b31_004",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 161131,
+        "sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+        "git_blob_sha1": "1c4ddd1a6e0350e6834545acb36c2752ef8e222a"
+      },
+      "after": {
+        "path": "after/b31_004_8_frame_000164_delete.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2506320,
+        "sha256": "c7af879707fba87030efcdb0e7eaa2f99af0609ac7802da13a23f1a50895f95d",
+        "git_blob_sha1": "b5d5efeb96fdccb7c2e30213cc2430c264926119"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最右侧靠路缘车道内的右转导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：场景大幅裁切，顶部横杆丢失，下方车头及路面重复拼接，主体构图明显改变。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：场景大幅裁切，顶部横杆丢失，下方车头及路面重复拼接，主体构图明显改变。",
+          "source_sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+          "generated_sha256": "c7af879707fba87030efcdb0e7eaa2f99af0609ac7802da13a23f1a50895f95d",
+          "review_record_sha256": "bdbf41dc4df1dd93f15b2f575a0a47e29cccfbdafd0dcaea4b5558ea2be8b579",
+          "source_group": "b31"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：场景大幅裁切，顶部横杆丢失，下方车头及路面重复拼接，主体构图明显改变。"
+    },
+    {
+      "candidate_id": "b31_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156781,
+        "sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+        "git_blob_sha1": "e96021d68db5ab9d96ab17dd28857132ffa7dd95"
+      },
+      "after": {
+        "path": "after/b31_005_8_frame_000165_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2227565,
+        "sha256": "6dfc5f0b30365ae6215c505ba71f3c8d092d2d77bda7161d9a1b256cb09ae062",
+        "git_blob_sha1": "e47cab5e4841dfbfb058b17c466d947a5a1a1846"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最右侧靠路缘车道内的右转导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：目标箭头删除，但左侧无障碍图标变为人行图案，非目标交通标志语义改变。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：目标箭头删除，但左侧无障碍图标变为人行图案，非目标交通标志语义改变。",
+          "source_sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+          "generated_sha256": "6dfc5f0b30365ae6215c505ba71f3c8d092d2d77bda7161d9a1b256cb09ae062",
+          "review_record_sha256": "63683e8018ebf65b0cf4344bc7dd2b369f1a2134c6909d8e364836f128dd0485",
+          "source_group": "b31"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：目标箭头删除，但左侧无障碍图标变为人行图案，非目标交通标志语义改变。"
+    }
+  ]
+}
