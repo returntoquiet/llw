@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 7,
+  "candidates": [
+    {
+      "candidate_id": "c24_004",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000064.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164563,
+        "sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+        "git_blob_sha1": "c97a54a2ed5b02a7107ee61aa27f2a5583354ca4"
+      },
+      "after": {
+        "path": "after/c24_004_11_frame_000064_delete.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2656664,
+        "sha256": "8dfe240762e461148423b8ee148007b8f6c7e08518945e16efe85fef8fc6565e",
+        "git_blob_sha1": "c564915a244fb161ffcc46b75ec2288bd3860f10"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除左侧车道直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，但远处横梁上出现原图没有的绿色灯点，疑似非目标信号变化。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标箭头消失，但远处横梁上出现原图没有的绿色灯点，疑似非目标信号变化。",
+          "source_sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+          "generated_sha256": "8dfe240762e461148423b8ee148007b8f6c7e08518945e16efe85fef8fc6565e",
+          "review_record_sha256": "4c91e698838509bbc2f7e05581f9ab68fcd797db1b9654f1af11eb7d9a0a53f2",
+          "source_group": "c24"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标箭头消失，但远处横梁上出现原图没有的绿色灯点，疑似非目标信号变化。"
+    },
+    {
+      "candidate_id": "b26_001",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156781,
+        "sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+        "git_blob_sha1": "e96021d68db5ab9d96ab17dd28857132ffa7dd95"
+      },
+      "after": {
+        "path": "after/b26_001_8_frame_000165_delete.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2231275,
+        "sha256": "822fbcba258c406359b9510796256468049706fc2c4c99398fc0f5447bf31adf",
+        "git_blob_sha1": "86de754727503fdd266a2157e2bdb9832916aa78"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "尝试删除中央车道右侧直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：目标删除，但左侧无障碍图标被重绘成人行三角图标，非目标交通语义变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：目标删除，但左侧无障碍图标被重绘成人行三角图标，非目标交通语义变化。",
+          "source_sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+          "generated_sha256": "822fbcba258c406359b9510796256468049706fc2c4c99398fc0f5447bf31adf",
+          "review_record_sha256": "8941097fbca2412087bc26c3e18414cb151965583d0b6474346d0b50b344c8d3",
+          "source_group": "b26"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：目标删除，但左侧无障碍图标被重绘成人行三角图标，非目标交通语义变化。"
+    },
+    {
+      "candidate_id": "a26_003",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000107.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 171378,
+        "sha256": "af6de8ef500f5bc6165c05b798f191d62f9f3875769852b2f6046340cf3ed957",
+        "git_blob_sha1": "31f54d562b9a25b47c001bcd9965c0a2ab5543e7"
+      },
+      "after": {
+        "path": "after/a26_003_1_frame_000107_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2842025,
+        "sha256": "12570afe1bf2014f4bd55a47b9bc35c7e05e9217b8794cc98001b72cf0d978ff",
+        "git_blob_sha1": "2580ab065b19735afaafe0703772164f3e417a19"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处中间车道的白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_sign_addition",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除，但远处原文字/牌区域被重绘为新增红圈圆牌，非目标标志改变，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "指定箭头删除，但远处原文字/牌区域被重绘为新增红圈圆牌，非目标标志改变，拒收。",
+          "source_sha256": "af6de8ef500f5bc6165c05b798f191d62f9f3875769852b2f6046340cf3ed957",
+          "generated_sha256": "12570afe1bf2014f4bd55a47b9bc35c7e05e9217b8794cc98001b72cf0d978ff",
+          "review_record_sha256": "ee15735cffd6348570fbcc56ef503e425afd8fbc7955e43fda6b11383a6d0d1b",
+          "source_group": "a26"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "指定箭头删除，但远处原文字/牌区域被重绘为新增红圈圆牌，非目标标志改变，拒收。"
+    },
+    {
+      "candidate_id": "b28_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 147074,
+        "sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+        "git_blob_sha1": "95829f21c58deeb4772247f24eb0e2c739563014"
+      },
+      "after": {
+        "path": "after/b28_005_8_frame_000162_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2162025,
+        "sha256": "e54f057609331d99ba62c53153de3f4e2313a6024843726c805f994d13d14488",
+        "git_blob_sha1": "878ce60d05e96975d84ef092c0ceceffd5c03921"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道右侧相邻车道的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：目标删除，但左侧原无障碍图标被改为人行图案，非目标交通标志语义变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：目标删除，但左侧原无障碍图标被改为人行图案，非目标交通标志语义变化。",
+          "source_sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+          "generated_sha256": "e54f057609331d99ba62c53153de3f4e2313a6024843726c805f994d13d14488",
+          "review_record_sha256": "353821086bbbf150fff3f747a64d71f042ccb2b97302f3fdd6db74363fe414c9",
+          "source_group": "b28"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：目标删除，但左侧原无障碍图标被改为人行图案，非目标交通标志语义变化。"
+    },
+    {
+      "candidate_id": "d29_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000135.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 127083,
+        "sha256": "3d3aea1465404ded81e5aa2518970b6c2740db53bb1f40eb33b7a11ff9285026",
+        "git_blob_sha1": "99882d04a4289843552a571dafe38afd9fc630a7"
+      },
+      "after": {
+        "path": "after/d29_001__15_frame_000135__delete_ground_direction_arrow.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2138822,
+        "sha256": "031a4ecbe1928a536a49b2cd36803d4757d043db2baee9c5350e4416543f389c",
+        "git_blob_sha1": "57d4500f2fee0aacfbb973c62a43e7358c0c0636"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "预期删除右转箭头，但非目标右侧斜边界线同时消失，拒收。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次视觉对照：目标右转箭头消失，但相邻非目标斜边界线也消失。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "一次视觉对照：目标右转箭头消失，但相邻非目标斜边界线也消失。",
+          "source_sha256": "3d3aea1465404ded81e5aa2518970b6c2740db53bb1f40eb33b7a11ff9285026",
+          "generated_sha256": "031a4ecbe1928a536a49b2cd36803d4757d043db2baee9c5350e4416543f389c",
+          "review_record_sha256": "89cc7fbf8b649e6e7b905346a56d31fb7dd7b4d3421da924c0b1859b7389698f",
+          "source_group": "d29"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "一次视觉对照：目标右转箭头消失，但相邻非目标斜边界线也消失。"
+    },
+    {
+      "candidate_id": "a29_001",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000067.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167340,
+        "sha256": "8db546ffeadb9c07563ac7111d6d99069772e681125b24d26281fcc777a0c130",
+        "git_blob_sha1": "2bbba89b5d37fd02ffbd40964871d539c69e5ac4"
+      },
+      "after": {
+        "path": "after/a29_001_1_frame_000067_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2442150,
+        "sha256": "81f1b5b38db59abaec2ae0325f38868d6c290f8694755e7632a660a01ecbcff2",
+        "git_blob_sha1": "e67939a0dda1aed914f204c4a6052d451871bd67"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除斑马线后中央车道的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_sign_added",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，但远处左侧出现原图未见的红边圆牌，非目标交通元素改变。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标箭头消失，但远处左侧出现原图未见的红边圆牌，非目标交通元素改变。",
+          "source_sha256": "8db546ffeadb9c07563ac7111d6d99069772e681125b24d26281fcc777a0c130",
+          "generated_sha256": "81f1b5b38db59abaec2ae0325f38868d6c290f8694755e7632a660a01ecbcff2",
+          "review_record_sha256": "ec943ea5d85d4873cb75ef784244620e6acebbe775bfa1b7ddd62f50138ec193",
+          "source_group": "a29"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标箭头消失，但远处左侧出现原图未见的红边圆牌，非目标交通元素改变。"
+    },
+    {
+      "candidate_id": "a30_002",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000176.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 186531,
+        "sha256": "935cbab13f2fc48b4f12d91b76d6ba208ce375afff6281e98609ac23cd36135a",
+        "git_blob_sha1": "6225b356a1da68d4505b7dc85a390a38885ea139"
+      },
+      "after": {
+        "path": "after/a30_002_1_frame_000176_modify.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2540092,
+        "sha256": "fcea6a661696d4cfeaa6416e981912a485d4dd9c39741d334a5b9d2ec78fb93f",
+        "git_blob_sha1": "df0d6e614a7f77e83ca11cc8a0fafb2272294ef3"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将道路中央单黄色虚线变为单黄色实线，保持原走向。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_sign_symbol",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标线型变更清晰，但右侧让行三角牌的字形被重绘为近似T形，非目标符号不可靠。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标线型变更清晰，但右侧让行三角牌的字形被重绘为近似T形，非目标符号不可靠。",
+          "source_sha256": "935cbab13f2fc48b4f12d91b76d6ba208ce375afff6281e98609ac23cd36135a",
+          "generated_sha256": "fcea6a661696d4cfeaa6416e981912a485d4dd9c39741d334a5b9d2ec78fb93f",
+          "review_record_sha256": "cb59e6e449b890f29ab6ad47e660811c1589cc16837172039028eb0549e04e2e",
+          "source_group": "a30"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标线型变更清晰，但右侧让行三角牌的字形被重绘为近似T形，非目标符号不可靠。"
+    }
+  ]
+}
