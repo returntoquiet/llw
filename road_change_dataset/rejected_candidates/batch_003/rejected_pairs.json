@@ -1,0 +1,778 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 15,
+  "candidates": [
+    {
+      "candidate_id": "d13_004",
+      "source_sequence": "18",
+      "synthetic": true,
+      "before": {
+        "path": "before/18_frame_000080.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129610,
+        "sha256": "2bb87229a38bf7fcf0afdda524069daa287b08d4f242122e6f4a9edfae6221e6",
+        "git_blob_sha1": "c7a7f42c4b45a10c155e7a7574976982bcb28139"
+      },
+      "after": {
+        "path": "after/d13_004__18_frame_000080__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2069027,
+        "sha256": "9935a98f08e34813833d714010c2ab168d71e731175f6355ee1fa8284b990dd0",
+        "git_blob_sha1": "d315c65c6897e111b60ba179acbe508092c06e51"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "尝试将前景右侧立式信号灯头上移。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离大于提示，仍位于同侧人行道。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。",
+          "source_sha256": "2bb87229a38bf7fcf0afdda524069daa287b08d4f242122e6f4a9edfae6221e6",
+          "generated_sha256": "9935a98f08e34813833d714010c2ab168d71e731175f6355ee1fa8284b990dd0",
+          "review_record_sha256": "5aac23e0138b132f057da15d4f846478b4bac293c84ac76df8916c2e741c2ca3",
+          "source_group": "d13"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。"
+    },
+    {
+      "candidate_id": "d14_004",
+      "source_sequence": "18",
+      "synthetic": true,
+      "before": {
+        "path": "before/18_frame_000082.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134696,
+        "sha256": "18dd6837a1b65b170b053b95646202ea159e2f73d3068648e38a5148b256723b",
+        "git_blob_sha1": "1cb798003485d30cafa4d374c21a88ca9d397867"
+      },
+      "after": {
+        "path": "after/d14_004__18_frame_000082__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2166722,
+        "sha256": "bc72262aa1edbec05204bd2ce38d27dd9408a1296f8346c1450cb2d3f2f89d71",
+        "git_blob_sha1": "0cdb01df6cf2f3bef6e49a6408b3e81f8f16e8fc"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "尝试上移前景右侧立式信号灯头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离较大，仍位于同侧人行道；第5张实际灯头上移小于提示的一灯头高度。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。",
+          "source_sha256": "18dd6837a1b65b170b053b95646202ea159e2f73d3068648e38a5148b256723b",
+          "generated_sha256": "bc72262aa1edbec05204bd2ce38d27dd9408a1296f8346c1450cb2d3f2f89d71",
+          "review_record_sha256": "e4310291e90a0ea6339c13dd9a316b4d17698107caa17eca82624f0f8c541ad4",
+          "source_group": "d14"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：右灯头升高实现，但两组信号灯均转为偏向镜头，改变非目标灯头朝向。"
+    },
+    {
+      "candidate_id": "a15_004",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000068.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156192,
+        "sha256": "235ed88365a774fab397341c2a9f1103f3c424269f95cc9f5fc7e000bb5d52fe",
+        "git_blob_sha1": "d2653ad9f0660de96e69a0c40773d32b7230dbd9"
+      },
+      "after": {
+        "path": "after/a15_004_3_frame_000068_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2368993,
+        "sha256": "8be9e86ad619a07aadf4b60c111556b7448ec53fcf17f70a1fa14a39defcf819",
+        "git_blob_sha1": "bfae0ae4cd5db8b5151df7ba5720e8d895e140f5"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "将右侧近处蓝色人行横道标志沿原立杆上移。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_sign_shape",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标标志上移完成，但右侧远处原方形蓝色人行横道牌被重绘成圆形，产生非目标交通标志变化，拒收并保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标标志上移完成，但右侧远处原方形蓝色人行横道牌被重绘成圆形，产生非目标交通标志变化，拒收并保留。",
+          "source_sha256": "235ed88365a774fab397341c2a9f1103f3c424269f95cc9f5fc7e000bb5d52fe",
+          "generated_sha256": "8be9e86ad619a07aadf4b60c111556b7448ec53fcf17f70a1fa14a39defcf819",
+          "review_record_sha256": "6e2cda1b26ad2db9e537a42c8f1665b21a1932bd7b75a99e3b7d75bfcd1a4ccb",
+          "source_group": "a15"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标标志上移完成，但右侧远处原方形蓝色人行横道牌被重绘成圆形，产生非目标交通标志变化，拒收并保留。"
+    },
+    {
+      "candidate_id": "b16_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000161.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 146696,
+        "sha256": "725239023c4a7c2c8e3c44311586085b6290e6ba1211b538111a829a85254ae0",
+        "git_blob_sha1": "6676f97b7ec630bd24b0fd33b883e66fd4751d53"
+      },
+      "after": {
+        "path": "after/b16_005_8_frame_000161_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2025576,
+        "sha256": "65811728fa2b47b203f3c296fbe2d03b86d40096c28b99bd3de8c96ddb3968d8",
+        "git_blob_sha1": "a42d7257c0e8bc7cae06a494061366e525eb1908"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "计划将中央车道右侧分隔线向近景延长为实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：右侧延长实现，但中央车道左侧原路口实线被改为虚线，出现非目标线型变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：右侧延长实现，但中央车道左侧原路口实线被改为虚线，出现非目标线型变化。",
+          "source_sha256": "725239023c4a7c2c8e3c44311586085b6290e6ba1211b538111a829a85254ae0",
+          "generated_sha256": "65811728fa2b47b203f3c296fbe2d03b86d40096c28b99bd3de8c96ddb3968d8",
+          "review_record_sha256": "69ac66c45eb42a3a456e0e1236d39e7a749677554748edc8d2597640fe3f7ac1",
+          "source_group": "b16"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：右侧延长实现，但中央车道左侧原路口实线被改为虚线，出现非目标线型变化。"
+    },
+    {
+      "candidate_id": "a16_001",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000090.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128544,
+        "sha256": "cd247f9a593dfd18fd76e25b87a56b54ff042c50aa12c5dc52745dc13cc56850",
+        "git_blob_sha1": "b1d8e54baf7322f04ec214837de6cee82b6977f2"
+      },
+      "after": {
+        "path": "after/a16_001_2_frame_000090_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2043933,
+        "sha256": "59c94192613faca27117e3f5945a92b36f0ddd081a0341ee09ff0417bd58a6a0",
+        "git_blob_sha1": "85317ce78051e398627eca4c6d0cc55145807a0e"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "尝试将路口对面蓝色左右诱导牌沿原杆下移。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_target_change_not_salient",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "诱导牌位置变化很小，不满足显著位置偏移要求，拒收并保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "诱导牌位置变化很小，不满足显著位置偏移要求，拒收并保留。",
+          "source_sha256": "cd247f9a593dfd18fd76e25b87a56b54ff042c50aa12c5dc52745dc13cc56850",
+          "generated_sha256": "59c94192613faca27117e3f5945a92b36f0ddd081a0341ee09ff0417bd58a6a0",
+          "review_record_sha256": "20ef3d7b450453f9637fb9521ab8504b1b4f67af2c6664d8f018c496cae6ac0d",
+          "source_group": "a16"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "诱导牌位置变化很小，不满足显著位置偏移要求，拒收并保留。"
+    },
+    {
+      "candidate_id": "a16_002",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000091.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134885,
+        "sha256": "8c36e2b3b15aead7e6a0eae63e7343c5e40556d08a3cb576c97fa063935f4ce2",
+        "git_blob_sha1": "6620cf6f593d92274f6c0762b75313f3022c6aec"
+      },
+      "after": {
+        "path": "after/a16_002_2_frame_000091_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2168525,
+        "sha256": "e64657e52fb262676f0a306d5999b6baa0fa46a95eacc459e9766c22daa89307",
+        "git_blob_sha1": "d5c9f0884bb78d75b233416f9732368f5b2df2aa"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除路口对面蓝色左右诱导牌，保留立杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_signal_change",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标牌删除，但下方行人信号被重绘成上下两个同时亮绿的人形图案，非目标信号变化，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标牌删除，但下方行人信号被重绘成上下两个同时亮绿的人形图案，非目标信号变化，拒收。",
+          "source_sha256": "8c36e2b3b15aead7e6a0eae63e7343c5e40556d08a3cb576c97fa063935f4ce2",
+          "generated_sha256": "e64657e52fb262676f0a306d5999b6baa0fa46a95eacc459e9766c22daa89307",
+          "review_record_sha256": "7aaa37ce331bcd108968749388cf66de634803aa6a0b8446885eb4521df7da7f",
+          "source_group": "a16"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标牌删除，但下方行人信号被重绘成上下两个同时亮绿的人形图案，非目标信号变化，拒收。"
+    },
+    {
+      "candidate_id": "a16_004",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000070.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 145671,
+        "sha256": "564ea6979e1f8b30aaef12f49a85c5fa3b9929be22d6913c3edcfb4a109adcbc",
+        "git_blob_sha1": "6ca97d9479dcc7ec12ec2c3f92ff685281b9fe28"
+      },
+      "after": {
+        "path": "after/a16_004_3_frame_000070_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2187233,
+        "sha256": "8655cdfed9b93a0fe97f4827e5d7814a39c8b0d2a403191bc8a20a6643824875",
+        "git_blob_sha1": "1d888795843b02b4ed87a0dbdab3e6894a0c69cc"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处中间车道直行兼左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_marking_removed",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "箭头删除完成，但横道前横向停止线也被删除，产生未要求的标线变化。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "箭头删除完成，但横道前横向停止线也被删除，产生未要求的标线变化。",
+          "source_sha256": "564ea6979e1f8b30aaef12f49a85c5fa3b9929be22d6913c3edcfb4a109adcbc",
+          "generated_sha256": "8655cdfed9b93a0fe97f4827e5d7814a39c8b0d2a403191bc8a20a6643824875",
+          "review_record_sha256": "bd9917fd8d0c4e2de777affa89986194d69550703049408b9646f982ea81f20e",
+          "source_group": "a16"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "箭头删除完成，但横道前横向停止线也被删除，产生未要求的标线变化。"
+    },
+    {
+      "candidate_id": "c15_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000125.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 173783,
+        "sha256": "22bac1232623b80f68fd5f74d01186220068ef11bef6a6014a833c62fea92025",
+        "git_blob_sha1": "75c62fc1a898025470121736aed9d04aa47fd72d"
+      },
+      "after": {
+        "path": "after/c15_001_11_frame_000125_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2349144,
+        "sha256": "9f04cfd40a9fc91d319a507b5619b5a63e1f357f0ca921161090e11a38ae27d6",
+        "git_blob_sha1": "9cb8288472ac792955516fccd448c5023750e6c2"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "direction_sign",
+          "description_zh": "蓝色指路牌顺时针倾斜。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "倾斜清楚，但牌面中文与拼音被重绘改写，超出位置变化目标。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "倾斜清楚，但牌面中文与拼音被重绘改写，超出位置变化目标。",
+          "source_sha256": "22bac1232623b80f68fd5f74d01186220068ef11bef6a6014a833c62fea92025",
+          "generated_sha256": "9f04cfd40a9fc91d319a507b5619b5a63e1f357f0ca921161090e11a38ae27d6",
+          "review_record_sha256": "c57b582c3c5a2a423b053b42da028938384ffeee9af863d4b58e7db2a922c669",
+          "source_group": "c15"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "倾斜清楚，但牌面中文与拼音被重绘改写，超出位置变化目标。"
+    },
+    {
+      "candidate_id": "c15_005",
+      "source_sequence": "13",
+      "synthetic": true,
+      "before": {
+        "path": "before/13_frame_000087.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 97279,
+        "sha256": "d2f3d7e00c18939db745c7e5993cb53211aa1f54a855024e0a8dcd8decd082b6",
+        "git_blob_sha1": "0dbc97c7151c8fd8f3247d03c3365fe5ddaad98a"
+      },
+      "after": {
+        "path": "after/c15_005_13_frame_000087_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1748999,
+        "sha256": "d17f6aa02ab2ba500a122634150606304f35274ab05586474f357a2cdb616cae",
+        "git_blob_sha1": "45cfd068143cfe5dc30e4ef271ebfeaa00d8fc50"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧现有路灯杆新增禁止长时停车标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增标志清楚，但最右侧原地面转向箭头被弱化为无完整箭头的线段，非目标交通标记改变。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "新增标志清楚，但最右侧原地面转向箭头被弱化为无完整箭头的线段，非目标交通标记改变。",
+          "source_sha256": "d2f3d7e00c18939db745c7e5993cb53211aa1f54a855024e0a8dcd8decd082b6",
+          "generated_sha256": "d17f6aa02ab2ba500a122634150606304f35274ab05586474f357a2cdb616cae",
+          "review_record_sha256": "6f169641c3d06486aee182fb8d0c02cee6a980edef2a77dfaf3450bb5d46c0f0",
+          "source_group": "c15"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "新增标志清楚，但最右侧原地面转向箭头被弱化为无完整箭头的线段，非目标交通标记改变。"
+    },
+    {
+      "candidate_id": "b18_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000177.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 153636,
+        "sha256": "0b969dffefc69d74243be771baf0dadba10c663b3636ce8d739c7261e332a986",
+        "git_blob_sha1": "8c6b06c29b3c26ab2a5f6609576182970f201540"
+      },
+      "after": {
+        "path": "after/b18_002_8_frame_000177_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2400863,
+        "sha256": "b0aca290ed0110b0d302defb00637959ff8706e888683dfcaee4147e1d46b043",
+        "git_blob_sha1": "1bffadf885422193d9fa5994f0c2375488126099"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "计划删除中央车道停止线前直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：目标删除，但左侧无障碍蓝牌被重绘为三角形行人图案，非目标交通语义改变。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：目标删除，但左侧无障碍蓝牌被重绘为三角形行人图案，非目标交通语义改变。",
+          "source_sha256": "0b969dffefc69d74243be771baf0dadba10c663b3636ce8d739c7261e332a986",
+          "generated_sha256": "b0aca290ed0110b0d302defb00637959ff8706e888683dfcaee4147e1d46b043",
+          "review_record_sha256": "c68df4bf67e2556485ca7c76eba40dcfaa176ddb1b12fd877163d390a7013881",
+          "source_group": "b18"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：目标删除，但左侧无障碍蓝牌被重绘为三角形行人图案，非目标交通语义改变。"
+    },
+    {
+      "candidate_id": "b18_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000178.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 155093,
+        "sha256": "16bc4459eae0cf68c4fb4d8ccaf5c202d3703fc16bccecc7bc36d58d4d1ee088",
+        "git_blob_sha1": "0c059e3c068a23c4768310282cbb1315de07a83b"
+      },
+      "after": {
+        "path": "after/b18_005_8_frame_000178_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2362205,
+        "sha256": "8eed8d35120983c548c5925ebf35c2cbe7d17290ede6770cb876b4e98afba3b7",
+        "git_blob_sha1": "901de739217dd82da889902a290dad3717c3f57b"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "计划删除中央车道停止线前直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：目标删除，但左侧原轮椅蓝牌变成三角形行人图案，出现非目标标志语义变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：目标删除，但左侧原轮椅蓝牌变成三角形行人图案，出现非目标标志语义变化。",
+          "source_sha256": "16bc4459eae0cf68c4fb4d8ccaf5c202d3703fc16bccecc7bc36d58d4d1ee088",
+          "generated_sha256": "8eed8d35120983c548c5925ebf35c2cbe7d17290ede6770cb876b4e98afba3b7",
+          "review_record_sha256": "3cafe78bc585c52b969c18c152d8885c7053a76bbcfc24c4b8b5d1f0d46f1be3",
+          "source_group": "b18"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：目标删除，但左侧原轮椅蓝牌变成三角形行人图案，出现非目标标志语义变化。"
+    },
+    {
+      "candidate_id": "a18_002",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000094.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174252,
+        "sha256": "4465e022e484865f8d4c4f59e87184c0f507d1bd1458a13f763c2832920492f5",
+        "git_blob_sha1": "a0da68423854e2bda228a8de484cfe1e0c2e0105"
+      },
+      "after": {
+        "path": "after/a18_002_1_frame_000094_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2676107,
+        "sha256": "296ab8d8d2fcaab445327df7d2a48aace193bbbd021b8edbcca1197cc7c9d515",
+        "git_blob_sha1": "ef3f617c24d02d81c1e7c3fdb79522e0830c5870"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除中间车道近处白色直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_symbol_uncertainty",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头移除，但右侧黄色警告牌被绘成双人图形，无法确认与原单人图案相同，拒收保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "指定箭头移除，但右侧黄色警告牌被绘成双人图形，无法确认与原单人图案相同，拒收保留。",
+          "source_sha256": "4465e022e484865f8d4c4f59e87184c0f507d1bd1458a13f763c2832920492f5",
+          "generated_sha256": "296ab8d8d2fcaab445327df7d2a48aace193bbbd021b8edbcca1197cc7c9d515",
+          "review_record_sha256": "396e7a3b051df7237c3400c519f2dec3e5154a702bbffc14773aee7ac38d773a",
+          "source_group": "a18"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "指定箭头移除，但右侧黄色警告牌被绘成双人图形，无法确认与原单人图案相同，拒收保留。"
+    },
+    {
+      "candidate_id": "a18_005",
+      "source_sequence": "4",
+      "synthetic": true,
+      "before": {
+        "path": "before/4_frame_000082.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 153634,
+        "sha256": "fcbb478e0469ae9faceae12d711cc6aa01a2028c6b79a6ffd92eab8283e89be7",
+        "git_blob_sha1": "098abe92737c9b80c5c20a95465e276b2f6178c6"
+      },
+      "after": {
+        "path": "after/a18_005_4_frame_000082_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2320614,
+        "sha256": "aac31ad1d0fa56f8885ab315f10489fbcb5f26b3749b5e0f4603bdda36f035cc",
+        "git_blob_sha1": "e134f8d913a1d6c92c02593319fac89f68875575"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将右侧近处白色车道分界虚线改为连续实线，与前段实线衔接。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_sign_shape",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "线型变化完成，但前方右侧蓝色标志被重绘成圆形，原方形牌轮廓未保留，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "线型变化完成，但前方右侧蓝色标志被重绘成圆形，原方形牌轮廓未保留，拒收。",
+          "source_sha256": "fcbb478e0469ae9faceae12d711cc6aa01a2028c6b79a6ffd92eab8283e89be7",
+          "generated_sha256": "aac31ad1d0fa56f8885ab315f10489fbcb5f26b3749b5e0f4603bdda36f035cc",
+          "review_record_sha256": "70bcb1ec9e46f23b912e4fe429b9bcde067686644857cdd46d0d2877317cd3b1",
+          "source_group": "a18"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "线型变化完成，但前方右侧蓝色标志被重绘成圆形，原方形牌轮廓未保留，拒收。"
+    },
+    {
+      "candidate_id": "b19_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000017.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174538,
+        "sha256": "a4d98240cf870599222e418c6b8ac73ec026759e328829861e54380e298bbbc0",
+        "git_blob_sha1": "436374fc2a855644e47f2eb80d8a52a53d548e2c"
+      },
+      "after": {
+        "path": "after/b19_001_7_frame_000017_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2346222,
+        "sha256": "a40ceef3ea6c3289d67c347fd5f951aa3709dbef59fc2ad34c794babbcc6ced2",
+        "git_blob_sha1": "0894a359161669e1826fbc052e6ac7f61051ea2d"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "计划将左侧掉头牌顺时针倾斜25度。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：倾斜实现，但右侧无障碍牌被画为另一三角形行人牌。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：倾斜实现，但右侧无障碍牌被画为另一三角形行人牌。",
+          "source_sha256": "a4d98240cf870599222e418c6b8ac73ec026759e328829861e54380e298bbbc0",
+          "generated_sha256": "a40ceef3ea6c3289d67c347fd5f951aa3709dbef59fc2ad34c794babbcc6ced2",
+          "review_record_sha256": "66715b4b7604e2d22432f290945ded2e395448c1b5b27b49fbc0898b35e59d2e",
+          "source_group": "b19"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：倾斜实现，但右侧无障碍牌被画为另一三角形行人牌。"
+    },
+    {
+      "candidate_id": "b19_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000081.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156808,
+        "sha256": "88f44ebcbdd50edb9f0215694c2eb4f14caa4f8174ac8c68c6a346c6fa2eb812",
+        "git_blob_sha1": "38dbf078c3474f7891825b9271d5f6119cf0135d"
+      },
+      "after": {
+        "path": "after/b19_003_6_frame_000081_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2322704,
+        "sha256": "4b8bfd753fa17b7c75d3a60e579f6cdce827d5a0b1e40b3e9d092d520d666331",
+        "git_blob_sha1": "ec66e061f4ea94c22088ac99763af4dbaef14ca6"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "计划删除中央车道停止线前直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：目标删除，但前方信号出现红绿灯同时点亮的明显逻辑异常。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒收：目标删除，但前方信号出现红绿灯同时点亮的明显逻辑异常。",
+          "source_sha256": "88f44ebcbdd50edb9f0215694c2eb4f14caa4f8174ac8c68c6a346c6fa2eb812",
+          "generated_sha256": "4b8bfd753fa17b7c75d3a60e579f6cdce827d5a0b1e40b3e9d092d520d666331",
+          "review_record_sha256": "0ba837cfd42ebe2742c9166bcb3d4b139d66cebe5034919afbd45d95e50d1a74",
+          "source_group": "b19"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：目标删除，但前方信号出现红绿灯同时点亮的明显逻辑异常。"
+    }
+  ]
+}

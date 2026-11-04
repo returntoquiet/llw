@@ -1,0 +1,5138 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "batch_003",
+  "status": "frozen_prepared_not_uploaded",
+  "batch_target_pairs": 100,
+  "actual_pairs": 100,
+  "task": "image_level_road_change_detection",
+  "synthetic": true,
+  "path_base": "directory_containing_this_json",
+  "source_archive": {
+    "name": "before.zip",
+    "sha256": "6e449d0f96d8fa9be9553698184bab4c49e9385238a2486b86592302fb4f4bd5"
+  },
+  "pairs": [
+    {
+      "candidate_id": "d13_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129588,
+        "sha256": "8ebe6360ce928f28d8d06d78bc8c35b8cad17e420ea34799e089c0529842dd60",
+        "git_blob_sha1": "662b6b79e0e1c722f4160b708ab1e76569927961"
+      },
+      "after": {
+        "path": "after/d13_001__15_frame_000166__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2039528,
+        "sha256": "411d5b0dcf511fb116c90ef5c3494fea13e41bab5050ee7f7a36c35abeb0271a",
+        "git_blob_sha1": "c8bbc51ebeea1c5478cdacf48a8a3e76231868c1"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "悬臂右侧三灯头沿横臂右移接近竖杆，灯态保持。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离大于提示，仍位于同侧人行道。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "8ebe6360ce928f28d8d06d78bc8c35b8cad17e420ea34799e089c0529842dd60",
+          "generated_sha256": "411d5b0dcf511fb116c90ef5c3494fea13e41bab5050ee7f7a36c35abeb0271a",
+          "review_record_sha256": "a43d4a28af6650621a950c52ba1b955414935717f73f8be53434bcfc38439313",
+          "source_group": "d13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0001"
+    },
+    {
+      "candidate_id": "d13_002",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000169.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 138383,
+        "sha256": "75acaeb16fca0ffde04be0a0f8073847b8fd0f4a3a0b90f4948e3d25ef9088ee",
+        "git_blob_sha1": "03c23ba4b69542bc374fa56f34be09b9e842dceb"
+      },
+      "after": {
+        "path": "after/d13_002__15_frame_000169__modify_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2032569,
+        "sha256": "0d6dc2f9e403e3461935e856a2d6a56994b1169880335d54f8ab4bc4d12890f5",
+        "git_blob_sha1": "cdcca91782b4425c605581800609d15da2544d3e"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "既有蓝色行人过街标志及支杆沿人行道向左移动，靠近信号灯竖杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离大于提示，仍位于同侧人行道。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "75acaeb16fca0ffde04be0a0f8073847b8fd0f4a3a0b90f4948e3d25ef9088ee",
+          "generated_sha256": "0d6dc2f9e403e3461935e856a2d6a56994b1169880335d54f8ab4bc4d12890f5",
+          "review_record_sha256": "1d73e30e20807737ee9ea23c709db40204c9d941cb134a3a29633323b5424f7a",
+          "source_group": "d13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0002"
+    },
+    {
+      "candidate_id": "d13_003",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 154967,
+        "sha256": "cc6b9aa8c1bfed1e4f4b73b56d0863973863394a47c1673592bd74c2742609c2",
+        "git_blob_sha1": "08e9f4fe720f34f54298e236bf8596ee5951f21f"
+      },
+      "after": {
+        "path": "after/d13_003__16_frame_000168__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2302266,
+        "sha256": "3748876b093d535b330e6e3b948d35929763a659088f3dea6a8bfa5ff9f14e5f",
+        "git_blob_sha1": "a232776ed6ffe2799759be0d2669289b39679ebd"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增禁止停车标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离大于提示，仍位于同侧人行道。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "cc6b9aa8c1bfed1e4f4b73b56d0863973863394a47c1673592bd74c2742609c2",
+          "generated_sha256": "3748876b093d535b330e6e3b948d35929763a659088f3dea6a8bfa5ff9f14e5f",
+          "review_record_sha256": "6bb38b6f406d8cd3245260f73a7988d47682ce32a16fc289cbd2bca23780df6c",
+          "source_group": "d13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0003"
+    },
+    {
+      "candidate_id": "d13_005",
+      "source_sequence": "18",
+      "synthetic": true,
+      "before": {
+        "path": "before/18_frame_000081.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129428,
+        "sha256": "f99d264c6ecc1ce78d16e8906cb2a1d19f8047bec787d25ec6129cc828e49c9c",
+        "git_blob_sha1": "914839b5552c7454c0ec99c7c68df649405de953"
+      },
+      "after": {
+        "path": "after/d13_005__18_frame_000081__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1959431,
+        "sha256": "661c67216a5469f00701f8c1b44c88affe7a9e2cd03d148f03256991def4c7b4",
+        "git_blob_sha1": "364e41fe258ad03f8a373dc1856c1916119ad89d"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "前景成对立式信号灯中右侧灯头沿杆显著上移，保留侧向和灯态。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离大于提示，仍位于同侧人行道。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "f99d264c6ecc1ce78d16e8906cb2a1d19f8047bec787d25ec6129cc828e49c9c",
+          "generated_sha256": "661c67216a5469f00701f8c1b44c88affe7a9e2cd03d148f03256991def4c7b4",
+          "review_record_sha256": "f01a7b005382b19c464eb4ecf8eaf8914913a8d9884ec0d217c4d9336bc9efed",
+          "source_group": "d13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0004"
+    },
+    {
+      "candidate_id": "c13_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000061.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160036,
+        "sha256": "bba8691f9b3a3622b03cf9d8ed049b2e04bc4d4947c54d68932a465ad0b9c4cb",
+        "git_blob_sha1": "7bddad295143cae3440d57776d6ca641ed957871"
+      },
+      "after": {
+        "path": "after/c13_001_11_frame_000061_add.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2196170,
+        "sha256": "04bf56290669dab950967c701795910fce4bcae19f833b17fc7e3bc2f4403ec0",
+        "git_blob_sha1": "6f7ebe65be2d382ee89093f11f593d6a2f695538"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "中间车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+          "source_sha256": "bba8691f9b3a3622b03cf9d8ed049b2e04bc4d4947c54d68932a465ad0b9c4cb",
+          "generated_sha256": "04bf56290669dab950967c701795910fce4bcae19f833b17fc7e3bc2f4403ec0",
+          "review_record_sha256": "2826297b2cc30ab6972ba8a3a297bdccfffc3f6eb74b9bf216f5b463b668d1ee",
+          "source_group": "c13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0005"
+    },
+    {
+      "candidate_id": "c13_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000062.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 162855,
+        "sha256": "4e60776db0d79f6af5c73071d831d9aad5262aa2279c62db16e5f67f4430c82f",
+        "git_blob_sha1": "ec3b83f1add7d356631f869fdf9e66017d5bbfcb"
+      },
+      "after": {
+        "path": "after/c13_002_11_frame_000062_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2475227,
+        "sha256": "034cc35b47f709ad88b3682b93dd2fbd4ffde7da46c6b424985453b1d7893a52",
+        "git_blob_sha1": "bc27beebf9b0281f669e3d78b6f444f3c61706d4"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "左侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+          "source_sha256": "4e60776db0d79f6af5c73071d831d9aad5262aa2279c62db16e5f67f4430c82f",
+          "generated_sha256": "034cc35b47f709ad88b3682b93dd2fbd4ffde7da46c6b424985453b1d7893a52",
+          "review_record_sha256": "8e05f955a04316918dfcb10a9448d5a0fc4f13aa8ca7f5c1119803c54b5751af",
+          "source_group": "c13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0006"
+    },
+    {
+      "candidate_id": "c13_003",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000063.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160130,
+        "sha256": "dc4e0d9f5f28e5b19a75e722dcf173fa7e0672402ceba43ebb3bf42fa4eee479",
+        "git_blob_sha1": "5b48cd8635b96bd0cc1331bbb5f2334afe829479"
+      },
+      "after": {
+        "path": "after/c13_003_11_frame_000063_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2316588,
+        "sha256": "cedc36429c7dac62e11928591c4c55ec7ccfd04b45530a03b9c0da320dfa007f",
+        "git_blob_sha1": "8c454d4278894e9e61945ea5535799f67da20185"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "中间车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+          "source_sha256": "dc4e0d9f5f28e5b19a75e722dcf173fa7e0672402ceba43ebb3bf42fa4eee479",
+          "generated_sha256": "cedc36429c7dac62e11928591c4c55ec7ccfd04b45530a03b9c0da320dfa007f",
+          "review_record_sha256": "2a949c0ddc92e885b99e88757b76f6db53c47734fa0e6fca14e559b96059e105",
+          "source_group": "c13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0007"
+    },
+    {
+      "candidate_id": "c13_004",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000064.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164563,
+        "sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+        "git_blob_sha1": "c97a54a2ed5b02a7107ee61aa27f2a5583354ca4"
+      },
+      "after": {
+        "path": "after/c13_004_11_frame_000064_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2436924,
+        "sha256": "25017d32990e5ee681930baeba04b4af12867d7e24b2ed91e1e0991fececccd2",
+        "git_blob_sha1": "d5c4fbbd932dba36fe22a730b2d58198279c3006"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "左侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+          "source_sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+          "generated_sha256": "25017d32990e5ee681930baeba04b4af12867d7e24b2ed91e1e0991fececccd2",
+          "review_record_sha256": "bbc0fa6737d1b35eb547a011aa5f6686792f42e2e2dd9d9a43e0de58e34b8aef",
+          "source_group": "c13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0008"
+    },
+    {
+      "candidate_id": "c13_005",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000065.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167422,
+        "sha256": "a12b1918b85375efe72fa4bbd8df30eafb5978d878ea9fd77c1303c89cf893f8",
+        "git_blob_sha1": "1ad09205af73bd96146f20c1786fd72d5826f834"
+      },
+      "after": {
+        "path": "after/c13_005_11_frame_000065_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2458197,
+        "sha256": "d0e944d2ff846d5a5bf4b1f7c3a2d5b54fd7e92a5734c3d09f7882c184099fa7",
+        "git_blob_sha1": "1d727d71a0b3222b25104b953a21cdcf57ef55ba"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "右侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "重复直行箭头新增清楚，符合已有直行车道方向，原主要箭头与道路主体基本保持。",
+          "source_sha256": "a12b1918b85375efe72fa4bbd8df30eafb5978d878ea9fd77c1303c89cf893f8",
+          "generated_sha256": "d0e944d2ff846d5a5bf4b1f7c3a2d5b54fd7e92a5734c3d09f7882c184099fa7",
+          "review_record_sha256": "306679f41df5bc5b5b3182066dcb5178ad897a811b69197092a2703389cf5326",
+          "source_group": "c13"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0009"
+    },
+    {
+      "candidate_id": "b14_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000019.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 169025,
+        "sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+        "git_blob_sha1": "05177d72872ba0f229a18ce803cf4ad98ffd1d92"
+      },
+      "after": {
+        "path": "after/b14_001_7_frame_000019_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2196903,
+        "sha256": "9804d3174507f26a19a447d804198d88e76b58e4f37d3c8171ce22d2eed345ca",
+        "git_blob_sha1": "5ffb99c4872df40a7a4fde8b70be673090ed33c0"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "左侧掉头标志牌面顺时针倾斜约20度，支杆直立。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "倾斜明显，符号及其他交通主体保持；背景纹理漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "倾斜明显，符号及其他交通主体保持；背景纹理漂移。",
+          "source_sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+          "generated_sha256": "9804d3174507f26a19a447d804198d88e76b58e4f37d3c8171ce22d2eed345ca",
+          "review_record_sha256": "7f2b8c204d6dccc39735fb46ccce819ec0ffee468520f09196a19c8b712a9d77",
+          "source_group": "b14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0010"
+    },
+    {
+      "candidate_id": "b14_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156781,
+        "sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+        "git_blob_sha1": "e96021d68db5ab9d96ab17dd28857132ffa7dd95"
+      },
+      "after": {
+        "path": "after/b14_002_8_frame_000165_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2407835,
+        "sha256": "408ccf7feb3cd03d4d50c72e2bc964b3e27583c07489a48b7052b7c98a0a1593",
+        "git_blob_sha1": "f12561093ab24c00e73622df9754e9e356641fe5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道近景直行箭头，恢复灰色路面。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头删除，其他箭头和红灯保持；细节重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央箭头删除，其他箭头和红灯保持；细节重绘。",
+          "source_sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+          "generated_sha256": "408ccf7feb3cd03d4d50c72e2bc964b3e27583c07489a48b7052b7c98a0a1593",
+          "review_record_sha256": "280a90af14b5ac862f8295968f89402e7b019fcc6d9c586adba90df5573c9b3b",
+          "source_group": "b14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0011"
+    },
+    {
+      "candidate_id": "b14_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000075.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156657,
+        "sha256": "337aad078f7f37e02568c0132fbdd23b9c80608397b527a263357fb48b31ea3a",
+        "git_blob_sha1": "e98094bebf37e8f6c5c13bd4a6e26845f7c6804f"
+      },
+      "after": {
+        "path": "after/b14_003_6_frame_000075_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2415011,
+        "sha256": "f7ead0a782b60bf6db5a6bdff92f6f8d54d574eaf0b90fe4ace545e7b89ba81c",
+        "git_blob_sha1": "f9daf99d0472465981e22d01fc59e595c168663e"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央直行车道停止线前白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标消失，其他方向箭头及轮椅标志、车辆保持；锐度及纹理漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标消失，其他方向箭头及轮椅标志、车辆保持；锐度及纹理漂移。",
+          "source_sha256": "337aad078f7f37e02568c0132fbdd23b9c80608397b527a263357fb48b31ea3a",
+          "generated_sha256": "f7ead0a782b60bf6db5a6bdff92f6f8d54d574eaf0b90fe4ace545e7b89ba81c",
+          "review_record_sha256": "d8346fc0421a4c41a4d1b7cce5550e8799a46aada35c3f8662f66955ab54075a",
+          "source_group": "b14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0012"
+    },
+    {
+      "candidate_id": "b14_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000020.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 163457,
+        "sha256": "aae5a2a49dc4d3a4edd4fa540247991c0c5c34d9866fb4e9ea139e1c0e1f65fa",
+        "git_blob_sha1": "eb293b19e99cd87d6c90a0dd8d09d66eece70258"
+      },
+      "after": {
+        "path": "after/b14_004_7_frame_000020_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2538318,
+        "sha256": "ad02d284b270b63677f71e3af66b275b1c7c1030cf73192f38bb16ab7e9ebc9e",
+        "git_blob_sha1": "3c3047ab1e634c24059e677785982bc3a01b8d93"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除左侧隔离岛掉头标志牌面，保留原支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "牌面删除清楚，右侧无障碍与人行横道标志、原车道箭头保持。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "牌面删除清楚，右侧无障碍与人行横道标志、原车道箭头保持。",
+          "source_sha256": "aae5a2a49dc4d3a4edd4fa540247991c0c5c34d9866fb4e9ea139e1c0e1f65fa",
+          "generated_sha256": "ad02d284b270b63677f71e3af66b275b1c7c1030cf73192f38bb16ab7e9ebc9e",
+          "review_record_sha256": "620bf419de56f544453a52d8ae004bb5343fab29fc75daf21214c1e0d4ad4799",
+          "source_group": "b14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0013"
+    },
+    {
+      "candidate_id": "b14_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 161131,
+        "sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+        "git_blob_sha1": "1c4ddd1a6e0350e6834545acb36c2752ef8e222a"
+      },
+      "after": {
+        "path": "after/b14_005_8_frame_000164_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2235829,
+        "sha256": "7a9abf7de447e83806bdc78890f04477b00741ea3d37f907fec46f5b78c4d533",
+        "git_blob_sha1": "a1801e5cbee4824b6a65ce28323dc71c6a64a828"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "中央直行车道右侧白色实线向近景延长，将原虚线间隙连接为连续实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标线型变化清楚，其他车道箭头及信号保持；行人及背景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标线型变化清楚，其他车道箭头及信号保持；行人及背景细节漂移。",
+          "source_sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+          "generated_sha256": "7a9abf7de447e83806bdc78890f04477b00741ea3d37f907fec46f5b78c4d533",
+          "review_record_sha256": "6387c342c6b7b160373c8d7772e368234b1b52a3feca5d23db964feefa8191ec",
+          "source_group": "b14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0014"
+    },
+    {
+      "candidate_id": "a14_001",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000094.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174252,
+        "sha256": "4465e022e484865f8d4c4f59e87184c0f507d1bd1458a13f763c2832920492f5",
+        "git_blob_sha1": "a0da68423854e2bda228a8de484cfe1e0c2e0105"
+      },
+      "after": {
+        "path": "after/a14_001_1_frame_000094_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2613739,
+        "sha256": "ceee44940860fd90f648d96bd1a85a519044f618caed1a34cf9ee5f2cfd12173",
+        "git_blob_sha1": "a5095cd3760acab232192a14248416a0b4ab140e"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "将右侧注意行人警告标志沿原立杆上移。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标牌上移清楚，原箭头、车辆及行人主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标牌上移清楚，原箭头、车辆及行人主体保留。",
+          "source_sha256": "4465e022e484865f8d4c4f59e87184c0f507d1bd1458a13f763c2832920492f5",
+          "generated_sha256": "ceee44940860fd90f648d96bd1a85a519044f618caed1a34cf9ee5f2cfd12173",
+          "review_record_sha256": "9c868be061bcaf17d79ad3a610687d2f70157f8bf501cd83eec599fcba1baf09",
+          "source_group": "a14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0015"
+    },
+    {
+      "candidate_id": "a14_002",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000095.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 179415,
+        "sha256": "b29a6f4d436dc7b2cb10caa40c11383fecdaccf4799bd2ea44b56c5cb526e868",
+        "git_blob_sha1": "e78d4ee11e7cb343bf48f78417a13ceb5e1c2f28"
+      },
+      "after": {
+        "path": "after/a14_002_1_frame_000095_modify.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2560308,
+        "sha256": "b728ba81aa62391a04d17480d1518ca60c571711b78383ac4e387ba69e731153",
+        "git_blob_sha1": "b1c0c72ada3351636439f6d71063acf1ed515543"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "将右侧注意行人警告标志沿原立杆上移。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "标志位置变高，场景及交通方向基本不变；纹理清晰化。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "标志位置变高，场景及交通方向基本不变；纹理清晰化。",
+          "source_sha256": "b29a6f4d436dc7b2cb10caa40c11383fecdaccf4799bd2ea44b56c5cb526e868",
+          "generated_sha256": "b728ba81aa62391a04d17480d1518ca60c571711b78383ac4e387ba69e731153",
+          "review_record_sha256": "d07a4f636f1e9c15d603a89cb54b46d586e1fe6c50333a26e6b32042a57b5b6a",
+          "source_group": "a14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0016"
+    },
+    {
+      "candidate_id": "a14_003",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000001.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 124721,
+        "sha256": "0a1cdf2749614f412cff646e4eb8362047d4cd924f474ebe89b264f879cac626",
+        "git_blob_sha1": "1661a0b3599c88653486a3d07dbd81294b82a7b9"
+      },
+      "after": {
+        "path": "after/a14_003_2_frame_000001_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1948913,
+        "sha256": "7feee91cb51f7abe49b975113e2aaf345752c9ddff125415b8ec59b7ab348fd7",
+        "git_blob_sha1": "d4e60ef154cf14c9170defae9848c4dc7c666488"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将近处直行箭头右侧白色车道分界虚线改为连续实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标线型改变，双黄线与原箭头保留；车辆及商业文字存在细节重绘。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标线型改变，双黄线与原箭头保留；车辆及商业文字存在细节重绘。",
+          "source_sha256": "0a1cdf2749614f412cff646e4eb8362047d4cd924f474ebe89b264f879cac626",
+          "generated_sha256": "7feee91cb51f7abe49b975113e2aaf345752c9ddff125415b8ec59b7ab348fd7",
+          "review_record_sha256": "f3db2684e79f103b351487175edd52297f366f92674fe16a990584e5f060a528",
+          "source_group": "a14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0017"
+    },
+    {
+      "candidate_id": "a14_004",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000002.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128814,
+        "sha256": "014cffe91996977c271b0348aa5917f8445d277844457dc9da9e6dc744a08d05",
+        "git_blob_sha1": "c27b3ff4c4973c69a8d44485051957fb3c4437da"
+      },
+      "after": {
+        "path": "after/a14_004_2_frame_000002_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2058616,
+        "sha256": "29d4676fdf6884b9ead142775b14c049d4904a22c4d943fa8bfef00cecd5569d",
+        "git_blob_sha1": "531ca952ce563c01ad8ca6cc03599841391251d2"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将近处直行箭头右侧白色车道分界虚线改为连续实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "白色实线明显，原箭头和双黄线保留，主要街景一致。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "白色实线明显，原箭头和双黄线保留，主要街景一致。",
+          "source_sha256": "014cffe91996977c271b0348aa5917f8445d277844457dc9da9e6dc744a08d05",
+          "generated_sha256": "29d4676fdf6884b9ead142775b14c049d4904a22c4d943fa8bfef00cecd5569d",
+          "review_record_sha256": "91f70470355aba5bd285226e48cf82408061d2329fdacff2e5c345aa7971f49d",
+          "source_group": "a14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0018"
+    },
+    {
+      "candidate_id": "a14_005",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000105.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128274,
+        "sha256": "cdc741cb74dae94eb91f058acca0bed5693bdc0b63e382146f795f0728ed26cb",
+        "git_blob_sha1": "414461b66f7c077ad6fbffa54cb01168853a1925"
+      },
+      "after": {
+        "path": "after/a14_005_2_frame_000105_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2182389,
+        "sha256": "ef4db0040b33eac7c18e53ed69c128da5629592dfb0b961bb372880858e7bf96",
+        "git_blob_sha1": "5c85fdad11b0c80f0f879d4a1cd7e3f9bc073249"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "在右侧人行道、现有近处人行横道旁新增蓝色人行横道标志及立杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增标志与横道相符，红色信号和箭头保留，主体场景一致。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增标志与横道相符，红色信号和箭头保留，主体场景一致。",
+          "source_sha256": "cdc741cb74dae94eb91f058acca0bed5693bdc0b63e382146f795f0728ed26cb",
+          "generated_sha256": "ef4db0040b33eac7c18e53ed69c128da5629592dfb0b961bb372880858e7bf96",
+          "review_record_sha256": "78c354f5d19f45fc691ed5f7e9799d681d96068ef06b17726ac2b7349f47056e",
+          "source_group": "a14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0019"
+    },
+    {
+      "candidate_id": "d14_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000170.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 139116,
+        "sha256": "ef73ccd60d605d640cf91abb8adce32fde468129520aa1911310b6817cc2c6cb",
+        "git_blob_sha1": "3ee2909bb07b37dbd1cf8c622eff40daa9b23729"
+      },
+      "after": {
+        "path": "after/d14_001__15_frame_000170__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2096555,
+        "sha256": "cf725d20bb5490464f58448a12be27d180aa0aa3899417589faa4a6665c6db72",
+        "git_blob_sha1": "0f71dfae66c187846e8b923bdbcd46edc6abc839"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "悬臂右侧三灯头沿横臂右移接近竖杆，灯态保持。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离较大，仍位于同侧人行道；第5张实际灯头上移小于提示的一灯头高度。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "ef73ccd60d605d640cf91abb8adce32fde468129520aa1911310b6817cc2c6cb",
+          "generated_sha256": "cf725d20bb5490464f58448a12be27d180aa0aa3899417589faa4a6665c6db72",
+          "review_record_sha256": "d3c8a4d2e745f31dc3f272e5e427ff28685b998ee13f0eabfeaa6914f74d2b26",
+          "source_group": "d14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0020"
+    },
+    {
+      "candidate_id": "d14_002",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000171.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132606,
+        "sha256": "43b5d351fb8dd0c0c24d57dc7bb2f7a53df2b2e548cce7d30ae70c511691998d",
+        "git_blob_sha1": "99788b90609540ed36bddc688321640213cd34c9"
+      },
+      "after": {
+        "path": "after/d14_002__15_frame_000171__modify_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2173280,
+        "sha256": "b08a890c49e384439dad5bdf47e82a177548fb999f85dc675b7bb6bcdeee0333",
+        "git_blob_sha1": "719f56dc5a939ca5c3e9320f1483cf37bc8bdc83"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "既有行人过街标志及支杆向左移近信号灯竖杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离较大，仍位于同侧人行道；第5张实际灯头上移小于提示的一灯头高度。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "43b5d351fb8dd0c0c24d57dc7bb2f7a53df2b2e548cce7d30ae70c511691998d",
+          "generated_sha256": "b08a890c49e384439dad5bdf47e82a177548fb999f85dc675b7bb6bcdeee0333",
+          "review_record_sha256": "655ef18b3b54fe15300086037da8366db9889e226869f0fd8ad7779c7afa13a2",
+          "source_group": "d14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0021"
+    },
+    {
+      "candidate_id": "d14_003",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160667,
+        "sha256": "d497ada82e40354772afba4ffa0c4256ab9b83bf940e9e6fc0f85b563a9459b7",
+        "git_blob_sha1": "e53e63c09a57fb2ceea2d295506115033747c543"
+      },
+      "after": {
+        "path": "after/d14_003__16_frame_000167__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2248253,
+        "sha256": "e080ea846964c852c7b56a5116595552ccc867a31fdd9d92a4b7e2c99dcbf14b",
+        "git_blob_sha1": "68c39b7bc64793843780793a8e46ac8bcb530a2e"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增禁止停车标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离较大，仍位于同侧人行道；第5张实际灯头上移小于提示的一灯头高度。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "d497ada82e40354772afba4ffa0c4256ab9b83bf940e9e6fc0f85b563a9459b7",
+          "generated_sha256": "e080ea846964c852c7b56a5116595552ccc867a31fdd9d92a4b7e2c99dcbf14b",
+          "review_record_sha256": "ff03d5112b3f849aa3e585cddc5db4cea99f4bdec3736daa6f844d0638068ea1",
+          "source_group": "d14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0022"
+    },
+    {
+      "candidate_id": "d14_005",
+      "source_sequence": "18",
+      "synthetic": true,
+      "before": {
+        "path": "before/18_frame_000099.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142011,
+        "sha256": "9ff286e224cf9c924a6059df84cb51769123e7072b4a2476c24dc2764d43ed0c",
+        "git_blob_sha1": "f8eec227d7c54d58beb4a1b7864626e33da4ed3f"
+      },
+      "after": {
+        "path": "after/d14_005__18_frame_000099__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2277230,
+        "sha256": "9ac31a1fc4352726f2c3a5f5733395ea49bc8bffbc84c1109be1899b7db85573",
+        "git_blob_sha1": "7e5eed1a99c8cb486a459e4393b68b1fc7494e4e"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "前景成对立式信号灯中右侧灯头沿杆上移，保持侧向及灯态。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理与清晰度重绘，非像素级配准。",
+          "细纹理、墙面文字及车牌漂移；第2张标牌移动距离较大，仍位于同侧人行道；第5张实际灯头上移小于提示的一灯头高度。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "9ff286e224cf9c924a6059df84cb51769123e7072b4a2476c24dc2764d43ed0c",
+          "generated_sha256": "9ac31a1fc4352726f2c3a5f5733395ea49bc8bffbc84c1109be1899b7db85573",
+          "review_record_sha256": "de9502c6875fadef7f15b4e75407a6e999b6960c95f2493379cf3aa904121f01",
+          "source_group": "d14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0023"
+    },
+    {
+      "candidate_id": "b15_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000022.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 166795,
+        "sha256": "38431655753b7419e9c99592e72cdde1e5e7b32850d54b1f6327826555ff8f86",
+        "git_blob_sha1": "1e746c3795f44a9434d1fe90d41084cce4f7f42e"
+      },
+      "after": {
+        "path": "after/b15_001_7_frame_000022_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2406441,
+        "sha256": "38445698ab59df91519c7ea11fc37e7d70a789a3dc45bdefc510a877398f6071",
+        "git_blob_sha1": "333cb28c5be63cd3091793cdc4cc7ff31445c6f4"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除左侧蓝色掉头标志牌面，保留支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "牌面消失清楚，其他箭头及右侧两块蓝色标志保持；建筑与纹理重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "牌面消失清楚，其他箭头及右侧两块蓝色标志保持；建筑与纹理重绘。",
+          "source_sha256": "38431655753b7419e9c99592e72cdde1e5e7b32850d54b1f6327826555ff8f86",
+          "generated_sha256": "38445698ab59df91519c7ea11fc37e7d70a789a3dc45bdefc510a877398f6071",
+          "review_record_sha256": "bba6aa9a576966514eccf57729703cebd2ec3153bb21298391c1adf4c2239dd3",
+          "source_group": "b15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0024"
+    },
+    {
+      "candidate_id": "b15_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 165546,
+        "sha256": "a60161f599cb4c7025e034c8cc7729173dbc84b889ba5b7596c9d72b49e2c802",
+        "git_blob_sha1": "62977890651ba71113818b8a6002ff1833c6e500"
+      },
+      "after": {
+        "path": "after/b15_002_8_frame_000166_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2296785,
+        "sha256": "27bbab728560b097a2930dbed9e8ed6cec670e47f774c02ba9037e35c62ac97e",
+        "git_blob_sha1": "dbff1e9d4e39494aa49ff011e7834e0358848df7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道近景直行箭头，恢复灰色路面。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，其他三枚箭头及红灯保持；背景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头删除，其他三枚箭头及红灯保持；背景细节漂移。",
+          "source_sha256": "a60161f599cb4c7025e034c8cc7729173dbc84b889ba5b7596c9d72b49e2c802",
+          "generated_sha256": "27bbab728560b097a2930dbed9e8ed6cec670e47f774c02ba9037e35c62ac97e",
+          "review_record_sha256": "30922a3dbe97e1192476c56417a8f8a56dba514f85e712db7896bb408ff01512",
+          "source_group": "b15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0025"
+    },
+    {
+      "candidate_id": "b15_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000076.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 163638,
+        "sha256": "a533f5961c32207894533c872c65b41ac4d2e3e9278423a14da110c06c6959fa",
+        "git_blob_sha1": "42ee07cd3e0907e6f589d12a03bdf32eb435acb3"
+      },
+      "after": {
+        "path": "after/b15_003_6_frame_000076_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2383256,
+        "sha256": "a3ba5eba76ff9d7ea5654aa00fc5e12ff7fd85752db5775f371bb73be1d050f9",
+        "git_blob_sha1": "f1e9c1e54c6e0b7327c3d82a6daf61fc1dc5bbeb"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道停止线前白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头消失，左右车道箭头及右侧轮椅、人行横道标志保持；纹理锐度漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央箭头消失，左右车道箭头及右侧轮椅、人行横道标志保持；纹理锐度漂移。",
+          "source_sha256": "a533f5961c32207894533c872c65b41ac4d2e3e9278423a14da110c06c6959fa",
+          "generated_sha256": "a3ba5eba76ff9d7ea5654aa00fc5e12ff7fd85752db5775f371bb73be1d050f9",
+          "review_record_sha256": "cfa1f9c936a24d43a1275ac846fd410c4574b9164f05eb815f13b3e9a31938a8",
+          "source_group": "b15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0026"
+    },
+    {
+      "candidate_id": "b15_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000021.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 159293,
+        "sha256": "0f5e99537d9b0a4290915842038ad6901c8715d38a2a6db85aaf30e98e4cd727",
+        "git_blob_sha1": "0f72db776d5fe3fe1884e46961ec812863b6e51d"
+      },
+      "after": {
+        "path": "after/b15_004_7_frame_000021_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2389241,
+        "sha256": "26c5e7b87a7c0654d354730ed51cccf957e13e5ed6843130eddde3d4bb6e8ca6",
+        "git_blob_sha1": "d2bd4628ffa304ad6114ccd3ba9adb32954ab3fc"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央隔离岛旁左转车道近景左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左转箭头删除，右侧两枚直行箭头及掉头牌保留；背景细节重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "左转箭头删除，右侧两枚直行箭头及掉头牌保留；背景细节重绘。",
+          "source_sha256": "0f5e99537d9b0a4290915842038ad6901c8715d38a2a6db85aaf30e98e4cd727",
+          "generated_sha256": "26c5e7b87a7c0654d354730ed51cccf957e13e5ed6843130eddde3d4bb6e8ca6",
+          "review_record_sha256": "2af52cf67b5bf4d0f174eeec4f23b6884ed1d46db9bb11a96a1e319c918a33b4",
+          "source_group": "b15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0027"
+    },
+    {
+      "candidate_id": "b15_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000163.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156004,
+        "sha256": "aba8f7b5a18af7e2af83b627fa606b2aaf91fddda0463e333ae9be24cd02e5e2",
+        "git_blob_sha1": "b10811ce3f658457c9cda189ac6eb3989847d541"
+      },
+      "after": {
+        "path": "after/b15_005_8_frame_000163_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2245391,
+        "sha256": "169b4dc55c4e77eda1f892018ea465eef4e7543cadf3f7f6853cb57d54fd6a73",
+        "git_blob_sha1": "3249fd131e1fead901cd59ea440467a254e5791b"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "中央直行车道右侧分隔实线向近景延伸，连接原虚线段成为连续实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧实线延伸明确，左侧仍为虚实衔接，原箭头与交通灯基本保持；纹理及远景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "右侧实线延伸明确，左侧仍为虚实衔接，原箭头与交通灯基本保持；纹理及远景细节漂移。",
+          "source_sha256": "aba8f7b5a18af7e2af83b627fa606b2aaf91fddda0463e333ae9be24cd02e5e2",
+          "generated_sha256": "169b4dc55c4e77eda1f892018ea465eef4e7543cadf3f7f6853cb57d54fd6a73",
+          "review_record_sha256": "38bdc7c6421d52f6316963c49ef710f2be83b266427d5cadc4ab2948fa48acf5",
+          "source_group": "b15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0028"
+    },
+    {
+      "candidate_id": "a15_001",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000103.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130620,
+        "sha256": "315beb9786bc892666b840210d296059dfb2876c338c13a2ec660653d765cb89",
+        "git_blob_sha1": "c8ce5367f2c8c7b6dbda6ed8d4787add598a0a11"
+      },
+      "after": {
+        "path": "after/a15_001_2_frame_000103_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2029514,
+        "sha256": "d4726fc425f261f0352796732cd9b10f74c15311fc6fe33d3da5b702c3239a07",
+        "git_blob_sha1": "f59ff93c91b3a7f9e3d806b8fdfb41005599f2a4"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右上方横杆上限速40旁的禁止停车圆形标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标禁停牌消失，限速40、机动车标志与红灯保留，主要场景一致。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标禁停牌消失，限速40、机动车标志与红灯保留，主要场景一致。",
+          "source_sha256": "315beb9786bc892666b840210d296059dfb2876c338c13a2ec660653d765cb89",
+          "generated_sha256": "d4726fc425f261f0352796732cd9b10f74c15311fc6fe33d3da5b702c3239a07",
+          "review_record_sha256": "4172b50e68996befd212913724b7185e171607613e400b8460745898b596a124",
+          "source_group": "a15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0029"
+    },
+    {
+      "candidate_id": "a15_002",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000106.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130292,
+        "sha256": "9b6a564ef1868aafe89c86e7695ae71f006149911079d2547b17b323587e29d4",
+        "git_blob_sha1": "39d3eab3297cbf31f76a04eb27b0577d33f85ed4"
+      },
+      "after": {
+        "path": "after/a15_002_2_frame_000106_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2134652,
+        "sha256": "51241ab5d34d15dff9cd0ca932535b33555bd6dbfd8e937c35c3db6bacc69a2e",
+        "git_blob_sha1": "f6374c473378d1cfb403ba8223f32463da1bd825"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将右侧两个直行箭头之间的白色车道分界虚线改为连续实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标线型变化清楚，原箭头、双黄线及红灯保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标线型变化清楚，原箭头、双黄线及红灯保留。",
+          "source_sha256": "9b6a564ef1868aafe89c86e7695ae71f006149911079d2547b17b323587e29d4",
+          "generated_sha256": "51241ab5d34d15dff9cd0ca932535b33555bd6dbfd8e937c35c3db6bacc69a2e",
+          "review_record_sha256": "50540f9cbda8e40e6fd1c5f2e044bdca5417a61bd3a5219f36b0f53bc6b1c9c1",
+          "source_group": "a15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0030"
+    },
+    {
+      "candidate_id": "a15_003",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000067.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 151197,
+        "sha256": "79d73d74595d93c85a9588c5a3845277a2d3f5562551bda49c0aab61ab422a7c",
+        "git_blob_sha1": "8c6d44d7a01d20ee6d1c90669257b65577430283"
+      },
+      "after": {
+        "path": "after/a15_003_3_frame_000067_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2261502,
+        "sha256": "c3c5f92d00f01e4adfd345c8498a78c9defff3ffe7ff186f20bb023f94142b37",
+        "git_blob_sha1": "4031c848b8c9b15e08bd102e6103215ff320b343"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "将右侧近处蓝色人行横道标志沿原立杆上移。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "标志明显上移，原有道路箭头、信号状态、车辆及建筑主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "标志明显上移，原有道路箭头、信号状态、车辆及建筑主体保留。",
+          "source_sha256": "79d73d74595d93c85a9588c5a3845277a2d3f5562551bda49c0aab61ab422a7c",
+          "generated_sha256": "c3c5f92d00f01e4adfd345c8498a78c9defff3ffe7ff186f20bb023f94142b37",
+          "review_record_sha256": "6e8af1d0d46a88b48ec8b4b25c30e04ceaad099eda79aecf25472173dda059f2",
+          "source_group": "a15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0031"
+    },
+    {
+      "candidate_id": "a15_005",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000127.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 181906,
+        "sha256": "225f62b60474c37d048d99b9195effd69388123875584e2cdc040923d24dd26f",
+        "git_blob_sha1": "d9e576ae4aea3703d1232b26ac65a54253b69a18"
+      },
+      "after": {
+        "path": "after/a15_005_1_frame_000127_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2553593,
+        "sha256": "dba5f6cd3a4a4bba08bc0d41439563e0b9267251ee19d5f050ba7c5657f50723",
+        "git_blob_sha1": "23315e3541fe0339984127a52e81c9ddee3c2655"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处本车道白色直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，限速30及禁停标志、道路轮廓、车辆基本保留；细节清晰化。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头消失，限速30及禁停标志、道路轮廓、车辆基本保留；细节清晰化。",
+          "source_sha256": "225f62b60474c37d048d99b9195effd69388123875584e2cdc040923d24dd26f",
+          "generated_sha256": "dba5f6cd3a4a4bba08bc0d41439563e0b9267251ee19d5f050ba7c5657f50723",
+          "review_record_sha256": "541ab560ba869988848eb23127002ecb6762383bff803087e79e5907133af536",
+          "source_group": "a15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0032"
+    },
+    {
+      "candidate_id": "c14_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000061.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160036,
+        "sha256": "bba8691f9b3a3622b03cf9d8ed049b2e04bc4d4947c54d68932a465ad0b9c4cb",
+        "git_blob_sha1": "7bddad295143cae3440d57776d6ca641ed957871"
+      },
+      "after": {
+        "path": "after/c14_001_11_frame_000061_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2266471,
+        "sha256": "71322617903987357378f3cd75fa65aa8fdfa3d6c8173606d1238f87405cf0c5",
+        "git_blob_sha1": "8c3d0f23df2c4d2d34b0d5c9402443f9f7b268a1"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "左侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+          "source_sha256": "bba8691f9b3a3622b03cf9d8ed049b2e04bc4d4947c54d68932a465ad0b9c4cb",
+          "generated_sha256": "71322617903987357378f3cd75fa65aa8fdfa3d6c8173606d1238f87405cf0c5",
+          "review_record_sha256": "783c42d7ff012ac9ae71978211f2c770aeac3acb9a6653d09a3fb6964bf243a1",
+          "source_group": "c14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0033"
+    },
+    {
+      "candidate_id": "c14_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000062.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 162855,
+        "sha256": "4e60776db0d79f6af5c73071d831d9aad5262aa2279c62db16e5f67f4430c82f",
+        "git_blob_sha1": "ec3b83f1add7d356631f869fdf9e66017d5bbfcb"
+      },
+      "after": {
+        "path": "after/c14_002_11_frame_000062_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2277797,
+        "sha256": "b412a0f241bfadef6b9f7677d03cc2370cf52d8ca21f676ea91978b973f6fdf2",
+        "git_blob_sha1": "2c0888b69297edf9a4a0db9fa7dc56460382be5c"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "右侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+          "source_sha256": "4e60776db0d79f6af5c73071d831d9aad5262aa2279c62db16e5f67f4430c82f",
+          "generated_sha256": "b412a0f241bfadef6b9f7677d03cc2370cf52d8ca21f676ea91978b973f6fdf2",
+          "review_record_sha256": "8c6b17adcd5caf84c1c93fbf556b101c4b929ea508faf49b6b4207a5a512889a",
+          "source_group": "c14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0034"
+    },
+    {
+      "candidate_id": "c14_003",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000063.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160130,
+        "sha256": "dc4e0d9f5f28e5b19a75e722dcf173fa7e0672402ceba43ebb3bf42fa4eee479",
+        "git_blob_sha1": "5b48cd8635b96bd0cc1331bbb5f2334afe829479"
+      },
+      "after": {
+        "path": "after/c14_003_11_frame_000063_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2359341,
+        "sha256": "0d0ec3d92ce20d42b417d9560d605f8c43de0db01ef9cea3f2e949cc393eb12e",
+        "git_blob_sha1": "16be334cb67d43fc87f71e7fd7e04bd49c69fbd8"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "右侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+          "source_sha256": "dc4e0d9f5f28e5b19a75e722dcf173fa7e0672402ceba43ebb3bf42fa4eee479",
+          "generated_sha256": "0d0ec3d92ce20d42b417d9560d605f8c43de0db01ef9cea3f2e949cc393eb12e",
+          "review_record_sha256": "993fecc6626ae2e465ad74df62451491916d5ea25e113e116f0eabc453fe526a",
+          "source_group": "c14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0035"
+    },
+    {
+      "candidate_id": "c14_004",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000064.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164563,
+        "sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+        "git_blob_sha1": "c97a54a2ed5b02a7107ee61aa27f2a5583354ca4"
+      },
+      "after": {
+        "path": "after/c14_004_11_frame_000064_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2449360,
+        "sha256": "aeead2fb85a5ceddcbf7cbc3d257740bb3afafff6d2e7efbcea9731b27222998",
+        "git_blob_sha1": "c04c914ce180641a371e33c12d6076c5b115dae1"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "中间车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+          "source_sha256": "e5cc32af8f429413a55013436e18ee2b290e5eeba63cce752c22f1306a64b06f",
+          "generated_sha256": "aeead2fb85a5ceddcbf7cbc3d257740bb3afafff6d2e7efbcea9731b27222998",
+          "review_record_sha256": "ab5f1b2e280d0eef3c8173cfb89701d7077465369182657892f790bded35310b",
+          "source_group": "c14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0036"
+    },
+    {
+      "candidate_id": "c14_005",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000065.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167422,
+        "sha256": "a12b1918b85375efe72fa4bbd8df30eafb5978d878ea9fd77c1303c89cf893f8",
+        "git_blob_sha1": "1ad09205af73bd96146f20c1786fd72d5826f834"
+      },
+      "after": {
+        "path": "after/c14_005_11_frame_000065_add.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2481439,
+        "sha256": "9502c00af7d35acae551affba7e4349dab10e05f99ce4de7e2c3e925e83ea208",
+        "git_blob_sha1": "b34cbd38c7a853699a3032cafe7b074d137c86d8"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "ground_arrow",
+          "description_zh": "左侧车道近景新增重复直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头与已有车道直行方向一致，原主要箭头、道路及场景基本保持。",
+          "source_sha256": "a12b1918b85375efe72fa4bbd8df30eafb5978d878ea9fd77c1303c89cf893f8",
+          "generated_sha256": "9502c00af7d35acae551affba7e4349dab10e05f99ce4de7e2c3e925e83ea208",
+          "review_record_sha256": "bbaaa7f307add690df07dc1e1012cf2e8b385e8077346498016a177aac37fec5",
+          "source_group": "c14"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0037"
+    },
+    {
+      "candidate_id": "d15_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134991,
+        "sha256": "46bdd322861b5a928b2b97e2de24a55011510bb18b54f2672a80f0a6dcb678c8",
+        "git_blob_sha1": "18c95f3815f5665247003ce5fc3883585b824715"
+      },
+      "after": {
+        "path": "after/d15_001__15_frame_000168__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2181112,
+        "sha256": "0d3b816f4cba3216cbb83de419872e27a155e5e142f0c3fd3c3c175e7595906a",
+        "git_blob_sha1": "b49e7bd11bb69ba7380d0a0cf0f75d50ed68e4cb"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "悬臂右侧三灯头沿横臂向右移近竖杆，保持灯态。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "46bdd322861b5a928b2b97e2de24a55011510bb18b54f2672a80f0a6dcb678c8",
+          "generated_sha256": "0d3b816f4cba3216cbb83de419872e27a155e5e142f0c3fd3c3c175e7595906a",
+          "review_record_sha256": "0ca0cef726c91cafaa7d453a155f929d5d05882c979e569711b2a196f0c2bdd3",
+          "source_group": "d15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0038"
+    },
+    {
+      "candidate_id": "d15_002",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000172.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132532,
+        "sha256": "15d89d9c18e61cfe711044e3f0e4af7c731c5ad280268ee17d34ffc3faa308a7",
+        "git_blob_sha1": "a5ab0d40c7e1cb9a06053ab677301aa98e0e263c"
+      },
+      "after": {
+        "path": "after/d15_002__15_frame_000172__modify_traffic_signal_head.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2131797,
+        "sha256": "61c64ff91cd1cddf1fd6bd42d0ee40557920f34998c9ad2a38a7a6facab72bb7",
+        "git_blob_sha1": "06efceb20ec6ecd823429afe063a65c851512692"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_signal_head",
+          "description_zh": "悬臂右侧三灯头沿横臂向右移近竖杆，保持灯态。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "15d89d9c18e61cfe711044e3f0e4af7c731c5ad280268ee17d34ffc3faa308a7",
+          "generated_sha256": "61c64ff91cd1cddf1fd6bd42d0ee40557920f34998c9ad2a38a7a6facab72bb7",
+          "review_record_sha256": "14abfafd51403dc4ea1235d8db688297236add1419d13ec00fbf7f3979f6e82f",
+          "source_group": "d15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0039"
+    },
+    {
+      "candidate_id": "d15_003",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 151952,
+        "sha256": "64ea4bc4d8e30bc3260ad41810531ca44bf2c056c39b42034e3de303a2e8a876",
+        "git_blob_sha1": "bf10ba825f842a7eb7c9764d02f7eeae4846f29d"
+      },
+      "after": {
+        "path": "after/d15_003__16_frame_000162__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2207056,
+        "sha256": "3aa61b77327758f41401fcb9f729433119bf283618c90318cfd6b184150b6d7c",
+        "git_blob_sha1": "d6db7b04619d52dd15378401fcf7afd942c95627"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口斑马线右侧绿化交通岛新增行人过街标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "64ea4bc4d8e30bc3260ad41810531ca44bf2c056c39b42034e3de303a2e8a876",
+          "generated_sha256": "3aa61b77327758f41401fcb9f729433119bf283618c90318cfd6b184150b6d7c",
+          "review_record_sha256": "35a7370d81f43b1fc12462084d46dde521d2c030343a84bf32e8daabbbd1ed77",
+          "source_group": "d15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0040"
+    },
+    {
+      "candidate_id": "d15_004",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 162501,
+        "sha256": "ebf0ddd9f4c1f4bc853444f34bff50080dae6289b6dbb76d601b33594218ebd8",
+        "git_blob_sha1": "5ab47c998775b55dc3354ee5cdd0d3fb56522163"
+      },
+      "after": {
+        "path": "after/d15_004__16_frame_000164__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2264534,
+        "sha256": "599157d8556bbc0da571d032619078375dce39def2b5720f7b333857b26d5060",
+        "git_blob_sha1": "ffab483ac1342b2b8d3665c92b541f512078c625"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口斑马线右侧绿化交通岛新增行人过街标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "ebf0ddd9f4c1f4bc853444f34bff50080dae6289b6dbb76d601b33594218ebd8",
+          "generated_sha256": "599157d8556bbc0da571d032619078375dce39def2b5720f7b333857b26d5060",
+          "review_record_sha256": "aee311b6e73ab026c098bc86c885f2085e1543359bd09c488785ca7d4c70ffb4",
+          "source_group": "d15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0041"
+    },
+    {
+      "candidate_id": "d15_005",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157217,
+        "sha256": "c4ceceed8e7af69e50ee1264ca36d27dcc57996f5e2bdc2decd97f4186d43bf2",
+        "git_blob_sha1": "c8f5ff932dace4e6ab4d4dd1ed79073737b9639f"
+      },
+      "after": {
+        "path": "after/d15_005__16_frame_000165__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2253737,
+        "sha256": "d653317fbeb33f652a2b1dbefcf6d007adf8a529205413754e9d4ffaaf574e7e",
+        "git_blob_sha1": "79d09dc9feb7fea952ddd5dc6754db0166f1245a"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口斑马线右侧绿化交通岛新增行人过街标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "c4ceceed8e7af69e50ee1264ca36d27dcc57996f5e2bdc2decd97f4186d43bf2",
+          "generated_sha256": "d653317fbeb33f652a2b1dbefcf6d007adf8a529205413754e9d4ffaaf574e7e",
+          "review_record_sha256": "58ced9599f2cf88dbb992779bdcf25e61e9de3d33a6a22311bbaa2def5372495",
+          "source_group": "d15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0042"
+    },
+    {
+      "candidate_id": "b16_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000018.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167405,
+        "sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+        "git_blob_sha1": "c9ddcfe4a81522811d1f5f0af68568cdf801e46b"
+      },
+      "after": {
+        "path": "after/b16_001_7_frame_000018_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2559479,
+        "sha256": "86ad81e123de0adcfed449f0004bc3506e2cfe6b470b078f936bad353a9b7f8e",
+        "git_blob_sha1": "21eb202b2a0f67781eb2283982b4565181717c9b"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "左侧蓝色掉头标志牌面顺时针倾斜约25度，支杆保持直立。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "倾斜明显，其他道路箭头及右侧无障碍标志保持；纹理锐度漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "倾斜明显，其他道路箭头及右侧无障碍标志保持；纹理锐度漂移。",
+          "source_sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+          "generated_sha256": "86ad81e123de0adcfed449f0004bc3506e2cfe6b470b078f936bad353a9b7f8e",
+          "review_record_sha256": "c653dda378e600b165b790cf8049c019bdec39883d5e865a741db4a1c1fda2b9",
+          "source_group": "b16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0043"
+    },
+    {
+      "candidate_id": "b16_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 147074,
+        "sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+        "git_blob_sha1": "95829f21c58deeb4772247f24eb0e2c739563014"
+      },
+      "after": {
+        "path": "after/b16_002_8_frame_000162_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2229584,
+        "sha256": "efaf9c3c749a72300ac831f4ca9efe2399a6f2160254f5c6179808eb3e7bc018",
+        "git_blob_sha1": "e7d3b6961b0419f927b7be59697cbf8023a37e29"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，其他箭头及信号保持；背景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，其他箭头及信号保持；背景细节漂移。",
+          "source_sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+          "generated_sha256": "efaf9c3c749a72300ac831f4ca9efe2399a6f2160254f5c6179808eb3e7bc018",
+          "review_record_sha256": "94c33df31533c8653bb671935f1da1d1e8ef5cf83bf21972a35af696ebaf71ea",
+          "source_group": "b16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0044"
+    },
+    {
+      "candidate_id": "b16_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000077.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160595,
+        "sha256": "3a1ee28897ca07fba51873809fc61f561e417c86f88a99c2427ccfccb3a70ddf",
+        "git_blob_sha1": "86bc1d01fffa100d86120741302a701a471cfd2c"
+      },
+      "after": {
+        "path": "after/b16_003_6_frame_000077_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2294718,
+        "sha256": "768746353fdb251fba13dbfdf35494b553f58d3fb1a64e15aa6f542490cd1d50",
+        "git_blob_sha1": "4b76839b812f3ab2916c3730f149dda48ffed2c1"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道停止线前白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，左右箭头与右侧无障碍标志保持；纹理及车辆细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，左右箭头与右侧无障碍标志保持；纹理及车辆细节漂移。",
+          "source_sha256": "3a1ee28897ca07fba51873809fc61f561e417c86f88a99c2427ccfccb3a70ddf",
+          "generated_sha256": "768746353fdb251fba13dbfdf35494b553f58d3fb1a64e15aa6f542490cd1d50",
+          "review_record_sha256": "bcad1601464feedc1b380dbf921b6059cf1cfac694c4c27bbaab88e4bd845eaf",
+          "source_group": "b16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0045"
+    },
+    {
+      "candidate_id": "b16_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000017.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174538,
+        "sha256": "a4d98240cf870599222e418c6b8ac73ec026759e328829861e54380e298bbbc0",
+        "git_blob_sha1": "436374fc2a855644e47f2eb80d8a52a53d548e2c"
+      },
+      "after": {
+        "path": "after/b16_004_7_frame_000017_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2476568,
+        "sha256": "3e10da76edefb2e1792c9c0a2efd4a61b42677b5979f017012e01ecbf1c9f786",
+        "git_blob_sha1": "0de5682ff4652b0b2791371a29997dfb27e49d17"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除左侧隔离岛蓝色掉头标志牌面，保留原杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "牌面消失清楚，右侧蓝牌和让行牌、车道箭头保持；远景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "牌面消失清楚，右侧蓝牌和让行牌、车道箭头保持；远景细节漂移。",
+          "source_sha256": "a4d98240cf870599222e418c6b8ac73ec026759e328829861e54380e298bbbc0",
+          "generated_sha256": "3e10da76edefb2e1792c9c0a2efd4a61b42677b5979f017012e01ecbf1c9f786",
+          "review_record_sha256": "5d1fed8d37822d32378557acfdcaf23e517bf9db0458d1149b787ccaba6ab662",
+          "source_group": "b16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0046"
+    },
+    {
+      "candidate_id": "a16_003",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000069.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 150624,
+        "sha256": "d27bee555b7cc5a281e75f291f8fc35b9e8119d381596d3b7e999920c7c871aa",
+        "git_blob_sha1": "a25e70bb1964bad9db0aec602ed4d668b60241c1"
+      },
+      "after": {
+        "path": "after/a16_003_3_frame_000069_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2222137,
+        "sha256": "7522c83ba46982d17263d56326b7356490fac5805794baee082fe6c89e8b87c4",
+        "git_blob_sha1": "983557bbd8306f5586036d4cf41b68f6362a2e7e"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧近处人行横道蓝色标志，保留立杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标牌消失，原箭头、停止线、远处方形横道牌和信号状态保留，主体一致。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标牌消失，原箭头、停止线、远处方形横道牌和信号状态保留，主体一致。",
+          "source_sha256": "d27bee555b7cc5a281e75f291f8fc35b9e8119d381596d3b7e999920c7c871aa",
+          "generated_sha256": "7522c83ba46982d17263d56326b7356490fac5805794baee082fe6c89e8b87c4",
+          "review_record_sha256": "1cbc875a3da1f675dc5529b06a888a674073fd6b02c867e8b8b83ac5ed86dd4e",
+          "source_group": "a16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0047"
+    },
+    {
+      "candidate_id": "a16_005",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000128.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 180810,
+        "sha256": "7ee363b9f1dfd101796a808cb163efdf324e5a80aaea2f0ea9771b7245a3bcf5",
+        "git_blob_sha1": "a5760258f5e956626b9ba9854ef9aca951e9def6"
+      },
+      "after": {
+        "path": "after/a16_005_1_frame_000128_delete.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2585101,
+        "sha256": "48bcdeb886eebd1f06dbd4d693bff708c572dc39f8b8527b14cb9eda9e7af291",
+        "git_blob_sha1": "c4c8edc5f37b7c372faf0504c3c290101dd29d04"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处本车道白色直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，对向箭头、限速30及禁停与机动车标志、车辆主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头消失，对向箭头、限速30及禁停与机动车标志、车辆主体保留。",
+          "source_sha256": "7ee363b9f1dfd101796a808cb163efdf324e5a80aaea2f0ea9771b7245a3bcf5",
+          "generated_sha256": "48bcdeb886eebd1f06dbd4d693bff708c572dc39f8b8527b14cb9eda9e7af291",
+          "review_record_sha256": "91caba038d7bc7f3451e04fa5b92672aa65fbdb6d146b8d389f23fc23d4c6971",
+          "source_group": "a16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0048"
+    },
+    {
+      "candidate_id": "c15_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000133.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164105,
+        "sha256": "91c489106a8f2902a328b4374640cc83a2676ce20a77a677e14dc48496d2ca06",
+        "git_blob_sha1": "36a7ad5a732a7703138c91144ed5b95fa5a939f9"
+      },
+      "after": {
+        "path": "after/c15_002_11_frame_000133_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2590807,
+        "sha256": "c13735ef3a3ec89f44ec16ddc1450a1a35d0124cebf7a2fcbc41665f71af604f",
+        "git_blob_sha1": "b37d470991ef25897bcbaa14b193ea6a375b5087"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除中央车道的直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头消失，两侧箭头及主要道路结构保留。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央箭头消失，两侧箭头及主要道路结构保留。",
+          "source_sha256": "91c489106a8f2902a328b4374640cc83a2676ce20a77a677e14dc48496d2ca06",
+          "generated_sha256": "c13735ef3a3ec89f44ec16ddc1450a1a35d0124cebf7a2fcbc41665f71af604f",
+          "review_record_sha256": "d3ac1b5e5ac265112f9b7ffc2079e9706b37cf7fb789e7fb3ce137e1de07b7d7",
+          "source_group": "c15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0049"
+    },
+    {
+      "candidate_id": "c15_003",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000143.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 177129,
+        "sha256": "0c37ca47ed47377a99930b7b64c4cbd9298f28a2ed22a0c6199d1f63322060e8",
+        "git_blob_sha1": "98fa60314ee941d3a560f6325b1238ce8bfdb59f"
+      },
+      "after": {
+        "path": "after/c15_003_11_frame_000143_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2622249,
+        "sha256": "520e3a1b8d9668e5be57af0c645182cc064ba9fca09bf731e3214e35bf2b51b7",
+        "git_blob_sha1": "e1b28ecb6e9cb0d998691e98a9d707574b5af1f8"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "direction_sign",
+          "description_zh": "删除前方信号灯下方的蓝色指路标牌。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "前方蓝色牌面被移除，主要箭头、信号灯和两侧无障碍标志保留。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "前方蓝色牌面被移除，主要箭头、信号灯和两侧无障碍标志保留。",
+          "source_sha256": "0c37ca47ed47377a99930b7b64c4cbd9298f28a2ed22a0c6199d1f63322060e8",
+          "generated_sha256": "520e3a1b8d9668e5be57af0c645182cc064ba9fca09bf731e3214e35bf2b51b7",
+          "review_record_sha256": "63014bbe37ecaf7b3df04ad587f49fe54a714a6ae2b98693b28bcaeed36d16d5",
+          "source_group": "c15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0050"
+    },
+    {
+      "candidate_id": "c15_004",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128363,
+        "sha256": "6b933da9bfade162bda0bc57e66e280460060214901bfbc5ae14d10dfb0321f3",
+        "git_blob_sha1": "65bb8411f6f24144649ebfbe34a9893682a6b8da"
+      },
+      "after": {
+        "path": "after/c15_004_12_frame_000166_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1972578,
+        "sha256": "705d466502a463ef426864dd62eab5951864a89999c9fd2e0e4755e95319233d",
+        "git_blob_sha1": "632237ff08a0c787dcca9e1f55b15801a84cd04d"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_line",
+          "description_zh": "将前方同向两车道之间的白色虚线改为白色实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定分隔线连为实线，双黄线及直行转向组合箭头保持。",
+        "limitations_zh": [
+          "存在全图锐化与纹理漂移，远处牌文等小细节重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定分隔线连为实线，双黄线及直行转向组合箭头保持。",
+          "source_sha256": "6b933da9bfade162bda0bc57e66e280460060214901bfbc5ae14d10dfb0321f3",
+          "generated_sha256": "705d466502a463ef426864dd62eab5951864a89999c9fd2e0e4755e95319233d",
+          "review_record_sha256": "e68bfb01a41681a31990823607682b4b88949b3b15fce7d032b2a726265b3e9c",
+          "source_group": "c15"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0051"
+    },
+    {
+      "candidate_id": "c16_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000066.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160357,
+        "sha256": "7070df280ca4972eba2157e30fd54407962cd9e2492ba0043f64d6c655bf5989",
+        "git_blob_sha1": "3695980b8c711e9822edaeb2982ce1d14a544ea4"
+      },
+      "after": {
+        "path": "after/c16_001_11_frame_000066_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2579517,
+        "sha256": "cdb9333cb7bbc70ebcd248a15f72a884f128b3a1b056a9303fe36c8b5c70cb48",
+        "git_blob_sha1": "fdeda406130f53e86254212ca37d49045f0f6848"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除左侧机动车道的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左侧箭头移除，中间及右侧箭头和车道线保留。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "左侧箭头移除，中间及右侧箭头和车道线保留。",
+          "source_sha256": "7070df280ca4972eba2157e30fd54407962cd9e2492ba0043f64d6c655bf5989",
+          "generated_sha256": "cdb9333cb7bbc70ebcd248a15f72a884f128b3a1b056a9303fe36c8b5c70cb48",
+          "review_record_sha256": "818f644c9ce75b0817e6f69df25fb54dbf1997f6f1e80e2df5d3b60cdcbf744b",
+          "source_group": "c16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0052"
+    },
+    {
+      "candidate_id": "c16_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000067.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164228,
+        "sha256": "dce42c734844a9b86b6af9e37ddb099c003d24ada50e68e1d9935bd7455eae4a",
+        "git_blob_sha1": "84897112d8d8036dfd6973f6ff273e85b8bf2653"
+      },
+      "after": {
+        "path": "after/c16_002_11_frame_000067_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2509473,
+        "sha256": "14c64472cf58521c57ca8d2b9210dc866b0a10df6ae77624669eee26fa51582e",
+        "git_blob_sha1": "29889471f6b4b54aa4a1ba826861a334148f3c93"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除右侧机动车道的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧指定箭头移除，左中箭头及分隔线保留。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "右侧指定箭头移除，左中箭头及分隔线保留。",
+          "source_sha256": "dce42c734844a9b86b6af9e37ddb099c003d24ada50e68e1d9935bd7455eae4a",
+          "generated_sha256": "14c64472cf58521c57ca8d2b9210dc866b0a10df6ae77624669eee26fa51582e",
+          "review_record_sha256": "d5f5ac69f76e8e428234c940ebf2113f9efd5696f3216ba7d3e6300628a0c9ee",
+          "source_group": "c16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0053"
+    },
+    {
+      "candidate_id": "c16_003",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129463,
+        "sha256": "657d75f58f382672f7fc1b135238328313e4dca8d46daf52fca28e1881b30bed",
+        "git_blob_sha1": "526f2023552088f981e1f801ee2c53127056d6f9"
+      },
+      "after": {
+        "path": "after/c16_003_12_frame_000164_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2104282,
+        "sha256": "e25ee86247f19d5cbeaa1babb2146be2be79d3e32681f36bd74c2b0229cc7c76",
+        "git_blob_sha1": "4307702e94d3ceaa2ede5d10e547bbad5a5c7a94"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_line",
+          "description_zh": "将近景同向两车道之间的白色虚线改为白色实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "线型变化清楚，组合箭头和双黄线保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "线型变化清楚，组合箭头和双黄线保持。",
+          "source_sha256": "657d75f58f382672f7fc1b135238328313e4dca8d46daf52fca28e1881b30bed",
+          "generated_sha256": "e25ee86247f19d5cbeaa1babb2146be2be79d3e32681f36bd74c2b0229cc7c76",
+          "review_record_sha256": "43f2b470c3b545679fde0c9a4434d1799dcb3fe145698c98f9e2ef128d6c5e2d",
+          "source_group": "c16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0054"
+    },
+    {
+      "candidate_id": "c16_004",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 131491,
+        "sha256": "574b39dccb0a4cd64e580da6371e5ce1a876a7b34b3004b879eb55744a83e576",
+        "git_blob_sha1": "3813c1c2ebfdd3f438b518122031089f7c880085"
+      },
+      "after": {
+        "path": "after/c16_004_12_frame_000165_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2155909,
+        "sha256": "d6df5a71983aafcc2ecc8f9fe8943c8a6ef84b9401c6e469873206e02547e19b",
+        "git_blob_sha1": "bd8e6b746ca9d29e22908f3b2b8c3c93c242fd3b"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_line",
+          "description_zh": "将近景同向两车道之间的白色虚线改为白色实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定虚线连接为实线，双黄线及组合箭头保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定虚线连接为实线，双黄线及组合箭头保持。",
+          "source_sha256": "574b39dccb0a4cd64e580da6371e5ce1a876a7b34b3004b879eb55744a83e576",
+          "generated_sha256": "d6df5a71983aafcc2ecc8f9fe8943c8a6ef84b9401c6e469873206e02547e19b",
+          "review_record_sha256": "0f5b9d515a4250c2de4c51f1a044051ccc479ddee4f08da767d48c7d15a5b448",
+          "source_group": "c16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0055"
+    },
+    {
+      "candidate_id": "c16_005",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000094.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 187566,
+        "sha256": "e5bf6f3a84c3d88e871d8f5b9a176b797e488e41b9def35647ae979196557745",
+        "git_blob_sha1": "a76839292dabaa6bebc7f99d653ec59b5457eb1f"
+      },
+      "after": {
+        "path": "after/c16_005_11_frame_000094_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2736821,
+        "sha256": "2f0b3f5a3e2b672323409afd075f8a8996d68082faa96cc6b693715be959d623",
+        "git_blob_sha1": "6a40ada18c8d9ba56d06784547ade08e5f8ee8f8"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除斑马线前左侧车道的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，中右箭头及绿灯保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头消失，中右箭头及绿灯保持。",
+          "source_sha256": "e5bf6f3a84c3d88e871d8f5b9a176b797e488e41b9def35647ae979196557745",
+          "generated_sha256": "2f0b3f5a3e2b672323409afd075f8a8996d68082faa96cc6b693715be959d623",
+          "review_record_sha256": "9c2b7fb601173453cb17f5ec8b5198706ab6706b6a5801ef26efefe4509f5525",
+          "source_group": "c16"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0056"
+    },
+    {
+      "candidate_id": "d17_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000135.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 127083,
+        "sha256": "3d3aea1465404ded81e5aa2518970b6c2740db53bb1f40eb33b7a11ff9285026",
+        "git_blob_sha1": "99882d04a4289843552a571dafe38afd9fc630a7"
+      },
+      "after": {
+        "path": "after/d17_001__15_frame_000135__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2108140,
+        "sha256": "84181530ab481da26124b9dd775b6119cd6063da586c769b121d526b1bc69860",
+        "git_blob_sha1": "3dfbe608eb8c09ba804fd902600b5d32cfce3ee9"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口前方右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "3d3aea1465404ded81e5aa2518970b6c2740db53bb1f40eb33b7a11ff9285026",
+          "generated_sha256": "84181530ab481da26124b9dd775b6119cd6063da586c769b121d526b1bc69860",
+          "review_record_sha256": "94ddd566c940533602a1534803d4b1963a6666932b7ba57d70186db8e4316a4b",
+          "source_group": "d17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0057"
+    },
+    {
+      "candidate_id": "d17_002",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000136.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 135381,
+        "sha256": "d8c62ba08483887c55e62268195c22eb528e9e12f84bbc5e14a19e01613b0212",
+        "git_blob_sha1": "74dc127b4c263c05d4f8e7364ad787bbc344da53"
+      },
+      "after": {
+        "path": "after/d17_002__15_frame_000136__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2065229,
+        "sha256": "92880c754ed0b56975199d4fc42612fe6bc0352b05507bb3bed19aa30d853338",
+        "git_blob_sha1": "d4946c5656adba6ce775b5ca5e00087c6229b1e1"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口前方右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "d8c62ba08483887c55e62268195c22eb528e9e12f84bbc5e14a19e01613b0212",
+          "generated_sha256": "92880c754ed0b56975199d4fc42612fe6bc0352b05507bb3bed19aa30d853338",
+          "review_record_sha256": "67cb881fbac58ddb5752016651f1316f2205445c4c606fda6cd909a28b4cccf6",
+          "source_group": "d17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0058"
+    },
+    {
+      "candidate_id": "d17_003",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000137.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132471,
+        "sha256": "70ffba966491184210bd809a0ef8428ecefdc6faa776e40190b6938a6889619d",
+        "git_blob_sha1": "e6aad88595601b67ec0a6c5dbec73ae14ef0665f"
+      },
+      "after": {
+        "path": "after/d17_003__15_frame_000137__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2079326,
+        "sha256": "7db390d0d98e4b31f7fad87d3a56604ccb400dbdd30ed257562a12b211f34dd8",
+        "git_blob_sha1": "f3bc52f02e62f790e60b5fd6f82a22eda7c00494"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口前方右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "70ffba966491184210bd809a0ef8428ecefdc6faa776e40190b6938a6889619d",
+          "generated_sha256": "7db390d0d98e4b31f7fad87d3a56604ccb400dbdd30ed257562a12b211f34dd8",
+          "review_record_sha256": "66a9ceaa33f6d686283c096deb1d144db3f51bb20778afb9016168d4545c86a7",
+          "source_group": "d17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0059"
+    },
+    {
+      "candidate_id": "d17_004",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000138.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 124785,
+        "sha256": "bafb61b27e29e156d15ddcb4a32933208ab30388d96e484a75a4385034a3cd93",
+        "git_blob_sha1": "c40beca1489065bc976fa7f31c72244e2518bb35"
+      },
+      "after": {
+        "path": "after/d17_004__15_frame_000138__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2041209,
+        "sha256": "406a9b3e60f2bc2c632d67b261724b48121c0791bd3695eaa1217e7413919cea",
+        "git_blob_sha1": "e7513e73a9755b75a7414e9bc221609dc5cbb7f2"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口前方右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "bafb61b27e29e156d15ddcb4a32933208ab30388d96e484a75a4385034a3cd93",
+          "generated_sha256": "406a9b3e60f2bc2c632d67b261724b48121c0791bd3695eaa1217e7413919cea",
+          "review_record_sha256": "156883f44d26ae50dbbb21097323e54258e3a68a356388454cbc7e6e72e9435b",
+          "source_group": "d17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0060"
+    },
+    {
+      "candidate_id": "d17_005",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000139.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128851,
+        "sha256": "f0dcd80401375dedbba27b41e6a90587139ddfe4f837569f2e844e0beeb6c7b3",
+        "git_blob_sha1": "db8a040625cb6be9b0eecea677d49cee752914df"
+      },
+      "after": {
+        "path": "after/d17_005__15_frame_000139__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2068306,
+        "sha256": "d27e9b5715a9026958769c658cac5eee556cfcfb9035c379c8c453e4d1538ba3",
+        "git_blob_sha1": "81d5e42b219d3ba938883dd9057d565efb77c519"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口前方右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "f0dcd80401375dedbba27b41e6a90587139ddfe4f837569f2e844e0beeb6c7b3",
+          "generated_sha256": "d27e9b5715a9026958769c658cac5eee556cfcfb9035c379c8c453e4d1538ba3",
+          "review_record_sha256": "77ce678645646c0dbe89b50a84e737bb67ca46fedd1435544bd9d3de62ee5ee4",
+          "source_group": "d17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0061"
+    },
+    {
+      "candidate_id": "b18_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000022.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 166795,
+        "sha256": "38431655753b7419e9c99592e72cdde1e5e7b32850d54b1f6327826555ff8f86",
+        "git_blob_sha1": "1e746c3795f44a9434d1fe90d41084cce4f7f42e"
+      },
+      "after": {
+        "path": "after/b18_001_7_frame_000022_modify.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2314018,
+        "sha256": "055f4978a87e6f6d99f83ea80761fa187638e7f9e87faf67b14db113b7de0ae2",
+        "git_blob_sha1": "ba25b313deede535e756ee4f5128d693097ab2d3"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "traffic_sign",
+          "description_zh": "左侧大型蓝色掉头标志牌面顺时针倾斜约20度，原支杆直立。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "倾斜清楚，其他交通箭头及无障碍标志保持；建筑纹理重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "倾斜清楚，其他交通箭头及无障碍标志保持；建筑纹理重绘。",
+          "source_sha256": "38431655753b7419e9c99592e72cdde1e5e7b32850d54b1f6327826555ff8f86",
+          "generated_sha256": "055f4978a87e6f6d99f83ea80761fa187638e7f9e87faf67b14db113b7de0ae2",
+          "review_record_sha256": "7778bc606e652057d20cfe2241a2d75f478468c2456a7cf724f9e11fb031ea92",
+          "source_group": "b18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0062"
+    },
+    {
+      "candidate_id": "b18_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000080.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 158285,
+        "sha256": "e140c97566cbfd9d6aa8768329a2e0ee1df6d6dced1adbf3841bdeb99948639c",
+        "git_blob_sha1": "8a2ff65013050e5480d255ea57c4e80a19febdbd"
+      },
+      "after": {
+        "path": "after/b18_003_6_frame_000080_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2414139,
+        "sha256": "5fd38f8c8ded78e1aca8b57b461cb598983cbd950e57d6fd2d20341f4d49f7b7",
+        "git_blob_sha1": "e453ed589a3df61eb317fd5880260945cffab9ee"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道停止线前直行箭头，恢复灰色路面。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，其他三枚箭头及红灯保持；纹理、远景和车辆细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，其他三枚箭头及红灯保持；纹理、远景和车辆细节漂移。",
+          "source_sha256": "e140c97566cbfd9d6aa8768329a2e0ee1df6d6dced1adbf3841bdeb99948639c",
+          "generated_sha256": "5fd38f8c8ded78e1aca8b57b461cb598983cbd950e57d6fd2d20341f4d49f7b7",
+          "review_record_sha256": "9a3f2ae6eda194ce5c0b99cb280dd8b185e28dbd9bb117008006aa890eb0e388",
+          "source_group": "b18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0063"
+    },
+    {
+      "candidate_id": "b18_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000018.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167405,
+        "sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+        "git_blob_sha1": "c9ddcfe4a81522811d1f5f0af68568cdf801e46b"
+      },
+      "after": {
+        "path": "after/b18_004_7_frame_000018_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2515165,
+        "sha256": "c5fdcb789843a1dd7b89fc4d339a682dca4e128bb59abf90dc06a858dc670ab8",
+        "git_blob_sha1": "3a2aa517102ee2b0d43f9906b3865718cbac864f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除左侧隔离岛蓝色掉头标志牌面，保留原杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除明确，右侧轮椅牌及其他箭头保持；纹理锐度漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除明确，右侧轮椅牌及其他箭头保持；纹理锐度漂移。",
+          "source_sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+          "generated_sha256": "c5fdcb789843a1dd7b89fc4d339a682dca4e128bb59abf90dc06a858dc670ab8",
+          "review_record_sha256": "8c6bf2586fa6bf3b6448ac5f83cc0af7f2d8ea294beb5af6c496f66420f48c2d",
+          "source_group": "b18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0064"
+    },
+    {
+      "candidate_id": "a18_001",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000093.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 166842,
+        "sha256": "cd725293cf719eb7b8ed9cf8a2163a272c9ec1015134bdd68fa54d74b10de5a9",
+        "git_blob_sha1": "2718f6906e5f967bee9aca6425f5c65ea395adb7"
+      },
+      "after": {
+        "path": "after/a18_001_1_frame_000093_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2613416,
+        "sha256": "da6c68a4d11355d40ddf75ce35e9df6ebc06621c317bbb88ce0507080a470e4f",
+        "git_blob_sha1": "48198670305f2b099cd447f3250b57dee30e9f80"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除中间车道近处白色直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头消失，相邻箭头、道路标线及车辆主体保留；远处细小牌文未逐字核实。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定箭头消失，相邻箭头、道路标线及车辆主体保留；远处细小牌文未逐字核实。",
+          "source_sha256": "cd725293cf719eb7b8ed9cf8a2163a272c9ec1015134bdd68fa54d74b10de5a9",
+          "generated_sha256": "da6c68a4d11355d40ddf75ce35e9df6ebc06621c317bbb88ce0507080a470e4f",
+          "review_record_sha256": "2bf722f098701ded60b4cd42696eede1a435a8ee959e52a1e6f11db67b19836c",
+          "source_group": "a18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0065"
+    },
+    {
+      "candidate_id": "a18_003",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000095.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 179415,
+        "sha256": "b29a6f4d436dc7b2cb10caa40c11383fecdaccf4799bd2ea44b56c5cb526e868",
+        "git_blob_sha1": "e78d4ee11e7cb343bf48f78417a13ceb5e1c2f28"
+      },
+      "after": {
+        "path": "after/a18_003_1_frame_000095_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2767577,
+        "sha256": "ee6c20d2ec77a9b87daff86cedf970736dfe26a35c433054f5684038dd0aeca3",
+        "git_blob_sha1": "da9849692f92e8863638184fec5fcde4b0f55420"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除中间车道近处白色直行导向箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头消失，两侧箭头、黄色行人警告牌和车辆主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定箭头消失，两侧箭头、黄色行人警告牌和车辆主体保留。",
+          "source_sha256": "b29a6f4d436dc7b2cb10caa40c11383fecdaccf4799bd2ea44b56c5cb526e868",
+          "generated_sha256": "ee6c20d2ec77a9b87daff86cedf970736dfe26a35c433054f5684038dd0aeca3",
+          "review_record_sha256": "4f8530e6b96529351bacab6ed25acfd5fae47b937def97486c0440bd926034e9",
+          "source_group": "a18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0066"
+    },
+    {
+      "candidate_id": "a18_004",
+      "source_sequence": "4",
+      "synthetic": true,
+      "before": {
+        "path": "before/4_frame_000081.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142730,
+        "sha256": "d6ca76aa3fa06173f4145200697e13be2f5c362821ecbaf371c98e45c223de86",
+        "git_blob_sha1": "a79989cfcaf69be6e578a802109c534485d4ca04"
+      },
+      "after": {
+        "path": "after/a18_004_4_frame_000081_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2198937,
+        "sha256": "684b14ee6118d373d85f7fe6213c734c4f83f2b71ba0696fd8253ae2eeba72b2",
+        "git_blob_sha1": "82c03c7493296dc79aa9c8a6ed0026b3997c9fb2"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_marking",
+          "description_zh": "将右侧近处白色车道分界虚线改为连续实线，与前段实线衔接。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标线型变化清楚，原直行箭头、双黄线及车辆主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标线型变化清楚，原直行箭头、双黄线及车辆主体保留。",
+          "source_sha256": "d6ca76aa3fa06173f4145200697e13be2f5c362821ecbaf371c98e45c223de86",
+          "generated_sha256": "684b14ee6118d373d85f7fe6213c734c4f83f2b71ba0696fd8253ae2eeba72b2",
+          "review_record_sha256": "604fd38266304e31df8aed097048b6bddfeec55c825ff6079ce38685174a433a",
+          "source_group": "a18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0067"
+    },
+    {
+      "candidate_id": "c17_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000095.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 183256,
+        "sha256": "ced5b0615f7a620464e1867767c6854cf92ac486cc78e57afcb390309e43e089",
+        "git_blob_sha1": "a888810601b7dfa41579f2fa63ed3a6f66660d44"
+      },
+      "after": {
+        "path": "after/c17_001_11_frame_000095_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2492343,
+        "sha256": "67a232baa9f62c037867171ae2bbe9a117e4d15ed8d3f3acb385240fb8264d72",
+        "git_blob_sha1": "7b6244c820e8a222353a7c5ac8568fca03fff6f8"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除中央车道斑马线前直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头删除，左右箭头与绿灯保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央箭头删除，左右箭头与绿灯保持。",
+          "source_sha256": "ced5b0615f7a620464e1867767c6854cf92ac486cc78e57afcb390309e43e089",
+          "generated_sha256": "67a232baa9f62c037867171ae2bbe9a117e4d15ed8d3f3acb385240fb8264d72",
+          "review_record_sha256": "46cedb288d2779f7336b5e3125d63547ec3dcc23937b78b0003e5dfa56dd50be",
+          "source_group": "c17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0068"
+    },
+    {
+      "candidate_id": "c17_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000096.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174521,
+        "sha256": "5fafbf42de3a2f559e38e28738edb3d0bde080e907f38cc2249aa61ed79a00dd",
+        "git_blob_sha1": "3a4423dcbf33d5003f27fe722c0e250ae5f46262"
+      },
+      "after": {
+        "path": "after/c17_002_11_frame_000096_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2489374,
+        "sha256": "78b47f7de9113190ecabd3ddf7174e8def1c72004363248b760fe35ef6ee6b13",
+        "git_blob_sha1": "85f698d5339518ff18f25990db5ba2a0e20ffaa7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除中央车道斑马线前直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头移除，左右箭头与绿灯保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央箭头移除，左右箭头与绿灯保持。",
+          "source_sha256": "5fafbf42de3a2f559e38e28738edb3d0bde080e907f38cc2249aa61ed79a00dd",
+          "generated_sha256": "78b47f7de9113190ecabd3ddf7174e8def1c72004363248b760fe35ef6ee6b13",
+          "review_record_sha256": "8dbfdb4e9a49069b9c38c59f119f6eec79effc91a01d9c9ae6b21d31da9f5c4c",
+          "source_group": "c17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0069"
+    },
+    {
+      "candidate_id": "c17_003",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000177.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 177255,
+        "sha256": "9eafd0b1374f9e5cf519a0ec1f4de2722523af3ec9380ff24f53db16a5afaa5c",
+        "git_blob_sha1": "1d30dec7a6c4739647e8f13894394127fb27b66b"
+      },
+      "after": {
+        "path": "after/c17_003_11_frame_000177_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2945110,
+        "sha256": "d3b573ae5b976fd4b93552c772910e83e8707540edf7083d2ddd5820acc63516",
+        "git_blob_sha1": "3e696008a7dd0f83b2ca674fdef172c54080f2d8"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧现有杆上新增限速40标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增标志清楚，原箭头及红灯保留。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增标志清楚，原箭头及红灯保留。",
+          "source_sha256": "9eafd0b1374f9e5cf519a0ec1f4de2722523af3ec9380ff24f53db16a5afaa5c",
+          "generated_sha256": "d3b573ae5b976fd4b93552c772910e83e8707540edf7083d2ddd5820acc63516",
+          "review_record_sha256": "62253afba54259db997bb2e3f0a74fe7546ca3272f5600a5c92fa80f727c44c5",
+          "source_group": "c17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0070"
+    },
+    {
+      "candidate_id": "c17_004",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000178.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 185449,
+        "sha256": "45cd37f96e274107cb434d82249b1c459ba253414405d5b7d8699a6c125517f2",
+        "git_blob_sha1": "8bb0ef02f9a785a524916e3c018c17bccbff08b2"
+      },
+      "after": {
+        "path": "after/c17_004_11_frame_000178_add.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2669232,
+        "sha256": "ea8adf45a0440b1d9b5e9f6aaa499e6c6fd92f652781964adb6c625d9b756dbc",
+        "git_blob_sha1": "ac70dde5e52271812f21eeca0d5186701549f45f"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧现有杆上新增禁止长时停车标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增单斜杠标志清楚，右转箭头及红灯保留。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增单斜杠标志清楚，右转箭头及红灯保留。",
+          "source_sha256": "45cd37f96e274107cb434d82249b1c459ba253414405d5b7d8699a6c125517f2",
+          "generated_sha256": "ea8adf45a0440b1d9b5e9f6aaa499e6c6fd92f652781964adb6c625d9b756dbc",
+          "review_record_sha256": "6e8b7241646bc784fd4f31e592ca572bd7d7f419a673c3265ff59dee789d0e8b",
+          "source_group": "c17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0071"
+    },
+    {
+      "candidate_id": "c17_005",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000125.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 173783,
+        "sha256": "22bac1232623b80f68fd5f74d01186220068ef11bef6a6014a833c62fea92025",
+        "git_blob_sha1": "75c62fc1a898025470121736aed9d04aa47fd72d"
+      },
+      "after": {
+        "path": "after/c17_005_11_frame_000125_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2621525,
+        "sha256": "140860ef2b98c445e49cc1aa7335ff12a278ddea23f27f963e3456817a0f8e9f",
+        "git_blob_sha1": "55dcffa0548d37e25e02d681a89d18d15fc8d49f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "direction_sign",
+          "description_zh": "删除右上方大型蓝色指路牌，保留支架。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "牌面消失，主要地面箭头保持，支架有重绘。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "牌面消失，主要地面箭头保持，支架有重绘。",
+          "source_sha256": "22bac1232623b80f68fd5f74d01186220068ef11bef6a6014a833c62fea92025",
+          "generated_sha256": "140860ef2b98c445e49cc1aa7335ff12a278ddea23f27f963e3456817a0f8e9f",
+          "review_record_sha256": "ec2864cd568c88c134f5de58ea2bcdf1458d1a9b0ecb4c188b70879052b5d4a6",
+          "source_group": "c17"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0072"
+    },
+    {
+      "candidate_id": "d18_001",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000140.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 135429,
+        "sha256": "9ad9f8d1344cef8c9395b718e81067f1767058485f3b94a494ac20c0615a37cf",
+        "git_blob_sha1": "afe33c20340a675cdb50d09a36603ef8ee64c9c3"
+      },
+      "after": {
+        "path": "after/d18_001__15_frame_000140__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2081350,
+        "sha256": "260e29dbc983b2aff32e2b3f2cc42df71e1055c95b8eab42bfd9872a1dee8c4e",
+        "git_blob_sha1": "b41709b194c33d0ed170f92772af1ddcb2e3cfbb"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "9ad9f8d1344cef8c9395b718e81067f1767058485f3b94a494ac20c0615a37cf",
+          "generated_sha256": "260e29dbc983b2aff32e2b3f2cc42df71e1055c95b8eab42bfd9872a1dee8c4e",
+          "review_record_sha256": "fb9fc16621c0e2745adee0932830efbd6d13c7059dc345d036e8b32a0d355e7d",
+          "source_group": "d18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0073"
+    },
+    {
+      "candidate_id": "d18_002",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000142.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130432,
+        "sha256": "50df6eb1941d9a98440c77da90f141f19843d575206bb8bf4685e227e4525393",
+        "git_blob_sha1": "824001e1c82246886582d10c2dce889f79884948"
+      },
+      "after": {
+        "path": "after/d18_002__15_frame_000142__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2099125,
+        "sha256": "d074310c15d27b5d8380c6ef156b912f33d4feaf0fd2e0b5f1328dd09449650d",
+        "git_blob_sha1": "9f4e1795d4631202a7dcda1779b11bb66e41a8d3"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧人行道新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "50df6eb1941d9a98440c77da90f141f19843d575206bb8bf4685e227e4525393",
+          "generated_sha256": "d074310c15d27b5d8380c6ef156b912f33d4feaf0fd2e0b5f1328dd09449650d",
+          "review_record_sha256": "e444ebac4aeb624d430a5c0b648fe83f3229e91451f184be6dfd931100c8041f",
+          "source_group": "d18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0074"
+    },
+    {
+      "candidate_id": "d18_003",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 151952,
+        "sha256": "64ea4bc4d8e30bc3260ad41810531ca44bf2c056c39b42034e3de303a2e8a876",
+        "git_blob_sha1": "bf10ba825f842a7eb7c9764d02f7eeae4846f29d"
+      },
+      "after": {
+        "path": "after/d18_003__16_frame_000162__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2225314,
+        "sha256": "65fdda5d56a4a46d88706f78638666b86cbe23ce8d7b3ad2171dbad506cc7fab",
+        "git_blob_sha1": "c324f9d9a8d4d97bbc1b9b5f4685a107595b26ae"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "64ea4bc4d8e30bc3260ad41810531ca44bf2c056c39b42034e3de303a2e8a876",
+          "generated_sha256": "65fdda5d56a4a46d88706f78638666b86cbe23ce8d7b3ad2171dbad506cc7fab",
+          "review_record_sha256": "e359aa4c53c4928b3cd3d0a40f5235d7d2be36625fc07aece8af2dd107ed87fc",
+          "source_group": "d18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0075"
+    },
+    {
+      "candidate_id": "d18_004",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000163.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164469,
+        "sha256": "1c1cc9ee64b81b57ec8ad7e478c39c5aad0c40aab2da136df0a54e916ba98fb0",
+        "git_blob_sha1": "3cb1a051820cc6818cc837d27246b0add2983d86"
+      },
+      "after": {
+        "path": "after/d18_004__16_frame_000163__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2396665,
+        "sha256": "b7d8d2b2e8a94f8467aa672e88237deb6e8282ae28fba0f375cc5970bea289ff",
+        "git_blob_sha1": "a402d489bc3ff86999667eec3869be4a80b3afc1"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "1c1cc9ee64b81b57ec8ad7e478c39c5aad0c40aab2da136df0a54e916ba98fb0",
+          "generated_sha256": "b7d8d2b2e8a94f8467aa672e88237deb6e8282ae28fba0f375cc5970bea289ff",
+          "review_record_sha256": "cafbc57f91a21159901f8a19b24c266b35805e2e238cee4c5c87eb090252d870",
+          "source_group": "d18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0076"
+    },
+    {
+      "candidate_id": "d18_005",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157217,
+        "sha256": "c4ceceed8e7af69e50ee1264ca36d27dcc57996f5e2bdc2decd97f4186d43bf2",
+        "git_blob_sha1": "c8f5ff932dace4e6ab4d4dd1ed79073737b9639f"
+      },
+      "after": {
+        "path": "after/d18_005__16_frame_000165__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2424385,
+        "sha256": "5e58dae16b8d14efb08bd81cefdff43bf0beed0ccf78922dac0f5d8b36d769ca",
+        "git_blob_sha1": "0d076ba7d816b62dc57c853318f931e94cb69b46"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "c4ceceed8e7af69e50ee1264ca36d27dcc57996f5e2bdc2decd97f4186d43bf2",
+          "generated_sha256": "5e58dae16b8d14efb08bd81cefdff43bf0beed0ccf78922dac0f5d8b36d769ca",
+          "review_record_sha256": "080c63c5cf0083393b84a6648155f5fa9440581009bf9dc02ebb5242361cb940",
+          "source_group": "d18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0077"
+    },
+    {
+      "candidate_id": "b19_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 161131,
+        "sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+        "git_blob_sha1": "1c4ddd1a6e0350e6834545acb36c2752ef8e222a"
+      },
+      "after": {
+        "path": "after/b19_002_8_frame_000164_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2331182,
+        "sha256": "377fe32e77a11df5eee1e1b0024e72d105f6a58e1ea0b4e52190c4f66bfe04c4",
+        "git_blob_sha1": "fab10ce01a944f2ea0bc66d0317e2e082cc3ec5a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，其他箭头及信号保持；远景及纹理细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，其他箭头及信号保持；远景及纹理细节漂移。",
+          "source_sha256": "2a9548faae64c3b9d2bc18aa42237c1fa0eba554f83b63253320f500969e1e60",
+          "generated_sha256": "377fe32e77a11df5eee1e1b0024e72d105f6a58e1ea0b4e52190c4f66bfe04c4",
+          "review_record_sha256": "03e52bf4f4398199c985b8cfede942c0d90a8204e5f31c9f50cba4d1a2fc1eb7",
+          "source_group": "b19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0078"
+    },
+    {
+      "candidate_id": "b19_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000032.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 176694,
+        "sha256": "3e165aa0809a6dbe4b51f017bc5be036d44ac3276905c204f85896b454d21692",
+        "git_blob_sha1": "78e23d9382ac7e0438ce0f989d05c9dcaa138dee"
+      },
+      "after": {
+        "path": "after/b19_004_7_frame_000032_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2602287,
+        "sha256": "5fb00787f4a95c916eefaf9e713945749c0b4cf02c617caea8f4aaf7416d9f35",
+        "git_blob_sha1": "a3044474fe0877ac7e3b213c80b3fb6aa0419288"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除靠中央隔离岛车道停止线前左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，右侧两个直行箭头保持；远景牌文锐度和纹理漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，右侧两个直行箭头保持；远景牌文锐度和纹理漂移。",
+          "source_sha256": "3e165aa0809a6dbe4b51f017bc5be036d44ac3276905c204f85896b454d21692",
+          "generated_sha256": "5fb00787f4a95c916eefaf9e713945749c0b4cf02c617caea8f4aaf7416d9f35",
+          "review_record_sha256": "aea494d0f77be94be73f459fc5294fa3199f69c370b3507f1796405b91b696f5",
+          "source_group": "b19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0079"
+    },
+    {
+      "candidate_id": "b19_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156781,
+        "sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+        "git_blob_sha1": "e96021d68db5ab9d96ab17dd28857132ffa7dd95"
+      },
+      "after": {
+        "path": "after/b19_005_8_frame_000165_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2181179,
+        "sha256": "bfa170c4144549d6aca4d42cbea9ab096dfd8515eede12d7a01609d281b7aa90",
+        "git_blob_sha1": "ee45d1f0ce3c627ed4385f0eff036ff5ebfa4338"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "road_arrow",
+          "description_zh": "在中央直行车道近景增加一枚同方向直行箭头，保留原箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增箭头清楚且同方向，其他箭头及灯态保持；细节重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增箭头清楚且同方向，其他箭头及灯态保持；细节重绘。",
+          "source_sha256": "77a0a6c5cab8dad33b341fa4cd07e41e30be13c9ea1864112af7fbbe754d15b0",
+          "generated_sha256": "bfa170c4144549d6aca4d42cbea9ab096dfd8515eede12d7a01609d281b7aa90",
+          "review_record_sha256": "e3ffdacce9d0b2ffca4f2479114203e7bd1dc06808ec467ccbc8dc15f273c2c6",
+          "source_group": "b19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0080"
+    },
+    {
+      "candidate_id": "a19_001",
+      "source_sequence": "4",
+      "synthetic": true,
+      "before": {
+        "path": "before/4_frame_000083.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 149093,
+        "sha256": "bc56eee6eaaadbee113c5369623492a84fb4c06bace9e716aa338f38cb624598",
+        "git_blob_sha1": "7b6d748a0c6840c3a7ba6308a95f0fd3adc92466"
+      },
+      "after": {
+        "path": "after/a19_001_4_frame_000083_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2242206,
+        "sha256": "63a1209b6bc05497b71dfa74390bef238416c2283fa1246b6db0bf4c13cc1766",
+        "git_blob_sha1": "23cb67d5fdafe4b84279f488494717aac2469712"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除双黄线右侧近处车道的白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，其余箭头、道路标线、车辆及街景主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头删除，其余箭头、道路标线、车辆及街景主体保留。",
+          "source_sha256": "bc56eee6eaaadbee113c5369623492a84fb4c06bace9e716aa338f38cb624598",
+          "generated_sha256": "63a1209b6bc05497b71dfa74390bef238416c2283fa1246b6db0bf4c13cc1766",
+          "review_record_sha256": "2792303b05803ac7944996b713898532423ce10a0bd6cd94d67d561ae12f76f2",
+          "source_group": "a19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0081"
+    },
+    {
+      "candidate_id": "a19_002",
+      "source_sequence": "4",
+      "synthetic": true,
+      "before": {
+        "path": "before/4_frame_000084.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 146399,
+        "sha256": "05a039e3c16e07a7d81d64632bd5a21f753257dca07a9841c6401949a9168c0d",
+        "git_blob_sha1": "106ea0dc2443ea3b8cc45c8e6f13ea341fbd3e64"
+      },
+      "after": {
+        "path": "after/a19_002_4_frame_000084_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2325642,
+        "sha256": "bf0a3e7c3b2fc0a11d9bc9cb59b2404360ffd257fcd0f6ff3edc1c7b56a2d000",
+        "git_blob_sha1": "7c97825adabf81765ec9d21ebadc11a980b3bbbd"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除双黄线右侧近处车道的白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，其余箭头和车辆主体保留；有纹理清晰化。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标箭头删除，其余箭头和车辆主体保留；有纹理清晰化。",
+          "source_sha256": "05a039e3c16e07a7d81d64632bd5a21f753257dca07a9841c6401949a9168c0d",
+          "generated_sha256": "bf0a3e7c3b2fc0a11d9bc9cb59b2404360ffd257fcd0f6ff3edc1c7b56a2d000",
+          "review_record_sha256": "5d07bdd44fd5dda08853d98097f6db9e61d81b83296451bea007c6acb0d33f8a",
+          "source_group": "a19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0082"
+    },
+    {
+      "candidate_id": "a19_003",
+      "source_sequence": "4",
+      "synthetic": true,
+      "before": {
+        "path": "before/4_frame_000086.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 150056,
+        "sha256": "ff5fb35003b0416376ae29a1a1d96f2ec0ab7b06a7e3201aa95296489918c63c",
+        "git_blob_sha1": "dd12a6b2aa63b511c9944d78efc49cbc944cff09"
+      },
+      "after": {
+        "path": "after/a19_003_4_frame_000086_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2178172,
+        "sha256": "a8717e435c9f36b9ca1fce89696d41c6e01978a65812fb7382119e8e95a16916",
+        "git_blob_sha1": "437aa6936707dbfd62ae1fd706a558f734e2e934"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "在右侧人行道、现有斑马线旁新增蓝色人行横道标志和灰色立杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "新增标志清楚，位置与现有横道对应，道路方向及车辆主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "新增标志清楚，位置与现有横道对应，道路方向及车辆主体保留。",
+          "source_sha256": "ff5fb35003b0416376ae29a1a1d96f2ec0ab7b06a7e3201aa95296489918c63c",
+          "generated_sha256": "a8717e435c9f36b9ca1fce89696d41c6e01978a65812fb7382119e8e95a16916",
+          "review_record_sha256": "0c6667a163cc937adf7ed35f5c9a44acc5a50b7aff6491506114856d037d4158",
+          "source_group": "a19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0083"
+    },
+    {
+      "candidate_id": "a19_004",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000105.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128274,
+        "sha256": "cdc741cb74dae94eb91f058acca0bed5693bdc0b63e382146f795f0728ed26cb",
+        "git_blob_sha1": "414461b66f7c077ad6fbffa54cb01168853a1925"
+      },
+      "after": {
+        "path": "after/a19_004_2_frame_000105_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2115592,
+        "sha256": "7b0b83e6aaf4b75b35c0723890c09e24df16831830b09f2875091e376dd1c42a",
+        "git_blob_sha1": "93832d6c0d3697738f300ad8a1071fc068729fa7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除画面右下方、白色分界虚线右侧的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头消失，左侧箭头、双黄线、分界虚线及红灯保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定箭头消失，左侧箭头、双黄线、分界虚线及红灯保留。",
+          "source_sha256": "cdc741cb74dae94eb91f058acca0bed5693bdc0b63e382146f795f0728ed26cb",
+          "generated_sha256": "7b0b83e6aaf4b75b35c0723890c09e24df16831830b09f2875091e376dd1c42a",
+          "review_record_sha256": "263b4bfada57b17745cd25cc3dfaeceadff6c00e2d6ba31381d0d71192818949",
+          "source_group": "a19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0084"
+    },
+    {
+      "candidate_id": "a19_005",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000106.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130292,
+        "sha256": "9b6a564ef1868aafe89c86e7695ae71f006149911079d2547b17b323587e29d4",
+        "git_blob_sha1": "39d3eab3297cbf31f76a04eb27b0577d33f85ed4"
+      },
+      "after": {
+        "path": "after/a19_005_2_frame_000106_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2087436,
+        "sha256": "1cdbad8fa79318d738571a1be4456916994b623eb89bd31a87ca9b2971a7d619",
+        "git_blob_sha1": "1d40121318c1db818501e01d547df9b6941caca0"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除画面右下方、白色分界虚线右侧的直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头移除，其他箭头、车道标线、红色信号与街景主体保留。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "指定箭头移除，其他箭头、车道标线、红色信号与街景主体保留。",
+          "source_sha256": "9b6a564ef1868aafe89c86e7695ae71f006149911079d2547b17b323587e29d4",
+          "generated_sha256": "1cdbad8fa79318d738571a1be4456916994b623eb89bd31a87ca9b2971a7d619",
+          "review_record_sha256": "10f7e9af1a533323d91204dd12c216d55738e991b9ec956aa1b2b18a542c30a0",
+          "source_group": "a19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0085"
+    },
+    {
+      "candidate_id": "c18_001",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000163.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132605,
+        "sha256": "80af95d3a39d34debc8f865db57e43007dbfbea4653741c17df002ff243de035",
+        "git_blob_sha1": "5a8263a542082f21b355b3d87964e3e80b4bfd9d"
+      },
+      "after": {
+        "path": "after/c18_001_12_frame_000163_modify.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2018916,
+        "sha256": "da275b7208655c1d96d9f9dc3d8fe8f39da6157e2923a8b9a50e5ae0acdf79d4",
+        "git_blob_sha1": "a42eec82a993ad4c54946891a08ea4ca55f68f14"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_line",
+          "description_zh": "同向车道白色虚线改为实线。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+          "source_sha256": "80af95d3a39d34debc8f865db57e43007dbfbea4653741c17df002ff243de035",
+          "generated_sha256": "da275b7208655c1d96d9f9dc3d8fe8f39da6157e2923a8b9a50e5ae0acdf79d4",
+          "review_record_sha256": "a01cb3c4d43fe334e8b3e41825b879576e39c0eaab75b5ed537c35302282be12",
+          "source_group": "c18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0086"
+    },
+    {
+      "candidate_id": "c18_002",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000066.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160357,
+        "sha256": "7070df280ca4972eba2157e30fd54407962cd9e2492ba0043f64d6c655bf5989",
+        "git_blob_sha1": "3695980b8c711e9822edaeb2982ce1d14a544ea4"
+      },
+      "after": {
+        "path": "after/c18_002_11_frame_000066_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2451579,
+        "sha256": "90d6c1476f18d5f5c77211315f59ffd768cbbe7fd822090f731d7d3fb1c875cb",
+        "git_blob_sha1": "37b98067de2230065fa1efabe5a4bc3ffcb5c1f9"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧人行道新增立柱式禁止长时停车标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+          "source_sha256": "7070df280ca4972eba2157e30fd54407962cd9e2492ba0043f64d6c655bf5989",
+          "generated_sha256": "90d6c1476f18d5f5c77211315f59ffd768cbbe7fd822090f731d7d3fb1c875cb",
+          "review_record_sha256": "3ec0f7dec857b34af99fc4cd5d6464cff05ed687b2e511c8cfeca1f56e1e63da",
+          "source_group": "c18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0087"
+    },
+    {
+      "candidate_id": "c18_003",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000067.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164228,
+        "sha256": "dce42c734844a9b86b6af9e37ddb099c003d24ada50e68e1d9935bd7455eae4a",
+        "git_blob_sha1": "84897112d8d8036dfd6973f6ff273e85b8bf2653"
+      },
+      "after": {
+        "path": "after/c18_003_11_frame_000067_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2467193,
+        "sha256": "a3ec0d6ca8d5766b3a3f116911f9170eb645018881eef651c99ab83f0c911247",
+        "git_blob_sha1": "1f14c1f428fde719e7739888f4addc724112144c"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧人行道新增立柱式限速40标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+          "source_sha256": "dce42c734844a9b86b6af9e37ddb099c003d24ada50e68e1d9935bd7455eae4a",
+          "generated_sha256": "a3ec0d6ca8d5766b3a3f116911f9170eb645018881eef651c99ab83f0c911247",
+          "review_record_sha256": "376b7c1c880bdd83699ad3e31cdc7405e0e3d176c7eaf35203236a424641653d",
+          "source_group": "c18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0088"
+    },
+    {
+      "candidate_id": "c18_004",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000076.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 155445,
+        "sha256": "d95c9aa212484902873931697e73a54ebdb9e623d4ffeacb98fdb89e308faa71",
+        "git_blob_sha1": "367d171284b5c989b8c02576748b1ea5f16ce754"
+      },
+      "after": {
+        "path": "after/c18_004_12_frame_000076_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2342991,
+        "sha256": "374c57b935203ea898f548564ae70c931526ca139127edc9f3f7a8fc22224fce",
+        "git_blob_sha1": "dfd23e0dc030dfa54050f7793c5bcb9239d5765c"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧现有杆新增限速40标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+          "source_sha256": "d95c9aa212484902873931697e73a54ebdb9e623d4ffeacb98fdb89e308faa71",
+          "generated_sha256": "374c57b935203ea898f548564ae70c931526ca139127edc9f3f7a8fc22224fce",
+          "review_record_sha256": "7a507d565efdd4d7559b2113ff12322b966b59359cebf21ec5fd0d3e3986150c",
+          "source_group": "c18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0089"
+    },
+    {
+      "candidate_id": "c18_005",
+      "source_sequence": "12",
+      "synthetic": true,
+      "before": {
+        "path": "before/12_frame_000077.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 153258,
+        "sha256": "e5198ff15b185fb32f0170b7d10a0b7bb5ea1872b62be82fe9774447e8dca9ae",
+        "git_blob_sha1": "43d0a48cca38551a9aee744485396581ebb3fd12"
+      },
+      "after": {
+        "path": "after/c18_005_12_frame_000077_add.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2425037,
+        "sha256": "6396edf92fc0fc941b568571c4a22d487fe0e834a0ccf93c8e778c26baf68a01",
+        "git_blob_sha1": "fe8893f4a98eb9708812b0fac3da74a335ce8006"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "右侧现有杆新增禁止长时停车标志。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标变化清楚，主要地面箭头、道路结构及原有信号状态基本保持。",
+          "source_sha256": "e5198ff15b185fb32f0170b7d10a0b7bb5ea1872b62be82fe9774447e8dca9ae",
+          "generated_sha256": "6396edf92fc0fc941b568571c4a22d487fe0e834a0ccf93c8e778c26baf68a01",
+          "review_record_sha256": "216862cac6bebadd6e6f11f2bbb93d88b43a81057f318caea8373524291f994c",
+          "source_group": "c18"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0090"
+    },
+    {
+      "candidate_id": "d19_001",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164311,
+        "sha256": "dbae94ac2b0b77726fd444e55bf6dfeaa0053e06e2967a65f5b30334b60b67f3",
+        "git_blob_sha1": "b15a64bdfaa8e65db8eae812f9e7bc1056d79fce"
+      },
+      "after": {
+        "path": "after/d19_001__16_frame_000166__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2350914,
+        "sha256": "174dff1c2cc0dd8eb08919f5889627d85ad4c0993888f0142329e7b57c3a2496",
+        "git_blob_sha1": "af778ffe285910971753931610326848dd855bbe"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "dbae94ac2b0b77726fd444e55bf6dfeaa0053e06e2967a65f5b30334b60b67f3",
+          "generated_sha256": "174dff1c2cc0dd8eb08919f5889627d85ad4c0993888f0142329e7b57c3a2496",
+          "review_record_sha256": "e791397ece3de0780c8b40e7d3e5b53fe22f97a30f572fa9f2e107b322028be3",
+          "source_group": "d19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0091"
+    },
+    {
+      "candidate_id": "d19_002",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160667,
+        "sha256": "d497ada82e40354772afba4ffa0c4256ab9b83bf940e9e6fc0f85b563a9459b7",
+        "git_blob_sha1": "e53e63c09a57fb2ceea2d295506115033747c543"
+      },
+      "after": {
+        "path": "after/d19_002__16_frame_000167__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2363871,
+        "sha256": "5ed12516ceaacedc5534b8be54ae6c04df014c6f73948a2498e1795bc2cce304",
+        "git_blob_sha1": "71e1e3729d5625d52abc736cf8bc955230ba59c9"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "d497ada82e40354772afba4ffa0c4256ab9b83bf940e9e6fc0f85b563a9459b7",
+          "generated_sha256": "5ed12516ceaacedc5534b8be54ae6c04df014c6f73948a2498e1795bc2cce304",
+          "review_record_sha256": "4410b1a1bf7f4a26c3ec76d08179ee014442e8cc69a080aec59e3f8bfd30c60c",
+          "source_group": "d19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0092"
+    },
+    {
+      "candidate_id": "d19_003",
+      "source_sequence": "16",
+      "synthetic": true,
+      "before": {
+        "path": "before/16_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 154967,
+        "sha256": "cc6b9aa8c1bfed1e4f4b73b56d0863973863394a47c1673592bd74c2742609c2",
+        "git_blob_sha1": "08e9f4fe720f34f54298e236bf8596ee5951f21f"
+      },
+      "after": {
+        "path": "after/d19_003__16_frame_000168__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2098958,
+        "sha256": "e73fd7362c81cab1e4e0e00e5038c87e3f1d8b6856d2956fafb98e7520a52473",
+        "git_blob_sha1": "1f1554fca4d8ff3b9d30e0f6411396d5203b554b"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "路口右侧绿化交通岛新增限速30标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "远景微小图案、文字及车牌细节无法逐像素保证。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "cc6b9aa8c1bfed1e4f4b73b56d0863973863394a47c1673592bd74c2742609c2",
+          "generated_sha256": "e73fd7362c81cab1e4e0e00e5038c87e3f1d8b6856d2956fafb98e7520a52473",
+          "review_record_sha256": "9b9385fb6d83a2a6bd84bbbdaf212711d06341585e378ef1d99fb02418d468d1",
+          "source_group": "d19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0093"
+    },
+    {
+      "candidate_id": "d19_004",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129588,
+        "sha256": "8ebe6360ce928f28d8d06d78bc8c35b8cad17e420ea34799e089c0529842dd60",
+        "git_blob_sha1": "662b6b79e0e1c722f4160b708ab1e76569927961"
+      },
+      "after": {
+        "path": "after/d19_004__15_frame_000166__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2075124,
+        "sha256": "c9fe58d1bb32f86f7c628781dd5297025d4ae73ab7f9ef1844d91ae6d4a57185",
+        "git_blob_sha1": "4fb3fc577c7ddf802d10c9dd7213819145e7b0a8"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "道路右侧人行道新增禁止停车标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "8ebe6360ce928f28d8d06d78bc8c35b8cad17e420ea34799e089c0529842dd60",
+          "generated_sha256": "c9fe58d1bb32f86f7c628781dd5297025d4ae73ab7f9ef1844d91ae6d4a57185",
+          "review_record_sha256": "32d491fc5ba0de200ab0c25b5a75dc9d57ce60340a8e97377b99588969cc5307",
+          "source_group": "d19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0094"
+    },
+    {
+      "candidate_id": "d19_005",
+      "source_sequence": "15",
+      "synthetic": true,
+      "before": {
+        "path": "before/15_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134437,
+        "sha256": "8efe6074f46ceca0330c43113783df39f23952ef086b8e64807ea4981cff4fd3",
+        "git_blob_sha1": "4a25b39845041969682dd7fade5c766e38ddbf8d"
+      },
+      "after": {
+        "path": "after/d19_005__15_frame_000167__add_traffic_sign.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2192507,
+        "sha256": "1055fafe2ac3ea92ead93f6fd87afd5eed609d799c94d75c29bd4f6b8e44126e",
+        "git_blob_sha1": "8ad64482627a07a5b1eedfb56b2346b972c35a24"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_sign",
+          "description_zh": "道路右侧人行道新增禁止停车标志及支杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+        "limitations_zh": [
+          "全局纹理清晰度重绘，非像素级配准。",
+          "墙面文字和微小纹理漂移；信号灯外壳边缘重绘。",
+          "没有道路标准或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "一次前后视觉对照通过，目标变化清楚、主体保持、无明显逻辑错误。",
+          "source_sha256": "8efe6074f46ceca0330c43113783df39f23952ef086b8e64807ea4981cff4fd3",
+          "generated_sha256": "1055fafe2ac3ea92ead93f6fd87afd5eed609d799c94d75c29bd4f6b8e44126e",
+          "review_record_sha256": "9f89ca7978e15043c242915ccf2ddcb25c7ba0945aa9d580409fe3a2f14c3490",
+          "source_group": "d19"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0095"
+    },
+    {
+      "candidate_id": "b20_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000019.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 169025,
+        "sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+        "git_blob_sha1": "05177d72872ba0f229a18ce803cf4ad98ffd1d92"
+      },
+      "after": {
+        "path": "after/b20_001_7_frame_000019_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2350643,
+        "sha256": "74f48e2dea733e2b09b7413cc6ad2941701b244f7a71150be65a0975690d344e",
+        "git_blob_sha1": "1696628a5111ac4f6ab8cd245950f57471dd1ab7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央隔离岛旁车道近景左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，其他直行箭头与掉头牌、无障碍牌保持；细节重绘。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，其他直行箭头与掉头牌、无障碍牌保持；细节重绘。",
+          "source_sha256": "be0bc8426ee7897eacc634cc1f734e740f31f4c28ae966788cd283957c3422a3",
+          "generated_sha256": "74f48e2dea733e2b09b7413cc6ad2941701b244f7a71150be65a0975690d344e",
+          "review_record_sha256": "bd19f7c82012eb1e4b0acd6b92053c9f8893741b97fb1e6fcc61ae821abe0386",
+          "source_group": "b20"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0096"
+    },
+    {
+      "candidate_id": "b20_002",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 165546,
+        "sha256": "a60161f599cb4c7025e034c8cc7729173dbc84b889ba5b7596c9d72b49e2c802",
+        "git_blob_sha1": "62977890651ba71113818b8a6002ff1833c6e500"
+      },
+      "after": {
+        "path": "after/b20_002_8_frame_000166_delete.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2372491,
+        "sha256": "591ef81cf05bd1e37ec4647fe13f3539e3f0154fddc647d498472e5d75312bc5",
+        "git_blob_sha1": "c8416cb5d3f4befe4c3400792fcbb8bd08deefa5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最左车道近景左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央及右侧箭头保持，目标清楚；纹理锐度漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "中央及右侧箭头保持，目标清楚；纹理锐度漂移。",
+          "source_sha256": "a60161f599cb4c7025e034c8cc7729173dbc84b889ba5b7596c9d72b49e2c802",
+          "generated_sha256": "591ef81cf05bd1e37ec4647fe13f3539e3f0154fddc647d498472e5d75312bc5",
+          "review_record_sha256": "c7adc4abcda06a71637296fc3348322229afa4e015111a87fb50fee072c0a6bf",
+          "source_group": "b20"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0097"
+    },
+    {
+      "candidate_id": "b20_003",
+      "source_sequence": "6",
+      "synthetic": true,
+      "before": {
+        "path": "before/6_frame_000082.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160170,
+        "sha256": "eba6d532f0c427f1325226b656428ff747fabcd7f9ebeb892f28ebfb1952d904",
+        "git_blob_sha1": "1fd7f8016533273fab2fe611f14c2556e80b30d3"
+      },
+      "after": {
+        "path": "after/b20_003_6_frame_000082_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2399479,
+        "sha256": "96132d3076caf4af8dc30014ace194ae05a44c1541431388b337edea886962c3",
+        "git_blob_sha1": "b6ebc5628351e25e3bde440a9beeab7a0fd5f0c5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央车道大型白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，其他箭头和红灯保持；远景细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，其他箭头和红灯保持；远景细节漂移。",
+          "source_sha256": "eba6d532f0c427f1325226b656428ff747fabcd7f9ebeb892f28ebfb1952d904",
+          "generated_sha256": "96132d3076caf4af8dc30014ace194ae05a44c1541431388b337edea886962c3",
+          "review_record_sha256": "38d670ed96ef684e725187ff4c3ca9f44de260f97872e860d4a9fc29962fa865",
+          "source_group": "b20"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0098"
+    },
+    {
+      "candidate_id": "b20_004",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000033.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 175838,
+        "sha256": "aec7f42a1c738178f191ca080f7c5717d11568ed780a5807908c91822b852775",
+        "git_blob_sha1": "a5af1e1f9c4703a0296abec31d2fdbe1e7cd9b0d"
+      },
+      "after": {
+        "path": "after/b20_004_7_frame_000033_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2526294,
+        "sha256": "0debefba452d45ad23755cc99c02e8e7cdf3e68166141bff46ac2cfcee27e52b",
+        "git_blob_sha1": "47ac6f262285ec32e3c288a1c3769c751628a034"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除靠中央隔离岛车道停止线前左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除，右侧直行箭头保持；背景纹理及远景牌文锐度漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标删除，右侧直行箭头保持；背景纹理及远景牌文锐度漂移。",
+          "source_sha256": "aec7f42a1c738178f191ca080f7c5717d11568ed780a5807908c91822b852775",
+          "generated_sha256": "0debefba452d45ad23755cc99c02e8e7cdf3e68166141bff46ac2cfcee27e52b",
+          "review_record_sha256": "8abae5e29adc6bcc2a1e935a48d451e9572ecc93fe5857debe6c75d4f56345a6",
+          "source_group": "b20"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0099"
+    },
+    {
+      "candidate_id": "b20_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 166700,
+        "sha256": "5c193a4efde4f77d011b27cb1ce7fe733b996853390927dcb59007df65ef90a8",
+        "git_blob_sha1": "3eab2a526d19d8ab073993c5c55bad4f8ac5bad0"
+      },
+      "after": {
+        "path": "after/b20_005_8_frame_000167_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2404917,
+        "sha256": "b3745237cbd8378f2f155cb202ef0ccd4fc9bc6ab79a6ba6a94831a97745de08",
+        "git_blob_sha1": "f0b9a65b9b43dcf8ad713ad349a82e288bb3c6e6"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最左车道近景左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标清楚，中央与右侧箭头及红灯保持；纹理、行人细节漂移。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "accepted",
+          "evidence_zh": "目标清楚，中央与右侧箭头及红灯保持；纹理、行人细节漂移。",
+          "source_sha256": "5c193a4efde4f77d011b27cb1ce7fe733b996853390927dcb59007df65ef90a8",
+          "generated_sha256": "b3745237cbd8378f2f155cb202ef0ccd4fc9bc6ab79a6ba6a94831a97745de08",
+          "review_record_sha256": "04bf5e1a485294748755db7bdf0eade45ce8f686bd1c771e46d64ce6529076eb",
+          "source_group": "b20"
+        }
+      },
+      "uploaded": false,
+      "pair_id": "batch_003_pair_0100"
+    }
+  ],
+  "uploaded_pairs": 0,
+  "review_policy": "Image-level before/after visual comparison. Earlier samples include independent review; later samples use one comparison per user instruction. No human or regulatory certification.",
+  "accepted_target_total": 500
+}
