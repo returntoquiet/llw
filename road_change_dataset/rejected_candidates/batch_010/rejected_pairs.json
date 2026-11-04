@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 3,
+  "candidates": [
+    {
+      "candidate_id": "i_070",
+      "synthetic": true,
+      "source_sequence": "5",
+      "before": {
+        "path": "before/5_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 122227,
+        "sha256": "ea016c626b8006ad501d7f8469444337078966b39b7c3f007b3ab0792e5aa427",
+        "git_blob_sha1": "3665571ab3d659d0b21cf83ee1480a3c0da7453a"
+      },
+      "after": {
+        "path": "after/i_070.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1912352,
+        "sha256": "613be71beee2d8dbadfc6857e295d084d0351714d896e2cdd642ed0e9895d319",
+        "git_blob_sha1": "480b0b74bc00247dc8e1fde82e8e5a3f37b6bbd4"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_marking",
+          "description_zh": "删除中间车道前景白色直行箭头，补成自然沥青，其他标线不变。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 编辑中国道路实景：删除中间车道前景白色直行箭头，补成自然沥青，其他标线不变。 保持相同场景构图、视角、建筑树木天空、其他车辆标志标线、光照不变，不裁切，只做指定局部编辑。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "单次检查：中间直行箭头仍在，误删了右侧直行兼右转箭头，目标编辑未实现。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非像素级配准。",
+          "远景模糊文字无法逐字验证，不作为原始文字证据。",
+          "仅图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "单次检查：中间直行箭头仍在，误删了右侧直行兼右转箭头，目标编辑未实现。"
+    },
+    {
+      "candidate_id": "i_074",
+      "synthetic": true,
+      "source_sequence": "6",
+      "before": {
+        "path": "before/6_frame_000077.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160595,
+        "sha256": "3a1ee28897ca07fba51873809fc61f561e417c86f88a99c2427ccfccb3a70ddf",
+        "git_blob_sha1": "86bc1d01fffa100d86120741302a701a471cfd2c"
+      },
+      "after": {
+        "path": "after/i_074.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2342469,
+        "sha256": "226d2792ecef586f9a02a45233041caf00e22eed17032bbcd6be5f91fcc25e33",
+        "git_blob_sha1": "a9fe4992771eddfa7fbf2fed7efc6c1433d8106e"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右上方的蓝色轮椅无障碍标志牌，保留其下方蓝色人行横道标志、杆和其他标志。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 编辑中国道路实景：删除右上方的蓝色轮椅无障碍标志牌，保留其下方蓝色人行横道标志、杆和其他标志。 保持相同场景构图、视角、建筑树木天空、其他车辆标志标线、光照不变，不裁切，只做指定局部编辑。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "单次检查：无障碍标志已删除，但非目标右上蓝色机动车标志被改成数字60，存在额外语义变化。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非像素级配准。",
+          "远景模糊文字无法逐字验证，不作为原始文字证据。",
+          "仅图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "单次检查：无障碍标志已删除，但非目标右上蓝色机动车标志被改成数字60，存在额外语义变化。"
+    },
+    {
+      "candidate_id": "j_068",
+      "synthetic": true,
+      "source_sequence": "5",
+      "before": {
+        "path": "before/5_frame_000150.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 151666,
+        "sha256": "4540d57f2fd9dc01bf67ee9336ac412c60c702283ca7c5ed92a9ddc86445b25a",
+        "git_blob_sha1": "dea4cb6e04d80f3ba296509f01a1f9e17b413f78"
+      },
+      "after": {
+        "path": "after/j_068.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2279518,
+        "sha256": "a874814f1ceabffde037a0174c752a895c5d6748049449b1a8dc7a179ed2c972",
+        "git_blob_sha1": "46608287207efbd2104ff98ae83637416f82fa51"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "仅删除中间车道近处的白色直行箭头，以相邻沥青纹理自然填补。"
+        }
+      ],
+      "generation_prompt": "精确局部编辑：仅删除中间车道近处的白色直行箭头，以相邻沥青纹理自然填补。保持视角、画幅、场景和其他交通元素基本不变。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中间近处直行箭头仍清晰存在，目标删除未实现。",
+        "limitations_zh": [
+          "整体纹理和清晰度存在重绘，非像素级对齐。",
+          "仅图像级逻辑检查，不构成法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "中间近处直行箭头仍清晰存在，目标删除未实现。"
+    }
+  ]
+}
