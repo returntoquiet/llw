@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 2,
+  "candidates": [
+    {
+      "candidate_id": "g_019",
+      "synthetic": true,
+      "source_sequence": "7",
+      "before": {
+        "path": "before/7_frame_000020.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 163457,
+        "sha256": "aae5a2a49dc4d3a4edd4fa540247991c0c5c34d9866fb4e9ea139e1c0e1f65fa",
+        "git_blob_sha1": "eb293b19e99cd87d6c90a0dd8d09d66eece70258"
+      },
+      "after": {
+        "path": "after/g_019.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2396167,
+        "sha256": "d56d75eb11981061003e4f06ed1887ac0d3fd9022771159c4f2e0c12fc603518",
+        "git_blob_sha1": "e6932ff5962fbedac7ef1cb929751e204d4347c8"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除左侧蓝色掉头标牌，保留立柱。"
+        }
+      ],
+      "generation_prompt": "Remove only the blue U-turn sign at the left foreground, retaining its post.",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：目标蓝牌移除，但远处交通信号灯颜色同时改变，出现非目标变化。",
+        "limitations_zh": [
+          "仅一次图像级检查；非像素级配准，存在纹理重绘。",
+          "不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：目标蓝牌移除，但远处交通信号灯颜色同时改变，出现非目标变化。"
+    },
+    {
+      "candidate_id": "h_012",
+      "synthetic": true,
+      "source_sequence": "6",
+      "before": {
+        "path": "before/6_frame_000048.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 146179,
+        "sha256": "155bc755b0de611260bc1eab6482df0880fa3208cbaeda4f45fa3f17e4a6636f",
+        "git_blob_sha1": "e3d1d40a9513cd6b4224151c8a6421f0319fac71"
+      },
+      "after": {
+        "path": "after/h_012.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2177591,
+        "sha256": "a8838294c6858da7902741db3b2bff8d59663b17c03c40fa4edc28a08eeb02c0",
+        "git_blob_sha1": "9f94d04f445451d69184e45891c205c3457229c1"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右上蓝色车道方向指示牌及牌面水平支架，保留立柱。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 编辑中国道路照片用于变化检测。仅做此变化：删除右上蓝色车道方向指示牌及牌面水平支架，保留立柱。保持原视角、构图、比例、道路几何、所有建筑、树木、车辆、行人、灯杆、天气和其余标线不变，局部真实自然，无水印，不拼图。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "蓝色牌面已移除，但背景横跨道路的独立长横杆同时消失，超出指定变化。",
+        "limitations_zh": [
+          "整体纹理及清晰度有重绘，非像素级对齐。",
+          "仅一次图像级视觉合理性检查，不构成法规或国家标准认证。",
+          "远处模糊文字不能逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "蓝色牌面已移除，但背景横跨道路的独立长横杆同时消失，超出指定变化。"
+    }
+  ]
+}
