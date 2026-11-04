@@ -1,0 +1,4309 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "batch_012",
+  "path_base": "directory_containing_this_json",
+  "status": "frozen_prepared_not_uploaded",
+  "actual_pairs": 100,
+  "pairs": [
+    {
+      "candidate_id": "m_001",
+      "synthetic": true,
+      "source_sequence": "31",
+      "before": {
+        "path": "before/31_frame_000082.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 180415,
+        "sha256": "d54b7022c73d31801a55e21cc5bc8e1b428f21f8bd1526ab2a2586cf7ecfa9c7",
+        "git_blob_sha1": "d78326b3c425fc4207b9283c35f9c48e46f1d881"
+      },
+      "after": {
+        "path": "after/m_001.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2715864,
+        "sha256": "e24302d6b5bf2cbdf2c6da5a62e3a90800b8af70bb2193f2e58aa98ddac83196",
+        "git_blob_sha1": "6c3ef5b6d191d9ca7b593a76c8df3ed06ee5ac62"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中间车道近处直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the nearest straight-ahead white lane arrow in the center lane. Fill its paint with matching asphalt; preserve every other arrow and line.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，路口主体及其他箭头保留。",
+        "limitations_zh": [
+          "存在全局纹理和清晰度重绘，非严格像素配准。",
+          "仅单次图像级检查，不构成中国交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0001"
+    },
+    {
+      "candidate_id": "m_002",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000001.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 192504,
+        "sha256": "81dbdfc0dc97570d5de4110f1ba386ccd3b4aa36f627e851e0181cf5b7be8bea",
+        "git_blob_sha1": "cb4433e3bccf859234340e385927e1df4464a58d"
+      },
+      "after": {
+        "path": "after/m_002.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2821506,
+        "sha256": "d2ef191d9d064fc905b6ff410b7793514aec034d7dbab1cc26285f898f7e71d1",
+        "git_blob_sha1": "e1596c2a6d1f71f0803d117351ea220ea2450690"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右上棕色旅游指路牌面，保留支杆"
+        }
+      ],
+      "generation_prompt": "Remove only the brown tourist direction sign panel at upper right, retaining its support pole and all trees. Fill panel area with matching sky/background.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "牌面删除，支杆与道路场景保留。",
+        "limitations_zh": [
+          "存在全局纹理和清晰度重绘，非严格像素配准。",
+          "仅单次图像级检查，不构成中国交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0002"
+    },
+    {
+      "candidate_id": "m_004",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000033.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142807,
+        "sha256": "076ed2eb3f7eb2ba2368ba89c1d825b93c861b0aa346dea7b8bb60ab61093cfe",
+        "git_blob_sha1": "6ab17f4eba2dad03dc661891ce8ea20487301c36"
+      },
+      "after": {
+        "path": "after/m_004.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2068753,
+        "sha256": "fccad40592d04e358c09898b57862db49dd21e65588d848f134c83d74d9b4e95",
+        "git_blob_sha1": "d2a7c569d1ca1a4bda0d5891238bc248e4cd1858"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_cone",
+          "description_zh": "右侧人行道白杆旁新增橙白交通锥"
+        }
+      ],
+      "generation_prompt": "Add one small orange traffic cone with two white reflective bands, firmly standing on the right sidewalk near the white pole, outside roadway and zebra crossing.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "交通锥位于右侧人行道，底座落地，路口主体保留。",
+        "limitations_zh": [
+          "存在全局纹理和清晰度重绘，非严格像素配准。",
+          "仅单次图像级检查，不构成中国交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0003"
+    },
+    {
+      "candidate_id": "m_005",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000111.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 149884,
+        "sha256": "86089591ea3f13e53ccb7314a8837b6122ac80a73e777f7701f6bb39af333136",
+        "git_blob_sha1": "e8b78f7ef9645f028e4a3ccc4eee66cff270b589"
+      },
+      "after": {
+        "path": "after/m_005.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2484804,
+        "sha256": "b19888421a58d19ad86d2b2376c82a6ccf8154663fea22122ed9d73107f0f14a",
+        "git_blob_sha1": "4bdd7302204d91c3487827daba7097ec1e714c88"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中间车道近处直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the nearest central straight-ahead white pavement arrow. Restore matching asphalt. Keep the left and right lane arrows, all cars and lane lines.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，邻道箭头与车辆保留。",
+        "limitations_zh": [
+          "存在全局纹理和清晰度重绘，非严格像素配准。",
+          "仅单次图像级检查，不构成中国交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0004"
+    },
+    {
+      "candidate_id": "m_006",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000003.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 133217,
+        "sha256": "3f6dc0f08debc40597374558a5266e28f736aaba833985fcae7319cc205c4096",
+        "git_blob_sha1": "f2212d8a234f5ce7b11fbc3f95b5757b4bbffc03"
+      },
+      "after": {
+        "path": "after/m_006.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2142896,
+        "sha256": "6df41d053ad4a70804393e87c194d55f8e2e0bdd619116de236b8b97c2f87eaa",
+        "git_blob_sha1": "328815644516ea343a42bff316d3b187d1c65fb6"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左侧近处左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the closest left-turn pavement arrow in the left lane. Fill it with matching asphalt.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左转箭头删除，其余箭头和指路牌保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度存在重绘，非严格像素配准。",
+          "单次图像级检查，不构成交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0005"
+    },
+    {
+      "candidate_id": "m_008",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000020.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 123586,
+        "sha256": "6f8805a912a61802332782370e4c054751e599219ed6a9e8e5cfd52d6780e1bd",
+        "git_blob_sha1": "d0615126d56112a8b5a17a4c1ffead3adb1ae7f0"
+      },
+      "after": {
+        "path": "after/m_008.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1965340,
+        "sha256": "f1c2a06c5160c7ee91f9833d08e056ee8f359b2594152f08857e0fd86aa9db48",
+        "git_blob_sha1": "10ce7ea9a1663727e533dbee624b68fde42727b1"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左侧近处左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the closest left-turn pavement arrow in left lane. Restore asphalt.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左侧箭头删除，邻道箭头和路口主体保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度存在重绘，非严格像素配准。",
+          "单次图像级检查，不构成交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0006"
+    },
+    {
+      "candidate_id": "m_009",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000027.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129676,
+        "sha256": "6c83494b996df27362a14959cfed1a63fca80820adb31248b57dcd18d7786975",
+        "git_blob_sha1": "bb729d28bef2895f5df29cf586298a878a9a9aaf"
+      },
+      "after": {
+        "path": "after/m_009.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2086727,
+        "sha256": "cb83a459669bcdfb2bf1d66c32e1a0c347ffd84ddc069e316d86991f23f8e28b",
+        "git_blob_sha1": "64761fff1a1f23764d14e3318aa06c6bb9194839"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中间近处直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the closest central straight-ahead pavement arrow. Restore asphalt.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头删除，右转组合箭头与信号灯保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度存在重绘，非严格像素配准。",
+          "单次图像级检查，不构成交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0007"
+    },
+    {
+      "candidate_id": "m_010",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000086.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 101707,
+        "sha256": "c70317e3ae0a5f7bccff633ba9ccb1687f2d2e7909b9b38ae68923c986f2c5e9",
+        "git_blob_sha1": "40d0d762ecd5656d46dcac972f00d3dfb76f1e42"
+      },
+      "after": {
+        "path": "after/m_010.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1799239,
+        "sha256": "8fe23f8b2cd64125d432ca0e542e4c96a132775cd3ed3b5a04afa4a0fae0e400",
+        "git_blob_sha1": "1b95f005152bde7aa8405474b6b060abb96d7e13"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左侧近处左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the closest left-turn pavement arrow in left lane. Keep skid marks and central arrow unchanged.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左箭头删除，中间箭头和轮胎痕迹保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度存在重绘，非严格像素配准。",
+          "单次图像级检查，不构成交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0008"
+    },
+    {
+      "candidate_id": "m_011",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000141.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130856,
+        "sha256": "ca438379c31943b14d70a2ba43ff016fe9444c2b56421dafe7d171b596a367a2",
+        "git_blob_sha1": "af09859ff5261d1098865284a29f8b0850ee859c"
+      },
+      "after": {
+        "path": "after/m_011.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2209319,
+        "sha256": "83e7b1594b5db89f1c3bf650dcd91867108a094a313f82ed0f51e104fe780363",
+        "git_blob_sha1": "3eb02ef6114271e6cc94a0b1cdb18a75c99f1592"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中央近处直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the large foreground center-lane straight-ahead white arrow. Fill with matching asphalt. Keep the blue car, other arrows, lane lines and crossing unchanged.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，路面补全合理，道路、主要对象和交通信号保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0009"
+    },
+    {
+      "candidate_id": "m_012",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134991,
+        "sha256": "46bdd322861b5a928b2b97e2de24a55011510bb18b54f2672a80f0a6dcb678c8",
+        "git_blob_sha1": "18c95f3815f5665247003ce5fc3883585b824715"
+      },
+      "after": {
+        "path": "after/m_012.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2072070,
+        "sha256": "898c6f2e87f646707b2224bba41115954804568de5b856a21c477618bac708eb",
+        "git_blob_sha1": "4ef13fb0df117a85a1c9e3f9657693f1f02c5f2a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除斑马线后中央车道直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the middle lane's straight white pavement arrow beyond the zebra crossing. Preserve all other markings, traffic signs and signals.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，路面补全合理，道路、主要对象和交通信号保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0010"
+    },
+    {
+      "candidate_id": "m_013",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000172.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132532,
+        "sha256": "15d89d9c18e61cfe711044e3f0e4af7c731c5ad280268ee17d34ffc3faa308a7",
+        "git_blob_sha1": "a5ab0d40c7e1cb9a06053ab677301aa98e0e263c"
+      },
+      "after": {
+        "path": "after/m_013.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2182808,
+        "sha256": "f8c5f1ba67ae550e809e76eb5d81d9d8b362378e1d41c5ec78d98eb91e75f45a",
+        "git_blob_sha1": "6ca3ed061b11c0b7ccb56ab1d1753d232278ea86"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧蓝色人行横道牌及独立细杆"
+        }
+      ],
+      "generation_prompt": "Remove only the right-side blue pedestrian crossing sign and its thin dedicated support pole. Preserve the large signal pole, trees and all road arrows.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，路面补全合理，道路、主要对象和交通信号保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0011"
+    },
+    {
+      "candidate_id": "m_014",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000163.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164469,
+        "sha256": "1c1cc9ee64b81b57ec8ad7e478c39c5aad0c40aab2da136df0a54e916ba98fb0",
+        "git_blob_sha1": "3cb1a051820cc6818cc837d27246b0add2983d86"
+      },
+      "after": {
+        "path": "after/m_014.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2392907,
+        "sha256": "97e6ebe3006e55ac55b3d728c8ddbcef2c55c137cc3f1a106e1b52c0ca858adb",
+        "git_blob_sha1": "67f6b75787d1252e005efb91c29662f8d4b85a9c"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左转车道右侧直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the white straight-ahead arrow in the lane immediately right of the left-turn lane in foreground. Preserve left-turn arrow, road lines, signals and entire scene.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，路面补全合理，道路、主要对象和交通信号保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0012"
+    },
+    {
+      "candidate_id": "m_015",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160667,
+        "sha256": "d497ada82e40354772afba4ffa0c4256ab9b83bf940e9e6fc0f85b563a9459b7",
+        "git_blob_sha1": "e53e63c09a57fb2ceea2d295506115033747c543"
+      },
+      "after": {
+        "path": "after/m_015.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2372176,
+        "sha256": "171b31c6c365276ad0a4a25d62eb7a473d95d4314a9c990041ddb24e9e907786",
+        "git_blob_sha1": "6f0bf0aeae1639296f4d2998c8a0c61605553998"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除近处右侧直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the foreground straight white arrow in the lane right of the left-turn lane. Preserve the left-turn arrow, lines, crosswalk and every traffic signal.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，路面补全合理，道路、主要对象和交通信号保留。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0013"
+    },
+    {
+      "candidate_id": "m_016",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000079.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 133417,
+        "sha256": "41e6f077f4ed43f0a0b431e67c59f7627fba1ab8f59460ccdc7c42a12be246df",
+        "git_blob_sha1": "95574d71c9e2032d910d5f2b392296baaeca61e8"
+      },
+      "after": {
+        "path": "after/m_016.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2081896,
+        "sha256": "9dda876e068b81ff43cc9299ba47981f8193d2bb50a608760c1fcfe3e673a5cd",
+        "git_blob_sha1": "cf69eff5c07e30275d4e76e4bbd3f08296fe6e09"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左车道左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the foreground left-turn arrow in the left lane.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除，其他标线与主体场景保持，填补合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0014"
+    },
+    {
+      "candidate_id": "m_017",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000083.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134915,
+        "sha256": "ca99917a272aec960fd5b3903e4f73e793bafc0e5a423f57a33ae7d064ae870a",
+        "git_blob_sha1": "0289ba6e55a8e712d6b0a181df90b023f5898499"
+      },
+      "after": {
+        "path": "after/m_017.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2076181,
+        "sha256": "f17d237b8f61aa58e14d98a0fd10109ba42e8909c83b3e0ec3d9b84464010379",
+        "git_blob_sha1": "4e3a63cd74286f2ee0ee30e9d1f63460f50c80df"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左侧左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the foreground left-turn arrow in the left lane.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除，其他标线与主体场景保持，填补合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0015"
+    },
+    {
+      "candidate_id": "m_018",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000101.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 161510,
+        "sha256": "d739eee097549697a96cd6a96cb44c917fdd2084b9615441b4d1d5cf5fc471fc",
+        "git_blob_sha1": "47f39129423cb625f406915ace32857500b53b9a"
+      },
+      "after": {
+        "path": "after/m_018.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2376876,
+        "sha256": "176bea362c8cb9edb387a8d7328faf6ac83d5f1db2c7840b52456adca14574cf",
+        "git_blob_sha1": "2117ef1ede82a072d0c71f65c0e1d1e03c6ee860"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除水洼左侧的右车道直行箭头，保留水洼"
+        }
+      ],
+      "generation_prompt": "Remove only the right-hand straight arrow next to the puddle; retain the puddle and left-hand arrow.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除，其他标线与主体场景保持，填补合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0016"
+    },
+    {
+      "candidate_id": "m_020",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000011.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 135173,
+        "sha256": "ccee50514051a4dead5886a08392efc8566de2c49674a1f93f90cd1d92579d21",
+        "git_blob_sha1": "f4a26aab74e4f6539fc642348fb0bb4296d83122"
+      },
+      "after": {
+        "path": "after/m_020.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2217003,
+        "sha256": "c7041e89e0335147a18bdcd8036f88e2ac9046d47642204755f66199c68fd7dd",
+        "git_blob_sha1": "495fce4139c138e9f891c78d2e6ba6cd712794b8"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除最右车道右转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the rightmost foreground right-turn pavement arrow, retain both straight arrows.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除，其他标线与主体场景保持，填补合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0017"
+    },
+    {
+      "candidate_id": "m_021",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000015.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129775,
+        "sha256": "28656894255a55784a4f71cc8fd46b54e097ca3479eb1b8a1e3bb2b1dcdebcf5",
+        "git_blob_sha1": "0bf8ba141442980cc6d4cbe2fd476a61ba7e490d"
+      },
+      "after": {
+        "path": "after/m_021.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2055880,
+        "sha256": "feba1838a259ae725533870ac0b0051fe9284895ce9ee4d11ccf1eac84b815f4",
+        "git_blob_sha1": "ad7cf947e02cd90407339cf27b59e5881d93381d"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中央近处直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the largest foreground middle straight arrow, preserve other arrows.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化实现，其他交通元素及主体场景保持，补全合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0018"
+    },
+    {
+      "candidate_id": "m_022",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000045.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 136970,
+        "sha256": "5c05c4c0f8c3409eacefc7c9d5d6929c1f72054c865d31cbdbc8fa4de4323f4a",
+        "git_blob_sha1": "dc55ec8b043e0e53eb541e1940588767a91754fc"
+      },
+      "after": {
+        "path": "after/m_022.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2116503,
+        "sha256": "f20788e70c5fc63560957ae275e94c4e6be3dd66ee2e28e710b12e39855e6645",
+        "git_blob_sha1": "310d72908704c56efa5ab82deefc7a8e2b9da321"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "删除右车道电动车及骑行者"
+        }
+      ],
+      "generation_prompt": "Remove only the motor scooter and its rider in right lane, naturally fill background.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化实现，其他交通元素及主体场景保持，补全合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0019"
+    },
+    {
+      "candidate_id": "m_023",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000049.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 133236,
+        "sha256": "4d6e3b8eb9d06b5dfa7799a1a29253e54c20d68e4157023698fb91a59b312274",
+        "git_blob_sha1": "2787f6a783fb7baef5dacf6af77c65e0a25db48c"
+      },
+      "after": {
+        "path": "after/m_023.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2147486,
+        "sha256": "090abea83e600f634e8b55cce53d840782cbcd6a0d97184a28a5a35799d6b954",
+        "git_blob_sha1": "adfb209ad03e70701b942285d25722510a3a9028"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中央直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only the middle straight arrow, keep left and right arrows and rider.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化实现，其他交通元素及主体场景保持，补全合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0020"
+    },
+    {
+      "candidate_id": "m_024",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000129.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 181210,
+        "sha256": "023f6b6f47614059fc8eaa3f6533252fa13b1e184c5c8bb2ce463c8b0899e365",
+        "git_blob_sha1": "41f6a50f6bc6997d476e306e75e90dcc85e0225c"
+      },
+      "after": {
+        "path": "after/m_024.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2618594,
+        "sha256": "450b6cb9ca32beee3d6328542e2e4877fed01f236c0de4bfe59cb6dd3db0313b",
+        "git_blob_sha1": "cdb772853ea9be1b83696658d07547cb5c352a00"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_arrow",
+          "description_zh": "右车道直行兼右转改为仅直行"
+        }
+      ],
+      "generation_prompt": "Change only right lane straight/right combined arrow into straight-only by removing its right-turn branch.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化实现，其他交通元素及主体场景保持，补全合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0021"
+    },
+    {
+      "candidate_id": "m_025",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000154.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 253441,
+        "sha256": "633a12e3f2bbad6228d5a9695db83dccda68d88d4f0e494122f591cd8699b98c",
+        "git_blob_sha1": "2531e51b0d8ac6a6d5465ee6ed960438e0473dbe"
+      },
+      "after": {
+        "path": "after/m_025.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2749933,
+        "sha256": "e6132387d7b807285c1f36e9a1814e3d206317acdef7538cd777e4e0025e8d8f",
+        "git_blob_sha1": "23b65f311cdbcbef0d94216c197a1d92f102795a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除近处左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only foreground left-turn white arrow in left lane. Keep tanker truck and other arrows.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标变化实现，其他交通元素及主体场景保持，补全合理。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0022"
+    },
+    {
+      "candidate_id": "m_026",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000179.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167933,
+        "sha256": "714b0cd5971770cdc5a9e8882c73fe6550ebc63e0f541e73f17cd9306dced610",
+        "git_blob_sha1": "8a1e95c35b815c7008be0724312a361f3915a772"
+      },
+      "after": {
+        "path": "after/m_026.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2446723,
+        "sha256": "e571e5b193d997fe01721cfd04b3980dbf1a1f6751680e22573a7d91c8ca876a",
+        "git_blob_sha1": "3afb0c185ede9873e004cc9cb42af993ebf00cda"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除右侧直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only foreground right-lane straight arrow, preserve left-turn arrow and red signals.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除实现，其他交通元素及主体场景保持。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0023"
+    },
+    {
+      "candidate_id": "m_027",
+      "synthetic": true,
+      "source_sequence": "20",
+      "before": {
+        "path": "before/20_frame_000003.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 159038,
+        "sha256": "dd4cbc4a6eb648c71b1a0d3517f474b90df5c6480985a8a5d0ed51b8c495c8f7",
+        "git_blob_sha1": "a58b1e4a123c62faae3422b7a2a3292f13e8d66c"
+      },
+      "after": {
+        "path": "after/m_027.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2308962,
+        "sha256": "3772979d962692b6260435f62b6af35927bb0a057649e4bb7f562506f8ecde5a",
+        "git_blob_sha1": "b0de2a8f41fa97382fd7765a0fbdc07ba627f862"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除左转箭头"
+        }
+      ],
+      "generation_prompt": "Remove only foreground left-turn arrow, preserve right straight arrow and red signals.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除实现，其他交通元素及主体场景保持。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0024"
+    },
+    {
+      "candidate_id": "m_029",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000086.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 168511,
+        "sha256": "5e3d91aa5aad4bfb5713e031b67b4c7ce3bd1bd66b4983af62837107e4cbb178",
+        "git_blob_sha1": "21743a57508017539544058fd589bb74dd502718"
+      },
+      "after": {
+        "path": "after/m_029.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2353164,
+        "sha256": "0722fa87847b1223345377eb4042eff350607319865d41a230703b21b7fd1c98",
+        "git_blob_sha1": "4990572630d2ff2ddd7597f5d4d83a5eafe915fb"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除中间车道直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only middle straight arrow; retain combined left arrow, scooter and every other traffic element.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除实现，其他交通元素及主体场景保持。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0025"
+    },
+    {
+      "candidate_id": "m_030",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000102.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130932,
+        "sha256": "22f74337f9414c6faf2e22b7001170451250ca9f9f4c6c183c9b373c04d30fbe",
+        "git_blob_sha1": "237c63b4d459c32cf9255b2cc8890b2d3f89fa64"
+      },
+      "after": {
+        "path": "after/m_030.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2128873,
+        "sha256": "7b62d5b847f90423759883f8b95f1d7d5b2a0eb627926a04b1b1472c845cf455",
+        "git_blob_sha1": "1ac142155584dc6036d35ef52b5894e8399f4807"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除右车道直行箭头"
+        }
+      ],
+      "generation_prompt": "Remove only foreground right-lane straight arrow; keep combined left arrow, red signals and riders.",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除实现，其他交通元素及主体场景保持。",
+        "limitations_zh": [
+          "全局纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0026"
+    },
+    {
+      "candidate_id": "n_001",
+      "synthetic": true,
+      "source_sequence": "31",
+      "before": {
+        "path": "before/31_frame_000086.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 192990,
+        "sha256": "2ed0828555e6ff93428a61d7cfac4018067e000eebea7644569276a34a81aabc",
+        "git_blob_sha1": "cad5d698f32a18c373db621c3b3be884b6b44f23"
+      },
+      "after": {
+        "path": "after/n_001.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2552793,
+        "sha256": "aa75fc3d6e14c53316be5b1cb220ff87686539702e2e5013cb3a0d419ec35764",
+        "git_blob_sha1": "2b8c767758a72143b3f8b0d1fea1fbe4f71a47c0"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除前景中间车道的白色直行箭头，补成同样路面。保留左边和右边箭头、所有横线和车道分界线。"
+        }
+      ],
+      "generation_prompt": "删除前景中间车道的白色直行箭头，补成同样路面。保留左边和右边箭头、所有横线和车道分界线。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化已实现，主体道路场景、车辆和其他设施基本保留，图像级合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级视觉检查，不构成法规或工程标准认证；远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0027"
+    },
+    {
+      "candidate_id": "n_002",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000021.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 177292,
+        "sha256": "1b002f6a332725f59c095488f8cc54e72a8545abd3d1b227e01202b9d5203f13",
+        "git_blob_sha1": "00dca911fe01e5f515eaccb8ac3542302ab82ca1"
+      },
+      "after": {
+        "path": "after/n_002.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2493513,
+        "sha256": "3200bd53603977e4b71f36374af818e501073df8b10750e71692cc1921811f8c",
+        "git_blob_sha1": "2820eb6e002efabd86076ca62290bfec1dea9c55"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "road_arrow",
+          "description_zh": "仅将前景中间车道的直行加左转双向箭头改成单一直行箭头，删除向左分支。"
+        }
+      ],
+      "generation_prompt": "仅将前景中间车道的直行加左转双向箭头改成单一直行箭头，删除向左分支。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化已实现，主体道路场景、车辆和其他设施基本保留，图像级合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级视觉检查，不构成法规或工程标准认证；远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0028"
+    },
+    {
+      "candidate_id": "n_003",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000052.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 212074,
+        "sha256": "ff67745aa7779ef6fcffb8d1ac11c659df371dec9f6ff97d3e72e74c482fcb6e",
+        "git_blob_sha1": "456b95db3a948ff0dac8d2e05d67fe0c5b19aaf2"
+      },
+      "after": {
+        "path": "after/n_003.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2938228,
+        "sha256": "f289d155d7f47761ec734dd749363c644e06d8d02eafa025e5220e5a35f18fba",
+        "git_blob_sha1": "5601affc0ead450a87be550a4e08cf28a35b89ca"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除最左侧本向车道靠近镜头的白色左转箭头，补成自然沥青。"
+        }
+      ],
+      "generation_prompt": "仅删除最左侧本向车道靠近镜头的白色左转箭头，补成自然沥青。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化已实现，主体道路场景、车辆和其他设施基本保留，图像级合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级视觉检查，不构成法规或工程标准认证；远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0029"
+    },
+    {
+      "candidate_id": "n_004",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000089.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 166689,
+        "sha256": "af2de2b7a78cb2615617993312d435c1a98b010d5a306f2db6bfcae9a6dfcb44",
+        "git_blob_sha1": "b444d05c4ca8c6a8a652c392584aa3937deaad70"
+      },
+      "after": {
+        "path": "after/n_004.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2352333,
+        "sha256": "a22b1b592baa8555f929544f7be3cc3f5253cb9a29fc71341d563fe0a76cd086",
+        "git_blob_sha1": "f6982cf62f6b01426316d0d2c5806e5bdd67f21a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "direction_sign",
+          "description_zh": "仅删除右侧上方蓝色道路指路牌的矩形牌面，保留支架立柱、路灯、树木与其他所有交通设施。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧上方蓝色道路指路牌的矩形牌面，保留支架立柱、路灯、树木与其他所有交通设施。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化已实现，主体道路场景、车辆和其他设施基本保留，图像级合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级视觉检查，不构成法规或工程标准认证；远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0030"
+    },
+    {
+      "candidate_id": "n_005",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000130.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 156261,
+        "sha256": "cde5b4bbc4378e9680f26957ffa8213c0b27b05f67569467d5e75b5d76a416d2",
+        "git_blob_sha1": "ae994ca427a39e3850cd3b49f5a773f847041049"
+      },
+      "after": {
+        "path": "after/n_005.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2315744,
+        "sha256": "484d21cdeae2e79f23cc96f0753cc3fff85952d0644abe4b839c7e208de462ff",
+        "git_blob_sha1": "a4fbfb84a8d5a9cc8a888a12edf459b4ada8ed4c"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_cone",
+          "description_zh": "仅在右侧人行道树旁空地新增一个橙白反光交通锥，底座稳稳落地，不进入车道。"
+        }
+      ],
+      "generation_prompt": "仅在右侧人行道树旁空地新增一个橙白反光交通锥，底座稳稳落地，不进入车道。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化已实现，主体道路场景、车辆和其他设施基本保留，图像级合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非严格像素配准。",
+          "仅一次图像级视觉检查，不构成法规或工程标准认证；远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0031"
+    },
+    {
+      "candidate_id": "n_006",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000004.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 135790,
+        "sha256": "8299477d4abc8553a0c6224dd4c9c9ec3853e3c9daa96fc001188d4bd906284d",
+        "git_blob_sha1": "c6ddc403ec7b323ec037de4e6c8c71d2a9243ffa"
+      },
+      "after": {
+        "path": "after/n_006.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2189865,
+        "sha256": "45323a7ea66fd74112eb71c07deda8df3d6d0a6bd7182e73de21456a5b57e32b",
+        "git_blob_sha1": "c0cf3a5b569990874de77588812b97a96f5fd657"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "仅删除右侧路边停放的黑色轿车，补全原有路面与路缘。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧路边停放的黑色轿车，补全原有路面与路缘。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化实现，场景与其他主体基本保持，图像级合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次视觉检查，不构成交通法规认证，远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0032"
+    },
+    {
+      "candidate_id": "n_007",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000017.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 122789,
+        "sha256": "681e97e61235503af9d0a9d27feef727c548317ba08e7881cee6b1857f49bbb7",
+        "git_blob_sha1": "de36e5d100fdb7e0ff450bf92dd087be2e359f63"
+      },
+      "after": {
+        "path": "after/n_007.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2001253,
+        "sha256": "50cbc3fc2fc30719a8af603d458808e3b8dc0e36b3a32bd955ca63a7f4748bee",
+        "git_blob_sha1": "f4f66fb1ec30326d2dc25f3a39400d97bba7eed3"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除前景中间车道白色直行箭头，保留左右两车道箭头及所有线条。"
+        }
+      ],
+      "generation_prompt": "仅删除前景中间车道白色直行箭头，保留左右两车道箭头及所有线条。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化实现，场景与其他主体基本保持，图像级合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次视觉检查，不构成交通法规认证，远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0033"
+    },
+    {
+      "candidate_id": "n_008",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000021.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 121280,
+        "sha256": "bcf03d697fabe3b5de1ed1625d682ecf2a2303dd11dd77573355579bc01ede89",
+        "git_blob_sha1": "3e843492b43cd6722438e711c6566c1779fb676d"
+      },
+      "after": {
+        "path": "after/n_008.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1893039,
+        "sha256": "f24ed90da25090dfe2df97d7cdfd8d27bbaff3be5d9d9ca0e7ebc69faa7d28ac",
+        "git_blob_sha1": "65b89156b02594902ffd073e00025c0a91298c37"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除最左侧本向车道前景白色左转箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除最左侧本向车道前景白色左转箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化实现，场景与其他主体基本保持，图像级合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次视觉检查，不构成交通法规认证，远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0034"
+    },
+    {
+      "candidate_id": "n_010",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000088.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 100572,
+        "sha256": "5b93ebcc38e9b823618ae4b5eb05c756cc681001cd589c71263e33c1a74688c8",
+        "git_blob_sha1": "78ffa7318ff079a3077e91af83890b3f6da6dffc"
+      },
+      "after": {
+        "path": "after/n_010.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1696166,
+        "sha256": "4c9243fb71ee4e1133542ab8ed1b77e46b03a12ee9dc6705525079f1852bb5d5",
+        "git_blob_sha1": "5307b2bbf4d9ebc736d3011c1e87d6859d3d8661"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "road_arrow",
+          "description_zh": "仅将最左侧本向车道近处左转箭头改为左转加直行组合箭头。"
+        }
+      ],
+      "generation_prompt": "仅将最左侧本向车道近处左转箭头改为左转加直行组合箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定变化实现，场景与其他主体基本保持，图像级合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次视觉检查，不构成交通法规认证，远景模糊文字不能逐字核实。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0035"
+    },
+    {
+      "candidate_id": "n_011",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000142.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130432,
+        "sha256": "50df6eb1941d9a98440c77da90f141f19843d575206bb8bf4685e227e4525393",
+        "git_blob_sha1": "824001e1c82246886582d10c2dce889f79884948"
+      },
+      "after": {
+        "path": "after/n_011.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2014837,
+        "sha256": "4cf466d5f71d6f594127248bf548ffd540bacd153ea884ba7a6382c4dd4e79ed",
+        "git_blob_sha1": "7a6bd02457106b9be47edbfd148af30553a6d2f9"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除右侧车道近处白色右转箭头，补为一致沥青。保留中央直行箭头和左侧箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧车道近处白色右转箭头，补为一致沥青。保留中央直行箭头和左侧箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0036"
+    },
+    {
+      "candidate_id": "n_012",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000169.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 138383,
+        "sha256": "75acaeb16fca0ffde04be0a0f8073847b8fd0f4a3a0b90f4948e3d25ef9088ee",
+        "git_blob_sha1": "03c23ba4b69542bc374fa56f34be09b9e842dceb"
+      },
+      "after": {
+        "path": "after/n_012.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2137608,
+        "sha256": "9959cf54372faf8e8307b097a47079c4c253bcd564c75f962f9b16def547b0a8",
+        "git_blob_sha1": "9f9d5cc2b6d16def56d3dbe09d52af784b744748"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留中右两个箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留中右两个箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0037"
+    },
+    {
+      "candidate_id": "n_013",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000173.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 141314,
+        "sha256": "12c787541c0bf8b66f5831007c127d77c40a7076a358907221b63c1866d7da5d",
+        "git_blob_sha1": "688abc33f41ac91c51ba25dbba0f27b85aac8aa6"
+      },
+      "after": {
+        "path": "after/n_013.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2247278,
+        "sha256": "825ab79ce3e1406eaceebb0b871088b8847ac552665e04276262cc942d340378",
+        "git_blob_sha1": "4394376cdd1415c912df7315cd7a53c5d60fe899"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除右侧车道近处白色直行箭头，恢复一致沥青，保留左侧和中央箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧车道近处白色直行箭头，恢复一致沥青，保留左侧和中央箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0038"
+    },
+    {
+      "candidate_id": "n_014",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000164.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 162501,
+        "sha256": "ebf0ddd9f4c1f4bc853444f34bff50080dae6289b6dbb76d601b33594218ebd8",
+        "git_blob_sha1": "5ab47c998775b55dc3354ee5cdd0d3fb56522163"
+      },
+      "after": {
+        "path": "after/n_014.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2321125,
+        "sha256": "0b2c90aac2afafeaad26a9beeda890724f8ac83b3c935573c4857f64763b51d1",
+        "git_blob_sha1": "0ed568363e5c96d76e3654c10e6ea3c6d82c22a9"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除右侧本向车道白色直行箭头，恢复一致沥青，保留左转箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧本向车道白色直行箭头，恢复一致沥青，保留左转箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0039"
+    },
+    {
+      "candidate_id": "n_015",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 154967,
+        "sha256": "cc6b9aa8c1bfed1e4f4b73b56d0863973863394a47c1673592bd74c2742609c2",
+        "git_blob_sha1": "08e9f4fe720f34f54298e236bf8596ee5951f21f"
+      },
+      "after": {
+        "path": "after/n_015.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2301985,
+        "sha256": "c8734e5fa917282d9edc390af0acef10465f17f80572199484249fe8dca321bd",
+        "git_blob_sha1": "f9eb614f6eebd8b659dfd1ec4d4084cd2584d631"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除近处左车道左转箭头，恢复一致沥青，保留右侧直行箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除近处左车道左转箭头，恢复一致沥青，保留右侧直行箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0040"
+    },
+    {
+      "candidate_id": "n_016",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000080.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129610,
+        "sha256": "2bb87229a38bf7fcf0afdda524069daa287b08d4f242122e6f4a9edfae6221e6",
+        "git_blob_sha1": "c7a7f42c4b45a10c155e7a7574976982bcb28139"
+      },
+      "after": {
+        "path": "after/n_016.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2087671,
+        "sha256": "776472e43d7519d0dfe8c96051941769b8e819cb2117f849232f2ed11f224f2b",
+        "git_blob_sha1": "15509c2fdb4c25941733befee9eeacd6c916f063"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除左侧车道近处白色左转箭头，恢复一致沥青，保留中右箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除左侧车道近处白色左转箭头，恢复一致沥青，保留中右箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0041"
+    },
+    {
+      "candidate_id": "n_017",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000098.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 138133,
+        "sha256": "825b907c20e32f202f686e88897100716826e53477326b4323f7f6d1255e25b1",
+        "git_blob_sha1": "4332b365850474f4023ede7fdb75c4435a5e35af"
+      },
+      "after": {
+        "path": "after/n_017.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2096723,
+        "sha256": "f0ef99ccf84e13d0a521d2fb2c193a923d565dde58c936d8ad1093c4f23bd956",
+        "git_blob_sha1": "9eda80bf431f54c810125ba48065374a9f3cadad"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留右侧箭头及水洼。"
+        }
+      ],
+      "generation_prompt": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留右侧箭头及水洼。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0042"
+    },
+    {
+      "candidate_id": "n_018",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000102.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157591,
+        "sha256": "72ec08f966b77ee36c2dc9c50219c56fcbbffa8d3104af8a1e36bbff8ba24757",
+        "git_blob_sha1": "1b41607a56852f553308ac81782372fe2f383efd"
+      },
+      "after": {
+        "path": "after/n_018.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2499662,
+        "sha256": "406571331d0d436c0e6f613a0c312082df9ecd809ff9bc99425395f12dd86267",
+        "git_blob_sha1": "97dd788f160c2f6322798c87991cbdeda124343a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除右侧车道近处白色直行箭头，恢复一致沥青，保留左侧箭头和右边水洼。"
+        }
+      ],
+      "generation_prompt": "仅删除右侧车道近处白色直行箭头，恢复一致沥青，保留左侧箭头和右边水洼。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0043"
+    },
+    {
+      "candidate_id": "n_020",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000012.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 125703,
+        "sha256": "97686008b5ecce78108b4651c3f515297d74874a491ce426b1c3ce0fab7cb3d4",
+        "git_blob_sha1": "7dd5d06bb8dde47094a4095a5edb0a8bf8426575"
+      },
+      "after": {
+        "path": "after/n_020.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2029024,
+        "sha256": "77a0b3d524c5e57e3f046f8d2c3ae2f4d466519071e49c99ef304afb152a47c8",
+        "git_blob_sha1": "68bce34f06491f1288e8a1deb652ba4eca70d101"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除最右侧近处右转箭头，恢复一致沥青，保留其他车道箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除最右侧近处右转箭头，恢复一致沥青，保留其他车道箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头已删除，其他主体道路场景及标线保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0044"
+    },
+    {
+      "candidate_id": "n_021",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000016.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130775,
+        "sha256": "667fc19ae06adeacd462355a57bc04e245d6f4c47d21ecdcf456d5a94492465e",
+        "git_blob_sha1": "14203d0a1055df501674c01f8961a90440be3908"
+      },
+      "after": {
+        "path": "after/n_021.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1984042,
+        "sha256": "fc9fe304a4a9c1b09dedb1d621ae2a4eb3ce7ba4ef2eb2f820cee7b4c516824f",
+        "git_blob_sha1": "50584c1cb6340fa9040260c343dfd03c5a5cc045"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "road_arrow",
+          "description_zh": "仅将最右侧右转箭头改为直行兼右转组合箭头，位置大小透视一致。"
+        }
+      ],
+      "generation_prompt": "仅将最右侧右转箭头改为直行兼右转组合箭头，位置大小透视一致。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0045"
+    },
+    {
+      "candidate_id": "n_022",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000046.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142358,
+        "sha256": "2ae291a2f04c81af8475121ce8f4b396c90c42b53d9449541e5751a6e3c862b4",
+        "git_blob_sha1": "e0e5dd6417f3b56388863fcdf9413da58208786a"
+      },
+      "after": {
+        "path": "after/n_022.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2137789,
+        "sha256": "e73756d5b259394ee2013a8667b482a48d8d12b531ee5c0d066f50c5720c36a9",
+        "git_blob_sha1": "eaa8a0f36d7729819dfed7914d65658c735be949"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留其他箭头和骑车人。"
+        }
+      ],
+      "generation_prompt": "仅删除斑马线后左车道白色直行箭头，恢复一致沥青，保留其他箭头和骑车人。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0046"
+    },
+    {
+      "candidate_id": "n_023",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000050.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 143541,
+        "sha256": "b22de96873e9ebf6abb478b39085d3ce235dc4ce5fb2b2c992b747b350da30bc",
+        "git_blob_sha1": "8fb6b010afcef8481131e1b1192191e961cf5492"
+      },
+      "after": {
+        "path": "after/n_023.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2240132,
+        "sha256": "544ad311488650fc0c66aacba75bbd80a2a6f591cc57c3f0503b846f2365609e",
+        "git_blob_sha1": "ca94c8225ca4ae32168b579041af150604739646"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除中央车道近处白色直行箭头，恢复一致沥青，保留两侧箭头与骑车人。"
+        }
+      ],
+      "generation_prompt": "仅删除中央车道近处白色直行箭头，恢复一致沥青，保留两侧箭头与骑车人。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0047"
+    },
+    {
+      "candidate_id": "n_025",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000155.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 181677,
+        "sha256": "b5def6ab8391084338daecc86222723501eb738bdfcafe9839164a8eae0e6558",
+        "git_blob_sha1": "5723baf8ba9e17a266176c99335c565bc10aa6c3"
+      },
+      "after": {
+        "path": "after/n_025.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2622320,
+        "sha256": "36943eb9b7273b78ea504ee33752c92eef9aa0710bfa13b7d4e61b6c9b8078c4",
+        "git_blob_sha1": "1e1812d30c38bff823cd16d16c57f7b35289adf2"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除中央本向车道近处白色直行箭头，恢复一致沥青，保留左转箭头及其他标线。"
+        }
+      ],
+      "generation_prompt": "仅删除中央本向车道近处白色直行箭头，恢复一致沥青，保留左转箭头及其他标线。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0048"
+    },
+    {
+      "candidate_id": "n_026",
+      "synthetic": true,
+      "source_sequence": "20",
+      "before": {
+        "path": "before/20_frame_000000.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160854,
+        "sha256": "2dd7cde598e42f52f09497c031c0c5300ce0a8bed24ecefd365fe7ba14925a6d",
+        "git_blob_sha1": "e35a13c41897a961c075f34d618f8183841fa952"
+      },
+      "after": {
+        "path": "after/n_026.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2381884,
+        "sha256": "e7129522a09cb351498a9f48138594dfc765bc82272e9cd3d7edc76b3242ca4f",
+        "git_blob_sha1": "8bbe40024e9f1b81447aa7025cc5445ab7fd8977"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除近处左侧车道白色左转箭头，恢复一致沥青，保留右侧直行箭头。"
+        }
+      ],
+      "generation_prompt": "仅删除近处左侧车道白色左转箭头，恢复一致沥青，保留右侧直行箭头。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0049"
+    },
+    {
+      "candidate_id": "n_027",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000066.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167467,
+        "sha256": "08e4c8fc32132aed9efb4739abe8ebad777deac77dad231c52dd2a50367e3d40",
+        "git_blob_sha1": "87e2c26eb468c6e19622334d21e5d20baafb3dfb"
+      },
+      "after": {
+        "path": "after/n_027.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2753673,
+        "sha256": "149996afad7eaf0a6912b22759447f44aa29ca6dcbc2cbcb82798157d916e0ce",
+        "git_blob_sha1": "6ce9c5b6d22b9f5d6bf3dff88e2f5d6b8856b7ff"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "仅删除近处左车道白色左转箭头，恢复一致沥青，保留其他箭头和指路牌。"
+        }
+      ],
+      "generation_prompt": "仅删除近处左车道白色左转箭头，恢复一致沥青，保留其他箭头和指路牌。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0050"
+    },
+    {
+      "candidate_id": "n_029",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000087.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157471,
+        "sha256": "892346512f7365307053a029a6e765dcef511fb045ee34376767a002569871e5",
+        "git_blob_sha1": "4cbb591f0562820e9196491bb5d053668292329c"
+      },
+      "after": {
+        "path": "after/n_029.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2159801,
+        "sha256": "5a0b39c845f74b9c5cb4ce95c005460b065fef3f372b16dd14516f79b1521c99",
+        "git_blob_sha1": "9a7146470d330739743ca142fea36e2cb2e6088c"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "road_arrow",
+          "description_zh": "仅把左侧近处直行兼左转组合箭头改成仅左转箭头，保持白色实心标线、位置及透视。"
+        }
+      ],
+      "generation_prompt": "仅把左侧近处直行兼左转组合箭头改成仅左转箭头，保持白色实心标线、位置及透视。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头删除或组合变更已实现，其他主体道路场景保留，路面衔接合理。",
+        "limitations_zh": [
+          "全图纹理重绘，非像素级配准。",
+          "只进行一次图像级视觉检查，不构成交通法规认证；远景文字不可逐字验证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0051"
+    },
+    {
+      "candidate_id": "o_001",
+      "synthetic": true,
+      "source_sequence": "31",
+      "before": {
+        "path": "before/31_frame_000099.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 141531,
+        "sha256": "958e3c5d612655470e60267e0c66fb0e676adf0090eb4c4b50a1907448f8beda",
+        "git_blob_sha1": "3ebe4d5e7c09a8f47897fb64657da46ec8438b93"
+      },
+      "after": {
+        "path": "after/o_001.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2161749,
+        "sha256": "b05fbd8e72d6bb2585146a565c8ad99f513b7db42e5985a2612d70a9c388bcde",
+        "git_blob_sha1": "89b14b9574fa6b5db3b0437610760a1c4b4cbec5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除中央近处右转箭头"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 将输入作为唯一编辑目标。删除画面下方中央车道最近的白色右转箭头，恢复连续沥青纹理，远处箭头和其他标线保持。严格保留相机视点、完整构图、道路几何、树木建筑天空及所有其他交通标志信号灯原状。只做上述局部变化，真实中国道路照片，无裁切无拼接，无新增文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "删除中央近处右转箭头，主体场景和其他主要交通元素保留，图像级逻辑合理。",
+        "limitations_zh": [
+          "存在全局细节与清晰度重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0052"
+    },
+    {
+      "candidate_id": "o_002",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000022.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 191742,
+        "sha256": "32ff99e6760ae98113d7a19a9e975204a85992c9715af940336d42c6583d979f",
+        "git_blob_sha1": "4699667a8af6ac84033538eeb41dae9420712a5f"
+      },
+      "after": {
+        "path": "after/o_002.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2406741,
+        "sha256": "7f6930644cc3c1106794442048560e355acec243c2622d8155cb8e9f62681355",
+        "git_blob_sha1": "19214751346e11b639162d5d9885fde17825e324"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "road_arrow",
+          "description_zh": "直行兼左转箭头改为仅直行"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 将输入作为唯一编辑目标。将画面中央最近的直行兼左转白色箭头改为只允许直行的白色箭头，去掉其左分支。严格保留相机视点、完整构图、道路几何、树木建筑天空及所有其他交通标志信号灯原状。只做上述局部变化，真实中国道路照片，无裁切无拼接，无新增文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "直行兼左转箭头改为仅直行，主体场景和其他主要交通元素保留，图像级逻辑合理。",
+        "limitations_zh": [
+          "存在全局细节与清晰度重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0053"
+    },
+    {
+      "candidate_id": "o_003",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000053.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 212470,
+        "sha256": "99964063bd660b2b2f599289c926893b92d80c2bf59b18333f39d590456cf37b",
+        "git_blob_sha1": "9259497ab69f0f335804e5a94ddfac51c42d6a5d"
+      },
+      "after": {
+        "path": "after/o_003.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2822007,
+        "sha256": "8ee7bfe9769c8d4fd9785af37be37b42a09b22041c49348b4ea160e0561475c6",
+        "git_blob_sha1": "b50c37db3f9b8ee924f5d64c9f5f29bcf403ca8f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除左车道近处左转箭头"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 将输入作为唯一编辑目标。删除画面左车道最近的白色左转箭头，补成原道路沥青。严格保留相机视点、完整构图、道路几何、树木建筑天空及所有其他交通标志信号灯原状。只做上述局部变化，真实中国道路照片，无裁切无拼接，无新增文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "删除左车道近处左转箭头，主体场景和其他主要交通元素保留，图像级逻辑合理。",
+        "limitations_zh": [
+          "存在全局细节与清晰度重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0054"
+    },
+    {
+      "candidate_id": "o_004",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000109.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 155526,
+        "sha256": "b9b26941669c15a5ea59c7c078c6e713d15b465a922e0cc5e8e315baeb4ddb13",
+        "git_blob_sha1": "cad134156804f8170034745c69d5089bfa604ba0"
+      },
+      "after": {
+        "path": "after/o_004.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2453988,
+        "sha256": "e911e735481bf7efbe733931b428f5de1c8ef93e8487b4baeae3d1c156984ed0",
+        "git_blob_sha1": "dd9352193035752d9d7d0909a0990720e1b77a53"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "删除右侧最近白色轿车"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 将输入作为唯一编辑目标。删除右侧路边最近的白色轿车，恢复其遮挡的路面和路缘，其他车辆保留。严格保留相机视点、完整构图、道路几何、树木建筑天空及所有其他交通标志信号灯原状。只做上述局部变化，真实中国道路照片，无裁切无拼接，无新增文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "删除右侧最近白色轿车，主体场景和其他主要交通元素保留，图像级逻辑合理。",
+        "limitations_zh": [
+          "存在全局细节与清晰度重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0055"
+    },
+    {
+      "candidate_id": "o_005",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000131.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157201,
+        "sha256": "81cda898bc683debfbf66e9abf03b51891cee5f8916d0a5f4d13df285d475c25",
+        "git_blob_sha1": "ed047b68e8c87a9de45a46bdda4cc004b9af7513"
+      },
+      "after": {
+        "path": "after/o_005.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2117218,
+        "sha256": "7af03ac4719077945da4189e773688040e3099b2c7af678d38470abdf962ef8f",
+        "git_blob_sha1": "0225c761a350f29dbce470490b5f0d8adedb6cb0"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_cone",
+          "description_zh": "右侧路缘新增橙白交通锥"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 将输入作为唯一编辑目标。在右侧人行道靠路缘但不进入机动车道的位置新增一个落地橙白反光交通锥，尺度与透视合理。严格保留相机视点、完整构图、道路几何、树木建筑天空及所有其他交通标志信号灯原状。只做上述局部变化，真实中国道路照片，无裁切无拼接，无新增文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧路缘新增橙白交通锥，主体场景和其他主要交通元素保留，图像级逻辑合理。",
+        "limitations_zh": [
+          "存在全局细节与清晰度重绘，非严格像素配准。",
+          "仅一次图像级检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0056"
+    },
+    {
+      "candidate_id": "o_006",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000005.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 143279,
+        "sha256": "285dc35efeaca8e822926394f55079d39c8ca070b888a6898cd7325925bf3d00",
+        "git_blob_sha1": "70d7939c841298837c1cd63346f0cf3dc275dfbf"
+      },
+      "after": {
+        "path": "after/o_006.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2086509,
+        "sha256": "2b0d3e4033d1e091f1afd616a410468bea872d6877615205d4d964ff9f699441",
+        "git_blob_sha1": "a03370f00d6ea1537497cd3c8080747cd75e5e84"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "删除右侧路边黑色轿车，恢复遮挡路面。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入是编辑目标。删除右侧路边黑色轿车，恢复遮挡路面。只改指定目标，严格保留完整画幅、道路几何和所有非目标标线、标牌文字图案、信号灯颜色、杆件、建筑树木天空。真实中国道路照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，场景与主要非目标交通元素保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0057"
+    },
+    {
+      "candidate_id": "o_007",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000018.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 118254,
+        "sha256": "e072b565a7ead68142f69497afdeb3e3729d4d5de38234c519860ed68720cbd7",
+        "git_blob_sha1": "4d521098300027b84e16b8bc748d2d8a67933ed4"
+      },
+      "after": {
+        "path": "after/o_007.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2048873,
+        "sha256": "735a878a7d4e7e13e4d690c80e8ac0fc14204f554033556f74ac2460fad562f7",
+        "git_blob_sha1": "799257868271599bdcf224517904cc28b4a65fb1"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最近左车道左转箭头，恢复沥青，保留中央直行箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入是编辑目标。删除最近左车道左转箭头，恢复沥青，保留中央直行箭头。只改指定目标，严格保留完整画幅、道路几何和所有非目标标线、标牌文字图案、信号灯颜色、杆件、建筑树木天空。真实中国道路照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，场景与主要非目标交通元素保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0058"
+    },
+    {
+      "candidate_id": "o_008",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000022.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 123635,
+        "sha256": "2fd6d153f76b02c343df94f4a82dba2099248e2cade9849ae06e89459102854a",
+        "git_blob_sha1": "d0d7a4147dbe5e348328ff29db70cf6583cbbba2"
+      },
+      "after": {
+        "path": "after/o_008.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1890783,
+        "sha256": "c40badaceb0ebff3d0c0cc7473195b094702774b43edf199d892d0c40734761e",
+        "git_blob_sha1": "564e721d2d76c3b4559703e6b0e82b7c97a11703"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除画面下方左侧车道最近直行箭头，保留右侧组合箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入是编辑目标。删除画面下方左侧车道最近直行箭头，保留右侧组合箭头。只改指定目标，严格保留完整画幅、道路几何和所有非目标标线、标牌文字图案、信号灯颜色、杆件、建筑树木天空。真实中国道路照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，场景与主要非目标交通元素保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0059"
+    },
+    {
+      "candidate_id": "o_009",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000029.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 136926,
+        "sha256": "38967916e0985daa20a22b43fba292ad442acf597c5b8f81a64aba848079e69c",
+        "git_blob_sha1": "228f66f66a5133ca09aa6399638424bbe87619c4"
+      },
+      "after": {
+        "path": "after/o_009.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1967827,
+        "sha256": "72899a8997452ba61011461a09e531bdac45e8c9c970bff43ddc89e2a2cd41a2",
+        "git_blob_sha1": "860385c0530dce7088f0b451dba705121c8d81d6"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除画面下方中间车道直行箭头，保留左转和右侧组合箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入是编辑目标。删除画面下方中间车道直行箭头，保留左转和右侧组合箭头。只改指定目标，严格保留完整画幅、道路几何和所有非目标标线、标牌文字图案、信号灯颜色、杆件、建筑树木天空。真实中国道路照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，场景与主要非目标交通元素保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0060"
+    },
+    {
+      "candidate_id": "o_010",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000089.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 101021,
+        "sha256": "6e0b146e074711ef9c0dd8c33504518f7cf803f67e0a487639e28a8b602e1996",
+        "git_blob_sha1": "f666533d3e632bec1aa4b7f40f2900e305f81bac"
+      },
+      "after": {
+        "path": "after/o_010.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1810616,
+        "sha256": "6aaee8254d80a493b1a81af951df77474ba6aa8c7bc3b9997ea61761dd488b7e",
+        "git_blob_sha1": "64da517cf7b4b6432d4f503eb113952d584d3b3f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除画面下方左车道左转箭头，保留中央及右侧箭头和黑色车辙。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入是编辑目标。删除画面下方左车道左转箭头，保留中央及右侧箭头和黑色车辙。只改指定目标，严格保留完整画幅、道路几何和所有非目标标线、标牌文字图案、信号灯颜色、杆件、建筑树木天空。真实中国道路照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标删除实现，场景与主要非目标交通元素保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0061"
+    },
+    {
+      "candidate_id": "o_011",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129588,
+        "sha256": "8ebe6360ce928f28d8d06d78bc8c35b8cad17e420ea34799e089c0529842dd60",
+        "git_blob_sha1": "662b6b79e0e1c722f4160b708ab1e76569927961"
+      },
+      "after": {
+        "path": "after/o_011.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1985339,
+        "sha256": "927f06cbb18b78ad180b731440fd1ae9a3c01a46f0aecb70d5bd6b54463d6872",
+        "git_blob_sha1": "10abe76490a9ed16b8e967d0f62da3b3c679dbc2"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除斑马线后中央车道的白色直行箭头，保留两侧箭头和斑马线。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除斑马线后中央车道的白色直行箭头，保留两侧箭头和斑马线。只改变指定目标，保留原完整画幅、所有其他标线、标牌文字图案、信号灯颜色、杆件、车辆、建筑、绿化和天空。中国道路真实摄影，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0062"
+    },
+    {
+      "candidate_id": "o_012",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000170.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 139116,
+        "sha256": "ef73ccd60d605d640cf91abb8adce32fde468129520aa1911310b6817cc2c6cb",
+        "git_blob_sha1": "3ee2909bb07b37dbd1cf8c622eff40daa9b23729"
+      },
+      "after": {
+        "path": "after/o_012.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2047533,
+        "sha256": "4fa858a1a1b2a1ddcaa40087c4f2b724524d93863176a915a16770b253d1a663",
+        "git_blob_sha1": "196d5e4994f49c034dcec8a557b3a82040550da7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧人行横道蓝色标牌面板，保留支撑杆与其他元素。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除右侧人行横道蓝色标牌面板，保留支撑杆与其他元素。只改变指定目标，保留原完整画幅、所有其他标线、标牌文字图案、信号灯颜色、杆件、车辆、建筑、绿化和天空。中国道路真实摄影，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0063"
+    },
+    {
+      "candidate_id": "o_013",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000174.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 143483,
+        "sha256": "af960c2f6f6beb70e42b23b6d9aa841b7e8d9718d1b14b2dd2330014787b40df",
+        "git_blob_sha1": "41fd178a0af069df674f9416852c5cc125538e50"
+      },
+      "after": {
+        "path": "after/o_013.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2194415,
+        "sha256": "ff28caf13dde58fd872630a6484d07b4c815155892138235975a88d89a7c73a4",
+        "git_blob_sha1": "fbf7d27c3d45e19699cf6bc45a484f49b7db4ae5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除右侧车道白色直行箭头，保留中央和左侧箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除右侧车道白色直行箭头，保留中央和左侧箭头。只改变指定目标，保留原完整画幅、所有其他标线、标牌文字图案、信号灯颜色、杆件、车辆、建筑、绿化和天空。中国道路真实摄影，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0064"
+    },
+    {
+      "candidate_id": "o_014",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000165.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157217,
+        "sha256": "c4ceceed8e7af69e50ee1264ca36d27dcc57996f5e2bdc2decd97f4186d43bf2",
+        "git_blob_sha1": "c8f5ff932dace4e6ab4d4dd1ed79073737b9639f"
+      },
+      "after": {
+        "path": "after/o_014.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2301336,
+        "sha256": "3b2d5bec2c385b0672a1b91c49027b95f4195e2cb27e51fec2930a0747385763",
+        "git_blob_sha1": "ea2971c453d482f43a2fb65c6c8a14695c8231e3"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除前景左车道白色左转箭头，补全路面，保留其他标线。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除前景左车道白色左转箭头，补全路面，保留其他标线。只改变指定目标，保留原完整画幅、所有其他标线、标牌文字图案、信号灯颜色、杆件、车辆、建筑、绿化和天空。中国道路真实摄影，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0065"
+    },
+    {
+      "candidate_id": "o_016",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000081.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 129428,
+        "sha256": "f99d264c6ecc1ce78d16e8906cb2a1d19f8047bec787d25ec6129cc828e49c9c",
+        "git_blob_sha1": "914839b5552c7454c0ec99c7c68df649405de953"
+      },
+      "after": {
+        "path": "after/o_016.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2064753,
+        "sha256": "1f240844e4c7fb062f3eac1ee19e631b9b45cb66543cd4d30fb024d80d3fb5fe",
+        "git_blob_sha1": "fa7dcb4c3e5deabfd7aab75ab54845023a203d9d"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除前景左车道左转箭头，补成自然沥青。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除前景左车道左转箭头，补成自然沥青。只改变指定目标，保留原完整画幅、其他标线标牌、信号灯颜色和杆件、车辆、建筑绿化天空。中国道路真实照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0066"
+    },
+    {
+      "candidate_id": "o_017",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000099.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142011,
+        "sha256": "9ff286e224cf9c924a6059df84cb51769123e7072b4a2476c24dc2764d43ed0c",
+        "git_blob_sha1": "f8eec227d7c54d58beb4a1b7864626e33da4ed3f"
+      },
+      "after": {
+        "path": "after/o_017.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2067373,
+        "sha256": "58fed1d635f06d877442f6d872864b9bdd6f56c935ef29354d6bffb75eb9a634",
+        "git_blob_sha1": "5b82a2eedf6a532a7243590496be0cdaa77221cd"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除斑马线后左车道直行箭头，保留右侧箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除斑马线后左车道直行箭头，保留右侧箭头。只改变指定目标，保留原完整画幅、其他标线标牌、信号灯颜色和杆件、车辆、建筑绿化天空。中国道路真实照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0067"
+    },
+    {
+      "candidate_id": "o_018",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000103.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 165220,
+        "sha256": "91679500df3355013a8889b497ef4f1c94adb2c229a009b5003cbb11ed7be9ee",
+        "git_blob_sha1": "1e632b626ed70f5f64d2acd5da7e3a338e5d0c4b"
+      },
+      "after": {
+        "path": "after/o_018.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2262789,
+        "sha256": "0570c81bfdba868001859e7f98c24d9573574669bcfd983aae4379b73c119c81",
+        "git_blob_sha1": "180f1eb25e1a475fb8bf11622b774b45d35f16f9"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除前景左车道直行箭头，保留右侧箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除前景左车道直行箭头，保留右侧箭头。只改变指定目标，保留原完整画幅、其他标线标牌、信号灯颜色和杆件、车辆、建筑绿化天空。中国道路真实照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0068"
+    },
+    {
+      "candidate_id": "o_019",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000168.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 159896,
+        "sha256": "adf5a92f66b4fbed39f7854d2b1254f1a18fd0afcf80e51807a96e1ee76de054",
+        "git_blob_sha1": "e36c746557056e95321dae56287ee38cf1a8a3dd"
+      },
+      "after": {
+        "path": "after/o_019.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2522774,
+        "sha256": "a865c5e73ba13a89c41baf4b24b59ef4760980262f159fcf80526b4834508d71",
+        "git_blob_sha1": "fd65333c6c78b48cb9aa3fbd0f473e7914a0e33b"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧黄色三角警告牌与下方白色附文牌，保留支撑杆并补背景。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除右侧黄色三角警告牌与下方白色附文牌，保留支撑杆并补背景。只改变指定目标，保留原完整画幅、其他标线标牌、信号灯颜色和杆件、车辆、建筑绿化天空。中国道路真实照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0069"
+    },
+    {
+      "candidate_id": "o_020",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000013.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 124690,
+        "sha256": "c0fed9399484235ef411e9b9ad5081bd959808becb7acae5736abea417bddf4e",
+        "git_blob_sha1": "b265838051f4fac323d38143517aba2756694461"
+      },
+      "after": {
+        "path": "after/o_020.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1998973,
+        "sha256": "fad88c2a737f3ccdb502e6fd998c2547e16ef695ca92945f3c141486c3dbb504",
+        "git_blob_sha1": "e28fec49e5f1fefc7ade0afc4101aac05b7f8758"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除最右车道右转箭头，保留其他箭头及分界线。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入图为编辑目标。删除最右车道右转箭头，保留其他箭头及分界线。只改变指定目标，保留原完整画幅、其他标线标牌、信号灯颜色和杆件、车辆、建筑绿化天空。中国道路真实照片，禁止裁切拼接、水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0070"
+    },
+    {
+      "candidate_id": "o_021",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000017.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 125963,
+        "sha256": "42be275a141997b2a3ad350febbcec8d954c4d9ae6b2abb7aa2485d583218fdb",
+        "git_blob_sha1": "81423436251c83c24d88a6489c0aa5e8c33cacd9"
+      },
+      "after": {
+        "path": "after/o_021.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2072903,
+        "sha256": "8a4fd79c003dd1d2d74f6e862ff4a6fdc81c521869e6cb1373de4312fbe7ca46",
+        "git_blob_sha1": "acf8c9b7d7803ece922ef5795aa252187a333b3d"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处中央车道直行箭头，保留其他箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处中央车道直行箭头，保留其他箭头。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0071"
+    },
+    {
+      "candidate_id": "o_022",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000047.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 141636,
+        "sha256": "f750a4b9a2e181d4bf6e72a0225863ad3abd9e154fc3aee2d12c6c5d5effac8a",
+        "git_blob_sha1": "78f91bed439a5a5a43024b117d8bbee56121b26a"
+      },
+      "after": {
+        "path": "after/o_022.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2236552,
+        "sha256": "97a895932817e77af112a0382a6c735717efc723229b8869375173983790e88f",
+        "git_blob_sha1": "525a09835b45e36c0fefb96220e0f51ba6fa75f4"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "删除右侧正在行驶的摩托车及骑手，补全背景路面，保留箭头与标牌。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除右侧正在行驶的摩托车及骑手，补全背景路面，保留箭头与标牌。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0072"
+    },
+    {
+      "candidate_id": "o_023",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000127.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 158094,
+        "sha256": "b652d78f32cfed079140143bd45139558ed60658972978020bda9304c0dc2ca2",
+        "git_blob_sha1": "ee4bacbffef7c7c406c7b350218c4fa29fa7b041"
+      },
+      "after": {
+        "path": "after/o_023.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2481027,
+        "sha256": "458d660acfbb1f61d50910c63ad2a4eb4a957ac396a65260100de094efd36da3",
+        "git_blob_sha1": "c92ccca65de522d692a1e5456560cc5f1fd03388"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除右车道白色直行右转组合箭头，保留左车道箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除右车道白色直行右转组合箭头，保留左车道箭头。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0073"
+    },
+    {
+      "candidate_id": "o_024",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000142.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 176916,
+        "sha256": "4315280ee9162911da92a41f8317f64d4615645e23ababbf2a6f5ca48a8b2003",
+        "git_blob_sha1": "93dcecb800e152d1d991f8b5acea6710fcbc5400"
+      },
+      "after": {
+        "path": "after/o_024.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2635364,
+        "sha256": "766662960713260134c54917093074697c538a96f3450956f2c583c7739aa6f1",
+        "git_blob_sha1": "89bce8c479829d666a92a5dee93d01f69c44131f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧黄色三角警告牌及下方附文牌，保留支撑杆，补全背景。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除右侧黄色三角警告牌及下方附文牌，保留支撑杆，补全背景。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0074"
+    },
+    {
+      "candidate_id": "o_025",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000156.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167147,
+        "sha256": "0fcca1cc621c5a70bac8002f96ceee29ac8857c9eb5e063500399eade6208092",
+        "git_blob_sha1": "43e02f77ddefb064590c634ae990b92f7d2c135d"
+      },
+      "after": {
+        "path": "after/o_025.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2513201,
+        "sha256": "cb85095c366987611975a213450290346fdacbc9518db038c1f751fbe15e276a",
+        "git_blob_sha1": "94420ca73ca0a3a7e5b75145990c6109947f8c9e"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处左车道左转箭头，保留右侧直行箭头和所有分界线。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处左车道左转箭头，保留右侧直行箭头和所有分界线。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0075"
+    },
+    {
+      "candidate_id": "o_026",
+      "synthetic": true,
+      "source_sequence": "20",
+      "before": {
+        "path": "before/20_frame_000001.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164222,
+        "sha256": "1fb5137a5d08dfa822747f5471ee335bc2180417d950fe5c545168152eda39eb",
+        "git_blob_sha1": "56a811730d737e1625f5d50755f20d7241fd2af5"
+      },
+      "after": {
+        "path": "after/o_026.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2367831,
+        "sha256": "d074129f7e5e47439d4f039bfe9ef9d662ab68b63b3a90e567198986873cf6bc",
+        "git_blob_sha1": "e058f4b1eea40b0ba8131c58d079426ec116bf37"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处左车道左转箭头，补全沥青，保留右侧箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处左车道左转箭头，补全沥青，保留右侧箭头。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0076"
+    },
+    {
+      "candidate_id": "o_027",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000067.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 177749,
+        "sha256": "5d8087e36ed16e075e57be059c861a8323f0a145101756a6825d4395b3ad4448",
+        "git_blob_sha1": "87093c9ad5111479cca7d3f8eb3dc9773b38d967"
+      },
+      "after": {
+        "path": "after/o_027.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2817558,
+        "sha256": "afb06fc6418f482f8783f62f822601c02924a848bd5cae4b585a67c9a6e9c032",
+        "git_blob_sha1": "fb06aa7f565f85968f1c000c38e1d4daf82ec898"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处中央直行箭头，保留左右箭头与蓝色指路牌。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处中央直行箭头，保留左右箭头与蓝色指路牌。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0077"
+    },
+    {
+      "candidate_id": "o_028",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000084.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 157740,
+        "sha256": "e05efeee3a14cafd0e8c4fc0428f3b2ffdb82dd7f6c4d32f98863f078dd41879",
+        "git_blob_sha1": "1dfe66f705c64abb93c330188a85274e6758939d"
+      },
+      "after": {
+        "path": "after/o_028.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2453363,
+        "sha256": "ea03e35e08aa41f3271f2f97e7b697e15d41f5c3c8769569f29fa877ab3222e1",
+        "git_blob_sha1": "868e7916daa85b45aac723a39b13e9fa931b1654"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处中央车道单一直行箭头，保留左侧组合箭头和右侧摩托车。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处中央车道单一直行箭头，保留左侧组合箭头和右侧摩托车。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0078"
+    },
+    {
+      "candidate_id": "o_029",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000100.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 139223,
+        "sha256": "107b12862a2c1d77e1ec65e75dc32d8f4fe4c34c6aecc86ce194199d1bbf8058",
+        "git_blob_sha1": "893679792b8f7ff9b95268e3e9e82139287945fd"
+      },
+      "after": {
+        "path": "after/o_029.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2188894,
+        "sha256": "74fd4828695c2298b53ad2e5f27037422e20a92b45d7c256878516448a87d84f",
+        "git_blob_sha1": "6af431cd6fd5f012bc049d360a3c2a0492405712"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处中央车道直行箭头，保留左侧组合箭头和所有车辆。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处中央车道直行箭头，保留左侧组合箭头和所有车辆。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0079"
+    },
+    {
+      "candidate_id": "o_030",
+      "synthetic": true,
+      "source_sequence": "22",
+      "before": {
+        "path": "before/22_frame_000104.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 135456,
+        "sha256": "0623adf9795fcb9c63e9ad9363b65f7bafbfb75f915a9c76915a01e7c41e52e4",
+        "git_blob_sha1": "a3e05ba50c2c315fa07d5d3bf2d02cd2b7aeba16"
+      },
+      "after": {
+        "path": "after/o_030.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2068969,
+        "sha256": "d1ac68373a8815c455d0edec7f71d1b478ef35d0ed6a2aa7d3d9e522e97c8193",
+        "git_blob_sha1": "248777d86818b333fcb63eb7cbcbe0a189f3508f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "删除近处右侧车道单一直行箭头，保留左侧组合箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 输入为编辑目标。删除近处右侧车道单一直行箭头，保留左侧组合箭头。只改变指定目标，保留完整画幅、所有非目标标线标牌文字图案、信号灯颜色、杆件、车辆、建筑绿化天空。中国道路真实照片，不裁切拼接，无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定目标变化实现，主要场景、交通元素及道路逻辑保留。",
+        "limitations_zh": [
+          "全图细节重绘，非严格像素配准。",
+          "单次图像级检查，非交通法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0080"
+    },
+    {
+      "candidate_id": "p_001",
+      "synthetic": true,
+      "source_sequence": "31",
+      "before": {
+        "path": "before/31_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 168886,
+        "sha256": "60d5f46e5f3e175b98aa0ec901d0577332e435522703b40844a630b8d4a47519",
+        "git_blob_sha1": "a8190fb0f61f7b023306217009ebe1ff16248c70"
+      },
+      "after": {
+        "path": "after/p_001.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2796073,
+        "sha256": "7fc2b0da651ddf968e8d5da38dc05f0a4cdc10eb273f78634355bc1059542ed8",
+        "git_blob_sha1": "32c45183b8404da950c674de48a12b5ac3ebbf87"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景中间车道的白色直行箭头，补为自然沥青，保留左右车道箭头及所有分界线。"
+        }
+      ],
+      "generation_prompt": "删除前景中间车道的白色直行箭头，补为自然沥青，保留左右车道箭头及所有分界线。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中间直行箭头已删除，左右箭头及场景保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0081"
+    },
+    {
+      "candidate_id": "p_002",
+      "synthetic": true,
+      "source_sequence": "32",
+      "before": {
+        "path": "before/32_frame_000049.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 202007,
+        "sha256": "fb417143afeb3b962d6ea53b421e5f0e2cb6b48166a7660b011372ced8b39516",
+        "git_blob_sha1": "618ec708dc006318c53a658bfd248170ed06db8c"
+      },
+      "after": {
+        "path": "after/p_002.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2816357,
+        "sha256": "b8ce898cd8794280af2bccb2590d906552f113264c31b75c683ea270cea62f19",
+        "git_blob_sha1": "6d435eb4ccf07fed27938303569c225771a54b0a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景左车道的白色左转箭头，补为自然沥青，其余标线和箭头全部保留。"
+        }
+      ],
+      "generation_prompt": "删除前景左车道的白色左转箭头，补为自然沥青，其余标线和箭头全部保留。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左转箭头已删除，其他标线与道路场景基本保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0082"
+    },
+    {
+      "candidate_id": "p_005",
+      "synthetic": true,
+      "source_sequence": "33",
+      "before": {
+        "path": "before/33_frame_000132.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 153121,
+        "sha256": "09fcd5d93077a158f4aece2c4bef66d6c8c75792b61b99f3c4dbc6af55a320db",
+        "git_blob_sha1": "a581c0c9dac12d50cb214875bf742820cf8b55a7"
+      },
+      "after": {
+        "path": "after/p_005.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2379004,
+        "sha256": "ff70f797bb6b00200a2339be058e2aaf637b19384763949e7ed60f7291ace559",
+        "git_blob_sha1": "fef7ebe1c54b4b12c79c3b6bc587547fb20f4d81"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景左车道白色左转箭头，恢复自然沥青；其余车道箭头、分界线不变。"
+        }
+      ],
+      "generation_prompt": "删除前景左车道白色左转箭头，恢复自然沥青；其余车道箭头、分界线不变。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左转箭头删除，中央及右侧箭头与场景基本保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0083"
+    },
+    {
+      "candidate_id": "p_006",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000006.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142575,
+        "sha256": "9b6eb71aa6c2d50583b3f14669b7e2febc2a0486fbda10300f2087ccc26905e2",
+        "git_blob_sha1": "75b910073936d78fef3bb2fe8292de7cd839c351"
+      },
+      "after": {
+        "path": "after/p_006.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2087898,
+        "sha256": "ded1fc20e71ce1efe17458bbd7510b93a85464aa6a8d9a5c72f1a36ccc9fae36",
+        "git_blob_sha1": "7804c30ae81ce69f12672d55c328aefb37b12983"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "vehicle",
+          "description_zh": "删除右侧停放的黑色轿车，恢复原来遮挡的路面和路缘。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 中国道路照片局部编辑：删除右侧停放的黑色轿车，恢复原来遮挡的路面和路缘。其余画面保持不变，特别保留所有非目标标线、交通标牌内容和信号灯颜色。锁定相机、取景、道路几何、天空、建筑、树木、车辆位置。只改变指定对象，写实匹配原图，不裁剪不拼图无文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "黑色车辆已删除，道路及剩余主体元素保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0084"
+    },
+    {
+      "candidate_id": "p_007",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000019.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 121550,
+        "sha256": "dd8e9d23cfc2288acb39d4903b6f7a0d0c265e671fb1864a59b7f7d504105c66",
+        "git_blob_sha1": "4a8da04c37e28a1ff6427b0cfd398b8e9f274eb3"
+      },
+      "after": {
+        "path": "after/p_007.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1866476,
+        "sha256": "9acf402ed7b4b749d56789cce58735f536086112e0125d358cc533a22422eb0c",
+        "git_blob_sha1": "b4e232c2a536a3db5e0f8f2cfc42ccfa5053171a"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景左车道白色左转箭头，其他车道箭头保留。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 中国道路照片局部编辑：删除前景左车道白色左转箭头，其他车道箭头保留。其余画面保持不变，特别保留所有非目标标线、交通标牌内容和信号灯颜色。锁定相机、取景、道路几何、天空、建筑、树木、车辆位置。只改变指定对象，写实匹配原图，不裁剪不拼图无文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "近处左转箭头已删除，中央和右车道箭头保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0085"
+    },
+    {
+      "candidate_id": "p_010",
+      "synthetic": true,
+      "source_sequence": "13",
+      "before": {
+        "path": "before/13_frame_000090.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 102324,
+        "sha256": "2a2e6a112b5f5a1de64de20ec400352110dc456d109e725ce3e746e0035feba4",
+        "git_blob_sha1": "082b74733e48e7decd07ced7632f32779e2fefe3"
+      },
+      "after": {
+        "path": "after/p_010.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 1791313,
+        "sha256": "40ee3a12e6f10ff0b8be37b49818fabbcbb439475a20ad729082f5981ef6807e",
+        "git_blob_sha1": "9513c48bddc2854c73961f4c84441f0230bf84ba"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_arrow",
+          "description_zh": "将前景右侧车道白色直行右转组合箭头改为仅右转箭头，保持尺寸透视。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 中国道路照片局部编辑：将前景右侧车道白色直行右转组合箭头改为仅右转箭头，保持尺寸透视。其余画面保持不变，特别保留所有非目标标线、交通标牌内容和信号灯颜色。锁定相机、取景、道路几何、天空、建筑、树木、车辆位置。只改变指定对象，写实匹配原图，不裁剪不拼图无文字水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右车道组合箭头改为右转，其他标线及场景基本保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0086"
+    },
+    {
+      "candidate_id": "p_011",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000167.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134437,
+        "sha256": "8efe6074f46ceca0330c43113783df39f23952ef086b8e64807ea4981cff4fd3",
+        "git_blob_sha1": "4a25b39845041969682dd7fade5c766e38ddbf8d"
+      },
+      "after": {
+        "path": "after/p_011.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2080125,
+        "sha256": "7514903c06926b8519174e2eda8d9ee551fcde407621f8fb92b203ae4048f39a",
+        "git_blob_sha1": "bef7a92be6f2a0e95a09bc269e9073eff05b8bec"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除斑马线后中央车道的白色直行箭头，恢复连续自然沥青。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除斑马线后中央车道的白色直行箭头，恢复连续自然沥青。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央直行箭头删除，左右箭头及斑马线保留，场景基本一致。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0087"
+    },
+    {
+      "candidate_id": "p_012",
+      "synthetic": true,
+      "source_sequence": "15",
+      "before": {
+        "path": "before/15_frame_000171.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132606,
+        "sha256": "43b5d351fb8dd0c0c24d57dc7bb2f7a53df2b2e548cce7d30ae70c511691998d",
+        "git_blob_sha1": "99788b90609540ed36bddc688321640213cd34c9"
+      },
+      "after": {
+        "path": "after/p_012.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2027483,
+        "sha256": "faaf7b284cd933899db9777cd46225f6986a49d9888d266111acd0e18a73b883",
+        "git_blob_sha1": "749372a01e404664a6e4609cef4929d7f6d8dfa7"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧蓝色人行横道标牌的牌面，保留细立杆。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除右侧蓝色人行横道标牌的牌面，保留细立杆。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "蓝色牌面删除，细杆保留，标线和路口保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0088"
+    },
+    {
+      "candidate_id": "p_013",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 151952,
+        "sha256": "64ea4bc4d8e30bc3260ad41810531ca44bf2c056c39b42034e3de303a2e8a876",
+        "git_blob_sha1": "bf10ba825f842a7eb7c9764d02f7eeae4846f29d"
+      },
+      "after": {
+        "path": "after/p_013.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2207714,
+        "sha256": "547ece22ef8621e77bff242ffb387fbcf0137910dad2b0b68d519231bcd1a1f5",
+        "git_blob_sha1": "d4467fb8cf3a2649a1c8ed48acf6af85eec54319"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除画面右半部中间直行车道的白色直行箭头，保留左转箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除画面右半部中间直行车道的白色直行箭头，保留左转箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧直行箭头删除，左转箭头及灯色保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0089"
+    },
+    {
+      "candidate_id": "p_014",
+      "synthetic": true,
+      "source_sequence": "16",
+      "before": {
+        "path": "before/16_frame_000166.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164311,
+        "sha256": "dbae94ac2b0b77726fd444e55bf6dfeaa0053e06e2967a65f5b30334b60b67f3",
+        "git_blob_sha1": "b15a64bdfaa8e65db8eae812f9e7bc1056d79fce"
+      },
+      "after": {
+        "path": "after/p_014.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2291323,
+        "sha256": "6bdf9306c65987fccf58913c94a57c24d7cc644b4fa2a8aaf6f5122c27475ba2",
+        "git_blob_sha1": "b76f12818a1bb1d00cec742bf3ea6461d6d92683"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景右侧车道的白色直行箭头，保留左侧左转箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除前景右侧车道的白色直行箭头，保留左侧左转箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定直行箭头删除，其他标线与主体构图保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0090"
+    },
+    {
+      "candidate_id": "p_015",
+      "synthetic": true,
+      "source_sequence": "17",
+      "before": {
+        "path": "before/17_frame_000171.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 123635,
+        "sha256": "98f72b9892226def761a21f32b4a431d34f28a25877f7bbdd6f8b302f3853791",
+        "git_blob_sha1": "f1f0aa105b64c3b713034074f7477f817675b249"
+      },
+      "after": {
+        "path": "after/p_015.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 1971806,
+        "sha256": "da46a732b5204a0c6c73c7cf23658904de118bcde9e9b414f56c0ca72c59a2f1",
+        "git_blob_sha1": "37614e41238001da8bf74a189f96dbb3d7d15790"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景左侧本车道的白色直行箭头，保留右车道箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除前景左侧本车道的白色直行箭头，保留右车道箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "本车道直行箭头删除，右侧箭头和环境保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0091"
+    },
+    {
+      "candidate_id": "p_016",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000082.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 134696,
+        "sha256": "18dd6837a1b65b170b053b95646202ea159e2f73d3068648e38a5148b256723b",
+        "git_blob_sha1": "1cb798003485d30cafa4d374c21a88ca9d397867"
+      },
+      "after": {
+        "path": "after/p_016.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 1984692,
+        "sha256": "bac72f0e5794c44e85f95bc32c7a667ea1352d7533cf29f71885cd493f2eb571",
+        "git_blob_sha1": "567835f166460f4ece93c5bc1e2311d9daabbe4b"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景左侧车道的白色左转箭头，保留中间和右侧箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除前景左侧车道的白色左转箭头，保留中间和右侧箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "左转箭头删除，其他箭头标线及建筑保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0092"
+    },
+    {
+      "candidate_id": "p_017",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000100.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 155321,
+        "sha256": "c8ff3282d1df6167df3ab896f3ddbc21c6b7feb297bb5c492e2276b43eb3c5bb",
+        "git_blob_sha1": "7472c1bd45b976df7306d5a96111bb9a555937f4"
+      },
+      "after": {
+        "path": "after/p_017.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2195065,
+        "sha256": "9656a81e6d86c7bb269d2d1033b45b922017252d229830cf16a606014f4305e6",
+        "git_blob_sha1": "fdebd47dd28dbbbedc144cb7c6a8dabcab967e9f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除斑马线后右侧车道的白色直行箭头，保留左车道箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除斑马线后右侧车道的白色直行箭头，保留左车道箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧箭头删除，左侧箭头斑马线和积水保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0093"
+    },
+    {
+      "candidate_id": "p_018",
+      "synthetic": true,
+      "source_sequence": "18",
+      "before": {
+        "path": "before/18_frame_000116.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 182534,
+        "sha256": "0e5ed892f717f892e899ac8bdacc284c44be95fa7260d413b48c00c5958efa87",
+        "git_blob_sha1": "7ba6232fc734226a979a4a90ed9216d798e2e478"
+      },
+      "after": {
+        "path": "after/p_018.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2647739,
+        "sha256": "0916a3faac9c1f90a6c0d94e4484786f492c706904bf3547625cafd715934d2a",
+        "git_blob_sha1": "de6cf421e512658e27aa05e91d4a0ae40b98beaf"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除近景左侧本车道白色直行箭头，保留右侧箭头及所有标牌。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除近景左侧本车道白色直行箭头，保留右侧箭头及所有标牌。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "本车道箭头删除，右侧箭头及交通牌主要语义保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0094"
+    },
+    {
+      "candidate_id": "p_019",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000010.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 128265,
+        "sha256": "5961d5dadf612c82fa38b849d9a7c9ceab2450305c9be218e348ff102a31a208",
+        "git_blob_sha1": "09b624245b9396afaa88eccb7570538af42d72cb"
+      },
+      "after": {
+        "path": "after/p_019.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2090600,
+        "sha256": "d911234933d840575d639825c7cafc1d56825d62ec34243f257cbd3b0a0cd123",
+        "git_blob_sha1": "dbec6be900e59292ad633872601f360f0c5e4f67"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除近景最右侧车道的白色右转箭头，保留其他箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除近景最右侧车道的白色右转箭头，保留其他箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "最右侧箭头删除，其他箭头及路口构图保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0095"
+    },
+    {
+      "candidate_id": "p_020",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000014.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 130634,
+        "sha256": "ed492a3bd7b9b025a505ac29678b4ea3d85c77e7f950090841b5d5009b7cb6b8",
+        "git_blob_sha1": "a23fd3025226c76a85544c99e43f17e1d07bd2ce"
+      },
+      "after": {
+        "path": "after/p_020.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2138565,
+        "sha256": "70c90bc101917ee4dda8e55e503f4d268a5e8ca63b7fc3b1261cb623d7289d05",
+        "git_blob_sha1": "117e59761eacf63b326575ddf608a69ab1fdb53c"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除近景中央车道的白色直行箭头，保留左右其他箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除近景中央车道的白色直行箭头，保留左右其他箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央直行箭头删除，其他方向箭头及场景保持。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0096"
+    },
+    {
+      "candidate_id": "p_021",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000044.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 138088,
+        "sha256": "ff4c7243c02c3f23ecc88a3e4c832986f2df80e79b1395534015a3587de6df6b",
+        "git_blob_sha1": "6c25dd78015f6043010be03b7e67e2cc2d8703db"
+      },
+      "after": {
+        "path": "after/p_021.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2003689,
+        "sha256": "6afc2d9bf3c229c6b01381a3d7494827c759e66d2bc9d7e1925a893fb8ea4c3b",
+        "git_blob_sha1": "5a9f932bacb7767182d61cdbe0b56d46f7fecc88"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除斑马线后中央车道白色直行箭头，保留两侧箭头及右侧骑车人。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除斑马线后中央车道白色直行箭头，保留两侧箭头及右侧骑车人。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头删除，两侧箭头和骑车人保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0097"
+    },
+    {
+      "candidate_id": "p_022",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000048.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 132045,
+        "sha256": "12fc9c9bb7d9966a68851181b854a69771a726da84ea052823edef4a7c1b7dcd",
+        "git_blob_sha1": "e8f8b6dc2efb18928c542f58021f7fd98c8bbed7"
+      },
+      "after": {
+        "path": "after/p_022.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2008512,
+        "sha256": "32610099e25d509d54b6bb2973d992fa7652dc70e0d5977263bb9e079994e0be",
+        "git_blob_sha1": "859fc89d136e9fd5b65d0edd7f553ec4f9cd3a2b"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景中央车道白色直行箭头，保留两侧箭头及骑车人。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除前景中央车道白色直行箭头，保留两侧箭头及骑车人。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "中央箭头删除，骑车人与其余标线保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0098"
+    },
+    {
+      "candidate_id": "p_023",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000128.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 174710,
+        "sha256": "5da39396724c65df746d5d3ba37436a099600cabd7fbc4ccdaf5bd6805658262",
+        "git_blob_sha1": "5fd2a08f319b31bf6924414a38c514a67ae9d869"
+      },
+      "after": {
+        "path": "after/p_023.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2427772,
+        "sha256": "b9365c44801bcdcd3d239d8c5a5c032a9a7cd983e5bd5bc85042b394bb44a234",
+        "git_blob_sha1": "593a764d45dc516354e11db208bae409475c8d7c"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_arrow",
+          "description_zh": "把右侧车道白色直行右转组合箭头改为仅直行箭头，保留左侧组合箭头。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 把右侧车道白色直行右转组合箭头改为仅直行箭头，保留左侧组合箭头。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "右侧组合箭头改为直行，左侧组合箭头保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0099"
+    },
+    {
+      "candidate_id": "p_025",
+      "synthetic": true,
+      "source_sequence": "19",
+      "before": {
+        "path": "before/19_frame_000178.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160913,
+        "sha256": "b2498545f05349c04b17112140db370e9aab54bb62abef2795beeb8ceff83591",
+        "git_blob_sha1": "3af815200078b1a2653b255f9d5e98be2c39684e"
+      },
+      "after": {
+        "path": "after/p_025.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2287035,
+        "sha256": "599a866e1c4a529213e63aaacea8c20254776cc597d4584afb3913d305db2e5c",
+        "git_blob_sha1": "699677db1e69f39ab84e75c7f6e98fc81b34c70d"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "lane_arrow",
+          "description_zh": "删除前景中右侧车道白色直行箭头，保留左转箭头、车辆和红色信号灯。"
+        }
+      ],
+      "generation_prompt": "Use case: precise-object-edit. 删除前景中右侧车道白色直行箭头，保留左转箭头、车辆和红色信号灯。 只改变指定交通元素，保持其他所有交通设施标线及信号灯颜色、车辆建筑植被、相机视角构图和场景不变，局部纹理自然，不裁切、不拼图、无水印。",
+      "quality_review": {
+        "status": "accepted_image_level_candidate",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "直行箭头删除，左转箭头及红灯车辆保留。",
+        "limitations_zh": [
+          "整体细节与清晰度有重绘，非严格像素配准。",
+          "仅一次图像级逻辑检查，不构成交通法规或工程标准认证。"
+        ]
+      },
+      "uploaded": false,
+      "pair_id": "batch_012_pair_0100"
+    }
+  ]
+}
