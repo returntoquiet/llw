@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 7,
+  "candidates": [
+    {
+      "candidate_id": "a21_005",
+      "source_sequence": "2",
+      "synthetic": true,
+      "before": {
+        "path": "before/2_frame_000070.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 152188,
+        "sha256": "e6940f11ba5bd4a50dce8ea7c4fd9b6fe690b9f67d66cfe2ee8a646d014d370f",
+        "git_blob_sha1": "3351a7ae3a8c2c9fbea8e68cc755c4d845ff313a"
+      },
+      "after": {
+        "path": "after/a21_005_2_frame_000070_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2380001,
+        "sha256": "8177f0368da856dfbd844ee223b63e7bd11d36b245e32254ce33c17d51c69188",
+        "git_blob_sha1": "a9a32960057bc97b493631f5bd05eb7917437a4f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处右转车道的白色右转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_symbol_uncertainty",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "指定箭头移除，但路口蓝色诱导牌被重绘成分离圆形图案，无法保持原牌语义，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "指定箭头移除，但路口蓝色诱导牌被重绘成分离圆形图案，无法保持原牌语义，拒收。",
+          "source_sha256": "e6940f11ba5bd4a50dce8ea7c4fd9b6fe690b9f67d66cfe2ee8a646d014d370f",
+          "generated_sha256": "8177f0368da856dfbd844ee223b63e7bd11d36b245e32254ce33c17d51c69188",
+          "review_record_sha256": "a6364b1caf57d14a253010d7fab384e82741b71fa4c973f7c09aa2d52fd2c3e6",
+          "source_group": "a21"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "指定箭头移除，但路口蓝色诱导牌被重绘成分离圆形图案，无法保持原牌语义，拒收。"
+    },
+    {
+      "candidate_id": "b22_005",
+      "source_sequence": "8",
+      "synthetic": true,
+      "before": {
+        "path": "before/8_frame_000162.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 147074,
+        "sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+        "git_blob_sha1": "95829f21c58deeb4772247f24eb0e2c739563014"
+      },
+      "after": {
+        "path": "after/b22_005_8_frame_000162_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2236639,
+        "sha256": "c70b2d00a2545a86e8d88f442ec08899a40c733426f4ac33eab89024c649443e",
+        "git_blob_sha1": "ac5c9c8f853a92cc0f5d049906310b2e699c61c5"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "尝试删除最左车道近景左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：目标箭头已删除，但左侧原有无障碍图标被重绘为行人三角图案，发生非目标交通标志语义变化。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：目标箭头已删除，但左侧原有无障碍图标被重绘为行人三角图案，发生非目标交通标志语义变化。",
+          "source_sha256": "67e17052f13747dfdbe4bf74c978f5369dabda3e50e29acf72e21134507a8c26",
+          "generated_sha256": "c70b2d00a2545a86e8d88f442ec08899a40c733426f4ac33eab89024c649443e",
+          "review_record_sha256": "d996909b64f6b6e23b627e8a9097457b8521c545d4517f862f67e17eeab5459e",
+          "source_group": "b22"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：目标箭头已删除，但左侧原有无障碍图标被重绘为行人三角图案，发生非目标交通标志语义变化。"
+    },
+    {
+      "candidate_id": "a22_005",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000072.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 142829,
+        "sha256": "881e00014a8127e923193d0a13a506bfa06341f30c44d00af2b63decce2ac806",
+        "git_blob_sha1": "9bc64f0780b040f693d48b819c882222551733e6"
+      },
+      "after": {
+        "path": "after/a22_005_3_frame_000072_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2187936,
+        "sha256": "d55dd6d4bde3b724059e6fd44c4db09a7360a1e06b03542481a41beeea295499",
+        "git_blob_sha1": "8a30310e382f61f0e56f5620475ab6b2d0250bc3"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "traffic_sign",
+          "description_zh": "删除右侧近处蓝色人行横道标志，保留立杆。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_symbol_uncertainty",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标标志移除，但远处信号旁原限速40圆牌重绘后数字难以辨认且图案改变，不满足非目标交通符号保持要求。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标标志移除，但远处信号旁原限速40圆牌重绘后数字难以辨认且图案改变，不满足非目标交通符号保持要求。",
+          "source_sha256": "881e00014a8127e923193d0a13a506bfa06341f30c44d00af2b63decce2ac806",
+          "generated_sha256": "d55dd6d4bde3b724059e6fd44c4db09a7360a1e06b03542481a41beeea295499",
+          "review_record_sha256": "04617c741f12d708300caec1a769254af6dc14fead612515d4f11cd82588532b",
+          "source_group": "a22"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标标志移除，但远处信号旁原限速40圆牌重绘后数字难以辨认且图案改变，不满足非目标交通符号保持要求。"
+    },
+    {
+      "candidate_id": "c21_001",
+      "source_sequence": "11",
+      "synthetic": true,
+      "before": {
+        "path": "before/11_frame_000123.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 164060,
+        "sha256": "d93bc91d9b88706262a41d70ab3d847c054690dd3eb448b43aa20fa024d6ad05",
+        "git_blob_sha1": "603a4a7dd5069222eaa7ef5b2b0094d91b427417"
+      },
+      "after": {
+        "path": "after/c21_001_11_frame_000123_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2532133,
+        "sha256": "6ab56c7e8d36d7d51d8f310d3d1626291d1e725e09bbde7adbff836e5ebd6f5f",
+        "git_blob_sha1": "4824fa1c1397fe1d456d1d6b27dbb419165ad27f"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_arrow",
+          "description_zh": "删除中央车道直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头消失，但蓝色指路牌文字被明显改写，非目标交通内容变化。",
+        "limitations_zh": [
+          "全图锐化与细微纹理漂移，远处小字重绘；图像级合成，不保证像素对齐或法律认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标箭头消失，但蓝色指路牌文字被明显改写，非目标交通内容变化。",
+          "source_sha256": "d93bc91d9b88706262a41d70ab3d847c054690dd3eb448b43aa20fa024d6ad05",
+          "generated_sha256": "6ab56c7e8d36d7d51d8f310d3d1626291d1e725e09bbde7adbff836e5ebd6f5f",
+          "review_record_sha256": "a9ad75cb68ec50e8f4fb7da34566e2d32e6818bb372362d972d64d3ddfb93be5",
+          "source_group": "c21"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标箭头消失，但蓝色指路牌文字被明显改写，非目标交通内容变化。"
+    },
+    {
+      "candidate_id": "b23_001",
+      "source_sequence": "7",
+      "synthetic": true,
+      "before": {
+        "path": "before/7_frame_000018.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 167405,
+        "sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+        "git_blob_sha1": "c9ddcfe4a81522811d1f5f0af68568cdf801e46b"
+      },
+      "after": {
+        "path": "after/b23_001_7_frame_000018_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2599452,
+        "sha256": "14aed8a3348193a4acaddb18eccf43b8382afa7d399f89ad7d4c76562d1baf7f",
+        "git_blob_sha1": "48530eb98a0dfdcd3f245a5356bc48080535f50e"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "road_arrow",
+          "description_zh": "尝试删除最左车道左转箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒绝：箭头删除，但中央车道前方实线被非目标改为分段虚线。",
+        "limitations_zh": [
+          "AI全图重绘，纹理、锐度、细小几何及局部文字可能漂移，不适用于逐像素差分真值。",
+          "符合可见场景的合成变化，不代表中国交规或国标认证。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "拒绝：箭头删除，但中央车道前方实线被非目标改为分段虚线。",
+          "source_sha256": "f7b195e78d7ea1d651ff5f8842d178c74cfe3e54ef9902a54c77b25a8b7a5bdb",
+          "generated_sha256": "14aed8a3348193a4acaddb18eccf43b8382afa7d399f89ad7d4c76562d1baf7f",
+          "review_record_sha256": "40b1e2486408a28554a7d0f087c1c9f7f7b173b72c7328158647bb057f0c7589",
+          "source_group": "b23"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒绝：箭头删除，但中央车道前方实线被非目标改为分段虚线。"
+    },
+    {
+      "candidate_id": "a23_005",
+      "source_sequence": "1",
+      "synthetic": true,
+      "before": {
+        "path": "before/1_frame_000051.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 161792,
+        "sha256": "635053886b1cd6ae184754cad5b438a41b9c79159cdf804bf95e8acf0bbf85ae",
+        "git_blob_sha1": "97d01627acf04dfb218f3852b56fed064fba8df4"
+      },
+      "after": {
+        "path": "after/a23_005_1_frame_000051_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2679941,
+        "sha256": "8f571ad589bbdce76c9d08427a90ae46e793badb110c7a74c74ca3ee9ade656c",
+        "git_blob_sha1": "e9df0e9f56637f8ae9e8a14dc13f061b2629e7f6"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除近处中间车道的白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_symbol_uncertainty",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头删除，但远处原蓝色圆牌重绘后呈红圈式，信号灯也出现更显著红点，非目标交通语义无法确认保持，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标箭头删除，但远处原蓝色圆牌重绘后呈红圈式，信号灯也出现更显著红点，非目标交通语义无法确认保持，拒收。",
+          "source_sha256": "635053886b1cd6ae184754cad5b438a41b9c79159cdf804bf95e8acf0bbf85ae",
+          "generated_sha256": "8f571ad589bbdce76c9d08427a90ae46e793badb110c7a74c74ca3ee9ade656c",
+          "review_record_sha256": "e74752c774b717a1e92524208b86d45f929492c68e3dd521893b5c425b1baa02",
+          "source_group": "a23"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标箭头删除，但远处原蓝色圆牌重绘后呈红圈式，信号灯也出现更显著红点，非目标交通语义无法确认保持，拒收。"
+    },
+    {
+      "candidate_id": "a24_004",
+      "source_sequence": "3",
+      "synthetic": true,
+      "before": {
+        "path": "before/3_frame_000074.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 148080,
+        "sha256": "687a3c8c0faa0abc78b3b3ccc6e9b16acc2721765c3503af3a5fddb11ed29fe7",
+        "git_blob_sha1": "e77684a057dd83fc08efaf3adc5747be28416cb2"
+      },
+      "after": {
+        "path": "after/a24_004_3_frame_000074_delete.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2347582,
+        "sha256": "892ac12a16d629134ad61a224b03e5349b630701924778caa0f1d3cb47901d15",
+        "git_blob_sha1": "aa24cb193e806f47b3cc37f6514d9e6a30d30b3c"
+      },
+      "changes": [
+        {
+          "operation": "delete",
+          "object_category": "ground_direction_arrow",
+          "description_zh": "删除右侧近处车道的白色直行箭头。"
+        }
+      ],
+      "quality_review": {
+        "status": "rejected_non_target_symbol_change",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "目标箭头移除，但远处限速40被改变为60，拒收。",
+        "limitations_zh": [
+          "整体纹理和清晰度有重绘，非像素级对齐。",
+          "仅检查图像级视觉合理性，不构成法规或国家标准认证。",
+          "远处模糊文字无法逐字验证；不把生成后的清晰化当作原图真实内容。"
+        ],
+        "audit_evidence": {
+          "method": "prior_manifest_single_before_after_visual_inspection",
+          "decision": "rejected",
+          "evidence_zh": "目标箭头移除，但远处限速40被改变为60，拒收。",
+          "source_sha256": "687a3c8c0faa0abc78b3b3ccc6e9b16acc2721765c3503af3a5fddb11ed29fe7",
+          "generated_sha256": "892ac12a16d629134ad61a224b03e5349b630701924778caa0f1d3cb47901d15",
+          "review_record_sha256": "eb6a972aae32e7ac9402e161db18b0c8fc7844f8d9fff5fd6533d992d997945c",
+          "source_group": "a24"
+        }
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "目标箭头移除，但远处限速40被改变为60，拒收。"
+    }
+  ]
+}
