@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "path_base": "directory_containing_this_json",
+  "rejected_count": 3,
+  "candidates": [
+    {
+      "candidate_id": "l_088",
+      "synthetic": true,
+      "source_sequence": "10",
+      "before": {
+        "path": "before/10_frame_000136.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 171005,
+        "sha256": "2a3fb15f5c7d8b27135ceb8d496aadd1f4c80ea087d6bb4d57085c779256f96e",
+        "git_blob_sha1": "4fa779e6f6c00723b3bd79eda4579eeaae4f3687"
+      },
+      "after": {
+        "path": "after/l_088.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 2286988,
+        "sha256": "ca5cc2f8cc5f14c252ca964e3252ad04125d6b75c0ad68c2d88c2d90221ad752",
+        "git_blob_sha1": "94df6352668afa781629cb6ffb56b5dd728be259"
+      },
+      "changes": [
+        {
+          "operation": "modify",
+          "object_category": "lane_arrow",
+          "description_zh": "将右侧车道直行右转组合箭头改为单一直行箭头，保持蓝色指路牌。"
+        }
+      ],
+      "generation_prompt": "将右侧车道直行右转组合箭头改为单一直行箭头，保持蓝色指路牌。 只改指定对象，其余场景不变。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：右侧生成的直行箭头呈不自然空心细线轮廓，不符合正常实心道路标线外观。",
+        "limitations_zh": [
+          "整体纹理和清晰度重绘，非像素级配准；远处模糊文字不作逐字验证。",
+          "仅一次图像级视觉检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：右侧生成的直行箭头呈不自然空心细线轮廓，不符合正常实心道路标线外观。"
+    },
+    {
+      "candidate_id": "l_091",
+      "synthetic": true,
+      "source_sequence": "11",
+      "before": {
+        "path": "before/11_frame_000022.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 122583,
+        "sha256": "45dd5a2fceb0ec2f5b0667bdbc0bae6c4f9c8f1b0b21de0113610759dd89144b",
+        "git_blob_sha1": "a53e083379bec1836a7cbc8407afa79f2f75a566"
+      },
+      "after": {
+        "path": "after/l_091.png",
+        "width": 1815,
+        "height": 867,
+        "bytes": 1826869,
+        "sha256": "ed724dab64904d2d82caec270ca8b26ac12013d411e49fdbf982f22770e48bfa",
+        "git_blob_sha1": "ff4565cc665a8370704278445b1ad4abaac2267a"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_cone",
+          "description_zh": "在右侧人行道前景树木旁新增一个橙白交通锥，不占机动车道。"
+        }
+      ],
+      "generation_prompt": "在右侧人行道前景树木旁新增一个橙白交通锥，不占机动车道。 只改指定对象，其余场景不变。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：交通锥底座悬在护栏高度，未自然落地。",
+        "limitations_zh": [
+          "整体纹理和清晰度重绘，非像素级配准；远处模糊文字不作逐字验证。",
+          "仅一次图像级视觉检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：交通锥底座悬在护栏高度，未自然落地。"
+    },
+    {
+      "candidate_id": "l_092",
+      "synthetic": true,
+      "source_sequence": "11",
+      "before": {
+        "path": "before/11_frame_000061.jpg",
+        "width": 1920,
+        "height": 917,
+        "bytes": 160036,
+        "sha256": "bba8691f9b3a3622b03cf9d8ed049b2e04bc4d4947c54d68932a465ad0b9c4cb",
+        "git_blob_sha1": "7bddad295143cae3440d57776d6ca641ed957871"
+      },
+      "after": {
+        "path": "after/l_092.png",
+        "width": 1815,
+        "height": 866,
+        "bytes": 2243167,
+        "sha256": "6b256f1650c136ad21ef16893b070ebf00be28a6fb99018b8249a716eac9bac0",
+        "git_blob_sha1": "42985ceddb14c91b217a1d1d6f75fe1d70ede063"
+      },
+      "changes": [
+        {
+          "operation": "add",
+          "object_category": "traffic_cone",
+          "description_zh": "在右侧护栏后的人行道靠近路灯杆处新增一个橙白交通锥。"
+        }
+      ],
+      "generation_prompt": "在右侧护栏后的人行道靠近路灯杆处新增一个橙白交通锥。 只改指定对象，其余场景不变。",
+      "quality_review": {
+        "status": "rejected",
+        "review_level": "single_before_after_visual_review",
+        "pixel_aligned": false,
+        "human_verified": false,
+        "regulatory_certified": false,
+        "observations_zh": "拒收：交通锥悬于护栏横杆高度，落地关系不合理。",
+        "limitations_zh": [
+          "整体纹理和清晰度重绘，非像素级配准；远处模糊文字不作逐字验证。",
+          "仅一次图像级视觉检查，不构成法规或工程认证。"
+        ]
+      },
+      "uploaded": false,
+      "rejection_reason_zh": "拒收：交通锥悬于护栏横杆高度，落地关系不合理。"
+    }
+  ]
+}
